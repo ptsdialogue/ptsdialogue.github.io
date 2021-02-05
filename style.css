@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*/
+
+/*
+html {
+    overflow-y: hidden;
+}
+*/
+
+/* **
+-- BotUI styling
+** */
+.botui-container,
+.botui-messages-container {
+    background: transparent;
+}
+
+.human.botui-message-content.text {
+    background: white;
+    color: #034569;
+}
+
+.botui-message-content {
+    font-size: 18px;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    background: #034569;
+    color: white;
+}
+
+.botui-messages-container {
+    max-height: 75vh;
+    overflow-y: scroll;
+}
+
+.botui-actions-buttons-button {
+    background-color: rgb(95, 175, 226);
+    font-size: 21.599px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    -webkit-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out
+}
+
+.botui-actions-buttons-button:focus {
+    color: rgb(95, 175, 226);
+    background-color: white;
+}
+
+.botui-actions-buttons-button:not(:focus) {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.botui-actions-text-input {
+    color: #64AAD0;
+    font-size: 21.599px;
+    font-size: 1.2rem;
+    border-bottom: solid 2px currentColor;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    -webkit-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out
+}
+
+.botui-actions-text-input:not(:focus) {
+    font-style: italic;
+}
+
+.botui-action-text-icon {
+    color: currentColor;
+}
+
+/* **
+-- Global styling
+** */
+html {
+    font-size: 18px;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 18px;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    background-color: #086CA2;
+    color: #FFFFFF;
+}
+
+header {
+    text-align: center;
+}
+
+.bot-wrapper {
+    margin: 0 10%;
+    /*  width: device-width ;*/
+    /*  zoom: 1.0 ;*/
+}

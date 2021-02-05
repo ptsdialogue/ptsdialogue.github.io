@@ -1,0 +1,19 @@
+[{
+    "Did you feel little interest or pleasure in doing things today?": ["Yes", "No"]
+}, {
+    "Did you feel down, depressed or hopeless today?": ["Yes", "No"]
+}, {
+    "Did you have trouble falling asleep, staying asleep, or sleeping too much today?": ["Yes", "No"]
+}, {
+    "Did you feel tired or have little energy today?": ["Yes", "No"]
+}, {
+    "Did you have poor appetite or overeat today?": ["Yes", "No"]
+}, {
+    "Did you feel bad about yourself - or that you’re a failure or have let yourself or your family down today?": ["Yes", "No"]
+}, {
+    "Did you have trouble concentrating on things, such as reading the newspaper or watching television, today?": ["Yes", "No"]
+}, {
+    "Did you move or speak so slowly that other people could have noticed (or, the opposite - being so fidgety or restless that you have been moving around a lot more than usual) today?": ["Yes", "No"]
+}, {
+    "Did you have thoughts that you would be better off dead or of hurting yourself in some ways today?": ["Yes", "No"]
+}]

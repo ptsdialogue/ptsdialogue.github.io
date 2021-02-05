@@ -2,18 +2,35 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>BotUI - Hello World</title>
+    <title>PTSDialogue</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/botui/build/botui.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css" />
-    <meta name="description" content="A hello world bot. A conversational UI built using BotUI.">
+
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="description" content="...">
   </head>
+
+  <header>
+      <h1>PTSDialogue</h1>
+  </header>
+
   <body>
-    <div class="botui-app-container" id="hello-world">
-      <bot-ui></bot-ui>
-    </div>
+      
+    <main class="bot-wrapper centered">
+        <div id="bot">
+            <bot-ui></bot-ui>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
     <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
-    <script src="https://unpkg.com/botui/build/botui.js"></script>
-    <script src="./hello-world.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/botui/build/botui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="dialogue.js"></script>
+
   </body>
 </html>
