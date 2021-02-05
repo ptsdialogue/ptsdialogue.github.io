@@ -10,14 +10,17 @@ function init() {
 
     botui.message.bot({
         delay: 700,
+        loading: true,
         content: 'Welcome to PTSDialogue. The current survey protocol is modeled after the PHQ-9'
     }).then(function () {
         botui.message.bot({
             delay: 500,
+            loading: true,
             content: 'Would you prefer to type your answer or select from multiple choice?'
         }).then(function () {
             botui.action.button({
                 delay: 1000,
+                loading: true,
                 action: [{
                     text: "Type",
                     value: "text"
@@ -63,6 +66,7 @@ function survey(protocol, i) {
 
     botui.message.bot({
             delay: 500,
+            loading: true,
             content: curr.question
         })
         .then(function () {
@@ -86,6 +90,7 @@ function surveyText(protocol, i) {
 
     botui.message.bot({
             delay: 500,
+            loading: true,
             content: curr.question
         })
         .then(function () {
@@ -104,10 +109,12 @@ function done() {
 
     botui.message.bot({
         delay: 700,
+        loading: true,
         content: 'Your response has been recorded'
     }).then(function () {
         return botui.message.bot({
             delay: 700,
+            loading: true,
             content: "Thank you"
         })
     });
