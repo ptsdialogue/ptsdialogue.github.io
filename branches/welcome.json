@@ -1,0 +1,12 @@
+[
+    {
+        "message": "Nice to meet you! <br /> I am your personal therapy chatbot"
+    },
+    {
+        "message": "I will help you understand PTSD symptoms, develop solutions for your concern, and assist you to make positive and lasting changes in your life"
+    },
+    {
+        "message": "Are you ready to start to recovery journey with me?",
+        "options": ["Yes", "No"]
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "message":"This is a simple message"
+    },
+    {
+        "message":"This is a multiple-choice question",
+        "options":["🐱", "🐶"]
+    },
+    {
+        "message":"This is a text-entry question",
+        "options":[]
+    }
+]

@@ -1,48 +1,66 @@
 var botui = new BotUI('bot');
 
+var fixed_delay = 1000; // TODO: dynamically determine delay based on preceding text to allow users to read
+
 function init() {
-
-    var protocol;
-    $.getJSON("./protocol.json", function (data) {
-        console.log(data);
-        protocol = data;
-    });
-
+    var welcome;
+    $.getJSON("./branches/welcome.json", function (data) { welcome = data;});
+    
     botui.message.bot({
-        delay: 700,
+        delay: fixed_delay,
         loading: true,
-        content: 'Welcome to PTSDialogue. The current survey protocol is modeled after the PHQ-9'
-    }).then(function () {
-        botui.message.bot({
-            delay: 500,
-            loading: true,
-            content: 'Would you prefer to type your answer or select from multiple choice?'
-        }).then(function () {
-            botui.action.button({
-                delay: 1000,
-                loading: true,
-                action: [{
-                    text: "Type",
-                    value: "text"
-                }, {
-                    text: "Select",
-                    value: "button"
-                }]
-            }).then(function (res) {
-                if (res.value == 'text') {
-                    surveyText(protocol, 0);
-                } else if (res.value == 'button') {
-                    survey(protocol, 0);
-                }
-            });
-        })
+        content: 'Welcome to PTSDialogue!'
+    }).then(function (res) {
+        loadDialogue(welcome, 0);
     });
 }
 
-function parseObj(obj) {
-    var question = Object.keys(obj)[0];
-    var options = obj[question];
+// TODO: create copies of init() to reflect different dialogue paths
 
+function loadDialogue(protocol, i) { // recursive dialogue display function
+
+    
+    console.log(protocol);
+    
+    if (i >= Object.keys(protocol).length) {
+        done();
+        return;
+    }
+
+    var curr = protocol[i];
+    console.log(curr.message.length * 18);
+
+    botui.message.bot({
+        delay: curr.message.length * 18,
+        loading: true,
+        content: curr.message
+    })
+    .then(function () {
+        if (curr.options) { // TODO: add logic for text-entry questions
+            if (curr.options.length == 0) { // text-entry question
+                return botui.action.text({
+                    delay: fixed_delay,
+                    action: {
+                        placeholder: ''
+                    }
+                }).then(function () {
+                    loadDialogue(protocol, i + 1);
+                });
+            } else {
+                var options = formatOptions(curr.options);
+                return botui.action.button({
+                    delay: fixed_delay,
+                    action: options
+                }).then(function () {
+                    loadDialogue(protocol, i + 1);
+                });
+            }
+        }
+        loadDialogue(protocol, i + 1);
+    });
+}
+
+function formatOptions(options) {
     var formatted_opt = [];
     for (var j = 0; j < options.length; j++) {
         var cell = {};
@@ -50,73 +68,14 @@ function parseObj(obj) {
         cell.value = options[j];
         formatted_opt.push(cell);
     }
-    return {
-        "question": question,
-        "options": formatted_opt
-    };
-}
-
-function survey(protocol, i) {
-    if (i >= Object.keys(protocol).length) {
-        done();
-        return;
-    }
-
-    var curr = parseObj(protocol[i]);
-
-    botui.message.bot({
-            delay: 500,
-            loading: true,
-            content: curr.question
-        })
-        .then(function () {
-            return botui.action.button({
-                delay: 1000,
-                action: curr.options
-            })
-        })
-        .then(function () {
-            survey(protocol, i + 1);
-        });
-}
-
-function surveyText(protocol, i) {
-    if (i >= Object.keys(protocol).length) {
-        done();
-        return;
-    }
-
-    var curr = parseObj(protocol[i]);
-
-    botui.message.bot({
-            delay: 500,
-            loading: true,
-            content: curr.question
-        })
-        .then(function () {
-            return botui.action.text({ // show 'text' action
-                action: {
-                    placeholder: ''
-                }
-            });
-        })
-        .then(function () {
-            surveyText(protocol, i + 1);
-        });
+    return formatted_opt;
 }
 
 function done() {
-
     botui.message.bot({
-        delay: 700,
+        delay: fixed_delay,
         loading: true,
-        content: 'Your response has been recorded'
-    }).then(function () {
-        return botui.message.bot({
-            delay: 700,
-            loading: true,
-            content: "Thank you"
-        })
+        content: "That's all for now folks! 🐷"
     });
 }
 
