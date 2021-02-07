@@ -19,19 +19,15 @@ function init() {
 
 function loadDialogue(protocol, i) { // recursive dialogue display function
 
-    
-    console.log(protocol);
-    
     if (i >= Object.keys(protocol).length) {
         done();
         return;
     }
 
     var curr = protocol[i];
-    console.log(curr.message.length * 18);
 
     botui.message.bot({
-        delay: curr.message.length * 18,
+        delay: curr.message.length * 18, // TODO: modify multiplier to adjust dialogue speed
         loading: true,
         content: curr.message
     })
@@ -43,15 +39,17 @@ function loadDialogue(protocol, i) { // recursive dialogue display function
                     action: {
                         placeholder: ''
                     }
-                }).then(function () {
+                }).then(function (res) { // TODO: handle user input
+                    console.log(res.value);
                     loadDialogue(protocol, i + 1);
                 });
             } else {
                 var options = formatOptions(curr.options);
-                return botui.action.button({
+                return botui.action.button({ // multiple-choice question
                     delay: fixed_delay,
                     action: options
-                }).then(function () {
+                }).then(function (res) { // TODO: handle branching paths based on user response (create function that uses curr as param?)
+                    console.log(res.value);
                     loadDialogue(protocol, i + 1);
                 });
             }
