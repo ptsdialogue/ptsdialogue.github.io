@@ -1,0 +1,13 @@
+[
+    {
+        "message": "Welcome to PTSDialogue"
+    },
+    {
+        "message": "I am a personal therapy chatbot designed to help you: <ul> <li>understand PTSD symptoms</li><li>develop solutions for your concern, and</li><li>assist you</li> to make positive and lasting changes in your life</ul>"
+    },
+    {
+        "message": "Please pick a dialogue option below:",
+        "options": ["Welcome","Daily Check","Activities","Persona #2"],
+        "dialogue": ["persona1/welcome.json","TODO.json","TODO.json","TODO.json"]
+    }
+]

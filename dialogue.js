@@ -1,61 +1,61 @@
 var botui = new BotUI('bot');
 
-var fixed_delay = 1000; // TODO: dynamically determine delay based on preceding text to allow users to read
+var fixed_delay = 500; // TODO: adjust delay?
+var protocol;
 
-function init() {
-    var welcome;
-    $.getJSON("./branches/welcome.json", function (data) { welcome = data;});
+function loadMessage(protocol, i) { // recursive message display function
+
     
-    botui.message.bot({
-        delay: fixed_delay,
-        loading: true,
-        content: 'Welcome to PTSDialogue!'
-    }).then(function (res) {
-        loadDialogue(welcome, 0);
-    });
-}
-
-// TODO: create copies of init() to reflect different dialogue paths
-
-function loadDialogue(protocol, i) { // recursive dialogue display function
-
-    if (i >= Object.keys(protocol).length) {
-        done();
-        return;
-    }
+    if (i >= Object.keys(protocol).length) { return; } // end recursion
 
     var curr = protocol[i];
-
-    botui.message.bot({
-        delay: curr.message.length * 18, // TODO: modify multiplier to adjust dialogue speed
-        loading: true,
-        content: curr.message
-    })
-    .then(function () {
-        if (curr.options) { // TODO: add logic for text-entry questions
-            if (curr.options.length == 0) { // text-entry question
-                return botui.action.text({
-                    delay: fixed_delay,
-                    action: {
-                        placeholder: ''
-                    }
-                }).then(function (res) { // TODO: handle user input
-                    console.log(res.value);
-                    loadDialogue(protocol, i + 1);
-                });
-            } else {
-                var options = formatOptions(curr.options);
-                return botui.action.button({ // multiple-choice question
-                    delay: fixed_delay,
-                    action: options
-                }).then(function (res) { // TODO: handle branching paths based on user response (create function that uses curr as param?)
-                    console.log(res.value);
-                    loadDialogue(protocol, i + 1);
-                });
+    
+    if (curr.message == "CLEAR") { // clear chat
+        $('.botui-messages-container').children().fadeOut(500)
+            .promise().then(function(){
+                $('.botui-messages-container').empty();
+                loadMessage(protocol, i + 1);
+            });
+    } else { // standard dialogue
+        botui.message.bot({
+            delay: Math.max(curr.message.length * 10, 500),
+            loading: true,
+            content: curr.message
+        })
+        .then(function () {
+            $(".botui-messages-container").stop().animate({ scrollTop: $(".botui-messages-container")[0].scrollHeight}, 500); // autoscroll bottom
+            if (curr.options) { // text-entry question
+                if (curr.options.length == 0) { 
+                    return botui.action.text({
+                        delay: fixed_delay,
+                        action: {
+                            placeholder: ''
+                        }
+                    }).then(function (res) { // TODO: handle user input
+                        // console.log(res.value);
+                        loadMessage(protocol, i + 1);
+                    });
+                } else { // multiple-choice question
+                    var options = formatOptions(curr.options);
+                    return botui.action.button({ 
+                        delay: fixed_delay,
+                        action: options
+                    }).then(function (res) {
+                        if (curr.dialogue) { // if redirect needed
+                            var res_index = curr.options.indexOf(res.value);
+                            var json_script = curr.dialogue[res_index];
+                            $.getJSON("scripts/"+json_script,loadDialogue);
+                        } else { // continue
+                            loadMessage(protocol, i + 1);
+                        }
+                    });
+                }
             }
-        }
-        loadDialogue(protocol, i + 1);
-    });
+            loadMessage(protocol, i + 1);
+        });
+    }
+
+
 }
 
 function formatOptions(options) {
@@ -69,12 +69,10 @@ function formatOptions(options) {
     return formatted_opt;
 }
 
-function done() {
-    botui.message.bot({
-        delay: fixed_delay,
-        loading: true,
-        content: "That's all for now folks! 🐷"
-    });
+function loadDialogue(data) {
+    console.log(data);
+    protocol = data;
+    loadMessage(protocol,0);
 }
 
-init();
+$.getJSON("scripts/init.json",loadDialogue);

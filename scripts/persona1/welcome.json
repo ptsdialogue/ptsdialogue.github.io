@@ -1,5 +1,8 @@
 [
     {
+        "message": "CLEAR"
+    },
+    {
         "message": "Nice to meet you! <br /> I am your personal therapy chatbot"
     },
     {
@@ -7,6 +10,7 @@
     },
     {
         "message": "Are you ready to start to recovery journey with me?",
-        "options": ["Yes", "No"]
+        "options": ["Yes", "No"],
+        "dialogue": ["persona1/recovery-journey.json","TODO.json"]
     }
 ]
