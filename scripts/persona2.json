@@ -1,0 +1,20 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "Hello!"
+    },
+    {
+        "message": "Nice to meet you! I'm your personal therapy chatbot"
+    },
+    {
+        "message": "I'm here to help you make positive and lasting changes in your life"
+    },
+    {
+        "message": "Ready to start?",
+        "options": ["Yes", "No"],
+        "dialogue": ["persona2-recovery-journey.json", "TODO.json"]
+    }
+    
+]

@@ -1,6 +1,6 @@
 var botui = new BotUI('bot');
 
-var fixed_delay = 500; // TODO: adjust delay?
+var fixed_delay = 700; // TODO: adjust delay?
 var protocol;
 
 function loadMessage(protocol, i) { // recursive message display function
@@ -12,7 +12,7 @@ function loadMessage(protocol, i) { // recursive message display function
 function updateUI(protocol, i) {
     var curr = protocol[i];
     botui.message.bot({
-        delay: Math.max(curr.message.length * 10, 500),
+        delay: Math.max(curr.message.length * 10, fixed_delay),
         loading: true,
         content: curr.message
     })

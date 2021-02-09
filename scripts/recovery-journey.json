@@ -5,6 +5,6 @@
     {
         "message": "In order to get to know you better, let's take an assessment first, shall we?",
         "options": ["Sure", "Later"],
-        "dialogue": ["persona1/start-assessment.json","TODO.json"]
+        "dialogue": ["start-assessment.json","assessment-later.json"]
     }
 ]
