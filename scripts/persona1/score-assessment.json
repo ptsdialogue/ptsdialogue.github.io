@@ -1,0 +1,13 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "Thank you for answering the questions!"
+    },
+    {
+        "message": "Your score is: ",
+        "options": ["High", "Low"],
+        "dialogue": ["TODO.json", "TODO.json"]
+    }
+]

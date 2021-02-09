@@ -1,6 +1,6 @@
 [
     {
-        "message": "CLEAR"  
+        "message": "CLEAR"
     },
     {
         "message": "1. Do you have repeated, disturbing memories, thoughts, or images of a stressful experience from the past?",
@@ -64,17 +64,7 @@
     },
     {
         "message": "16. Do you feel jumpy or easily startled?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
-    },
-    {
-        "message": "CLEAR"  
-    },
-    {
-        "message": "Thank you for answering the questions!"
-    },
-    {
-        "message": "Your score is:",
-        "options": ["High", "Low"],
-        "dialogue": ["TODO.json", "TODO.json"]
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
+        "dialogue": ["persona1/score-assessment.json","persona1/score-assessment.json","persona1/score-assessment.json","persona1/score-assessment.json","persona1/score-assessment.json"]
     }
 ]

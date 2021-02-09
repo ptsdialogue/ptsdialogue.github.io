@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="icon" href="./favicon.png">
     <title>PTSDialogue</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -33,6 +34,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="dialogue.js"></script>
+      
+    <script type="application/javascript">
+        // TODO: add different initialization points as ptsdialogue.github.io/XXX
+        $.getJSON("scripts/init.json",loadDialogue);
+    </script>
 
   </body>
 </html>

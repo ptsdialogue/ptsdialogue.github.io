@@ -1,0 +1,13 @@
+[
+    {
+        "message": "Welcome back!"
+    },
+    {
+        "message": "How can I help you?"
+    },
+    {
+        "message": "Would you like to work on something?",
+        "options": ["Manage Symptoms", "Take Assessment", "Get Support", " Learn about PTSD", "Track Progress"],
+        "dialogue": ["TODO.json", "TODO.json", "TODO.json", "TODO.json", "TODO.json"]
+    }
+]
