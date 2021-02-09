@@ -8,6 +8,6 @@
     {
         "message": "Please pick a dialogue option below:",
         "options": ["Welcome","Daily Check","Activities","Persona #2"],
-        "dialogue": ["persona1/welcome.json","persona1/dailycheck.json","TODO.json","TODO.json"]
+        "dialogue": ["persona1/welcome.json","persona1/dailycheck.json","persona1/activities.json","TODO.json"]
     }
 ]
