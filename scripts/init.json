@@ -9,8 +9,8 @@
         "message": "I am a personal therapy chatbot designed to help you: <ul> <li>understand PTSD symptoms</li><li>develop solutions for your concern, and</li><li>assist you to make positive and lasting changes in your life</li></ul>"
     },
     {
-        "message": "Please pick a dialogue option below:",
-        "options": ["Welcome","Daily Check","Activities","Persona #2"],
-        "dialogue": ["welcome.json","dailycheck.json","activities.json","persona2.json"]
+        "message": "Which persona would you like to chat with?",
+        "options": ["Persona #1","Persona #2"],
+        "dialogue": ["persona1/welcome.json","persona2/welcome.json"]
     }
 ]

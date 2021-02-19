@@ -92,8 +92,14 @@ header {
     text-align: center;
 }
 
+a {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+
 .bot-wrapper {
     margin: 0 10%;
     /*  width: device-width ;*/
     /*  zoom: 1.0 ;*/
 }
+

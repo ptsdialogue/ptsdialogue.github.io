@@ -16,34 +16,23 @@ function updateUI(protocol, i) {
         loading: true,
         content: curr.message
     })
-    .then(function () { // generic user input request
-        $(".botui-messages-container").stop().animate({ scrollTop: $(".botui-messages-container")[0].scrollHeight}, 500); // autoscroll to bottom
+    .then(function () {
+        // autoscroll to bottom
+        $(".botui-messages-container").stop().animate({ scrollTop: $(".botui-messages-container")[0].scrollHeight}, 500);
         if (curr.options) {
-            if (curr.options.length == 0) { // text-entry question
-                return botui.action.text({
-                    delay: fixed_delay,
-                    action: {
-                        placeholder: ''
-                    }
-                }).then(function (res) {
-                    // TODO: handle user input
+            var options = formatOptions(curr.options);
+            return botui.action.button({
+                delay: fixed_delay,
+                action: options
+            }).then(function (res) {
+                if (curr.dialogue) { // load next dialogue
+                    var res_index = curr.options.indexOf(res.value);
+                    var json_script = curr.dialogue[res_index];
+                    $.getJSON("scripts/"+json_script,loadDialogue);
+                } else {
                     loadMessage(protocol, i + 1);
-                });
-            } else { // multiple-choice question
-                var options = formatOptions(curr.options);
-                return botui.action.button({
-                    delay: fixed_delay,
-                    action: options
-                }).then(function (res) {
-                    if (curr.dialogue) { // load next dialogue
-                        var res_index = curr.options.indexOf(res.value);
-                        var json_script = curr.dialogue[res_index];
-                        $.getJSON("scripts/"+json_script,loadDialogue);
-                    } else { // continue
-                        loadMessage(protocol, i + 1);
-                    }
-                });
-            }
+                }
+            });
         } else {
             loadMessage(protocol, i + 1);
         }
