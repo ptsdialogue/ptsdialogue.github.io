@@ -1,0 +1,7 @@
+[
+    {
+        "message": "In this application, there are other dialogues.",
+        "options": ["Start Over", "Daily Check", "Activities"],
+        "dialogue": ["init.json", "dailychekc.json", "activities"]
+    }
+]

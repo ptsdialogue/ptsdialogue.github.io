@@ -9,12 +9,12 @@
         "message": "Nice to meet you! I'm your personal therapy chatbot"
     },
     {
-        "message": "I will create a safe space for you to start your recovery journey."
+        "message": "I’m here to help you make positive and lasting changes in your life."
     },
     {
-        "message": "Ready to start?",
+        "message": "Is the time for you to begin?",
         "options": ["Yes", "No"],
-        "dialogue": ["persona2/recovery-journey.json", "TODO.json"]
+        "dialogue": ["persona2/recovery-journey.json", "persona2/end-conversation.json"]
     }
     
 ]
