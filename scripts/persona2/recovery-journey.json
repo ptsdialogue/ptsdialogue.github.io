@@ -8,6 +8,6 @@
     {
         "message": "Let's take an assessment first, shall we?",
         "options": ["Sure", "Later"],
-        "dialogue": ["start-assessment.json","assessment-later.json"]
+        "dialogue": ["persona2/start-assessment.json","persona2/assessment-later.json"]
     }
 ]
