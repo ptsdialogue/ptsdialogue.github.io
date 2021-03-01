@@ -1,5 +1,7 @@
-{
-    "message": "No problem. Talk to you later🌈👋",
-    "options": ["MENU"],
-    "dialogue": ["menu.json"]
-}
+[
+    {
+        "message": "No problem. Talk to you later🌈👋",
+        "options": ["MENU"],
+        "dialogue": ["menu.json"]
+    }
+]
