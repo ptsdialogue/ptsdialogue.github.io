@@ -11,19 +11,6 @@
     background: transparent;
 }
 
-.human.botui-message-content.text {
-    background: white;
-    color: #034569;
-}
-
-.botui-message-content {
-    font-size: 14px;
-    font-size: 1rem;
-    font-family: 'Montserrat';
-    background: #034569;
-    color: white;
-}
-
 .botui-messages-container {
     max-height: 75vh;
     overflow-y: scroll;
@@ -34,18 +21,27 @@
     margin: 0 auto;
 }
 
+.human.botui-message-content.text {
+    background: #3368DE;
+    color: white;
+}
+
+.botui-message-content {
+    font-size: 14px;
+    font-size: 1rem;
+    font-family: 'Montserrat';
+    background: #FFFFFF;
+    color: black;
+}
+
 .botui-actions-buttons-button {
-    background-color: rgb(95, 175, 226);
+    background-color: #3368DE;
+    color: white;
     font-size: 21.599px;
     font-size: 1.2rem;
     font-family: 'Montserrat';
     -webkit-transition: 300ms ease-in-out;
     transition: 300ms ease-in-out
-}
-
-.botui-actions-buttons-button:focus {
-    color: rgb(95, 175, 226);
-    background-color: white;
 }
 
 .botui-actions-buttons-button:not(:focus) {
@@ -84,16 +80,16 @@ body {
     font-size: 18px;
     font-size: 1rem;
     font-family: 'Montserrat';
-    background-color: #086CA2;
+    background-color: #F5F5FA;
     color: #FFFFFF;
 }
 
 header {
     text-align: center;
+    color: #3F51B5;
 }
 
 a {
-  color: white;
   text-decoration: none; /* no underline */
 }
 
