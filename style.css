@@ -84,9 +84,12 @@ body {
     color: #FFFFFF;
 }
 
+header, a, a:visited {
+    color: #3F51B5;
+}
+
 header {
     text-align: center;
-    color: #3F51B5;
 }
 
 a {
