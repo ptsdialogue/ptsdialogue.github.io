@@ -1,0 +1,16 @@
+[
+    {
+        "message": "Let's learn about PTSD together"
+    },
+    {
+        "message": "Post traumatic Stress Disorder (PTSD) is caused by witnessing, experiencing, or learning about someone close to you who experienced traumatic events."
+    },
+    {
+        "message": "It might be actual or threatened death, serious injury, or sexual violence."
+    },
+    {
+        "message": "Which of the following topics do you want to know more about?",
+        "options": ["4 types of symptoms", "PTSD facts"],
+        "dialogue": ["TODO.json", "TODO.json"]
+    }
+]

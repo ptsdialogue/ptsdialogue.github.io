@@ -1,0 +1,6 @@
+[
+        {
+        "options": ["Manage Symtoms", "Take Assessment", "Get Support", "Learn about PTSD", "Track Progress"],
+        "dialogue": ["persona2/manage-symptoms.json","persona2/assessment.json", "persona2/get-support.json", "TODO.json", "persona2/track-progress.json"]
+    }
+]

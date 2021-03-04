@@ -65,6 +65,6 @@
     {
         "message": "16. Do you feel jumpy or easily startled?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
-        "dialogue": ["score-assessment.json","score-assessment.json","score-assessment.json","score-assessment.json","score-assessment.json"]
+        "dialogue": ["persona2/score-assessment.json","persona2/score-assessment.json","persona2/score-assessment.json","persona2/score-assessment.json","persona2/score-assessment.json"]
     }
 ]
