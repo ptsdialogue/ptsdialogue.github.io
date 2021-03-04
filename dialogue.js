@@ -18,7 +18,7 @@ function updateUI(protocol, i) {
     })
     .then(function () {
         // autoscroll to bottom
-        $(".botui-messages-container").stop().animate({ scrollTop: $(".botui-messages-container")[0].scrollHeight}, 500);
+        $(".botui-messages-container").stop().animate({ scrollTop: $(".botui-messages-container")[0].scrollHeight}, fixed_delay);
         if (curr.options) {
             var options = formatOptions(curr.options);
             return botui.action.button({
