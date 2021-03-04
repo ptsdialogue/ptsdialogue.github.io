@@ -1,0 +1,13 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "Good to hear that! 🥰"
+    },
+    {
+        "message": "In this application, you can learn about PTSD. Would you like to learn more about PTSD?",
+        "options": ["Yes","No"],
+        "dialogue": ["TODO.json","persona2/other-tools.json"]
+    }
+]
