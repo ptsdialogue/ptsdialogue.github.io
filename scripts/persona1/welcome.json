@@ -14,6 +14,6 @@
     {
         "message": "Are you ready to start to recovery journey with me?",
         "options": ["Yes", "No"],
-        "dialogue": ["persona1/recovery-journey.json","TODO.json"]
+        "dialogue": ["persona1/recovery-journey.json","persona1/end-conversation.json"]
     }
 ]

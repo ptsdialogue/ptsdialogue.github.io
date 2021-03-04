@@ -1,0 +1,16 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "Welcome back!"
+    },
+    {
+        "message": "How can I help you?"
+    },
+    {
+        "message": "Would you like to work on something?",
+        "options": ["Manage Symptoms", "Take Assessment", "Get Support", " Learn about PTSD", "Track Progress"],
+        "dialogue": ["TODO.json", "persona1/assessment.json", "persona1/get-support.json", "persona1/learn-more.json", "persona1/track-progress.json"]
+    }
+]

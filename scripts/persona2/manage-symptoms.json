@@ -1,0 +1,7 @@
+[
+    {
+        "message": "I can relieve your symptom in two different ways. Which method do you want to try?",
+        "options": ["Change your perspective", "Positive images"],
+        "dialogue": ["TODO.json", "TODO.json"]
+    }
+]

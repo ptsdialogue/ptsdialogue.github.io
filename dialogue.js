@@ -28,6 +28,7 @@ function updateUI(protocol, i) {
                 if (curr.dialogue) { // load next dialogue
                     var res_index = curr.options.indexOf(res.value);
                     var json_script = curr.dialogue[res_index];
+                    console.log(json_script);
                     $.getJSON("scripts/"+json_script,loadDialogue);
                 } else {
                     loadMessage(protocol, i + 1);

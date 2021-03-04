@@ -1,0 +1,7 @@
+[
+    {
+        "message": "No problem. Talk to you later!",
+        "options": ["MENU"],
+        "dialogue": ["persona1/menu.json"]
+    }
+]

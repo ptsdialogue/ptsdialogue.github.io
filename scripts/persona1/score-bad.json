@@ -1,0 +1,19 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "I am sorry to hear that."
+    },
+    {
+        "message": "To reduce your symptom, I can suggest multiple functions."
+    },
+    {
+        "message": "In this app, there is a function called ''Get Support'', it has included some resources for you to find professional help."
+    },
+    {
+        "message": "Other than that, I have some coping tools that might help you manage your symptoms. Would you like to try?",
+        "options": ["Mangae Symptoms","Get Support"],
+        "dialogue": ["TODO.json","persona1/get-support.json"]
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "message": "CLEAR"
+    },
+
+    {
+        "message": "Your score is: ",
+        "options": ["High", "Low"],
+        "dialogue": ["persona1/score-high.json", "persona1/score-low.json.json"]
+    }
+]
