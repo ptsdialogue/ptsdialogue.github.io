@@ -1,16 +1,13 @@
 [
     {
-        "message": "Welcome back!"
+        "message": "Hi, there! 👋"
     },
     {
-        "message": "How's everything?"
+        "message": "How's everything? 🤗😊"
     },
     {
-        "message": "I would like to ask you about your current level of distress. This will help me to adapt my recommendations."
-    },
-    {
-        "message": "Is that okay?",
+        "message": "I would like to ask you about your current level of distress. This will help me to adapt my recommendations. Is that okay?",
         "options": ["Yes", "No"],
-        "dialogue": ["persona2/dailycheck.json","TODO.json"]
+        "dialogue": ["persona2/dailycheck.json","persona2/end-conversation.json"]
     }
 ]

@@ -1,6 +1,9 @@
 [
     {
-        "message": "No problem. Talk to you later!",
+        "message": "It was nice meeting you!"
+    },
+    {
+        "message": "Looking forward to talking to you soon.",
         "options": ["MENU"],
         "dialogue": ["persona1/menu.json"]
     }

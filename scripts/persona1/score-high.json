@@ -12,9 +12,6 @@
         "message": "I strongly recommend you talk to your health provider can be really essential at this point. In this app, there is a function called “Get Support”, it has included some resources for you to find professional help."
     },
     {
-        "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely normal"
-    },
-    {
         "message": "Other than that, I have some coping tools that might help you manage your symptoms. Would you like to try?",
         "options": ["Manage Symptoms","Get Support"],
         "dialogue": ["TODO.json","persona1/get-support.json"]
