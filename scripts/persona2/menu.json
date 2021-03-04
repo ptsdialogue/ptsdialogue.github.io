@@ -1,7 +1,10 @@
 [
     {
-        "message": "In this application, there are other dialogues.",
+        "message": "CLEAR"
+    },
+    {
+        "message": "In this application, there are other dialogues:",
         "options": ["Start Over", "Daily Check", "Activities"],
-        "dialogue": ["init.json", "dailychekc.json", "activities.json"]
+        "dialogue": ["init.json", "persona2/dailycheck.json", "persona2/activities.json"]
     }
 ]

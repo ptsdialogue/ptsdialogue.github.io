@@ -11,6 +11,6 @@
     {
         "message": "Is that okay?",
         "options": ["Yes", "No"],
-        "dialogue": ["dailycheck.json","TODO.json"]
+        "dialogue": ["persona2/dailycheck.json","TODO.json"]
     }
 ]

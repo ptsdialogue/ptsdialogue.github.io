@@ -32,6 +32,6 @@
     {
         "message": "7. Do you remind trauma often?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
-        "dialogue": ["score-dailycheck.json","score-dailycheck.json","score-dailycheck.json","score-dailycheck.json","score-dailycheck.json"]
+        "dialogue": ["persona2/score-dailycheck.json","persona2/score-dailycheck.json","persona2/score-dailycheck.json","persona2/score-dailycheck.json","persona2/score-dailycheck.json"]
     }
 ]
