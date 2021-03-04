@@ -11,6 +11,6 @@
     {
         "message": "Do you want to find professional care?",
         "options": ["Yes", "No"],
-        "dialogue": ["TODO.json","other-tools.json"]
+        "dialogue": ["persona2/professional-care.json","persona2/other-tools.json"]
     }
 ]
