@@ -1,0 +1,16 @@
+[
+    {
+        "message": "To learn more about treatment, visit the National Center for PTSD website."
+    },
+    {
+        "message": "In the website, you can find the location of treatment."
+    },
+    {
+        "message": "<strong>The National Center for PTSD Website </strong>"
+    },
+    {
+        "message": "I have some other tools that might help you. Would you like to try?",
+        "options": ["Yes", "No"],
+        "dialogue": ["persona2/tool-list.json","persona2/end-conversation.json"]
+    }
+]
