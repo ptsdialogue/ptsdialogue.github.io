@@ -6,7 +6,7 @@
         "message": "Here is your previous assessment history."
     },
     {
-        "message": "IMAGE"
+        "message": "<img src='https://github.com/HeeJeong-Han/PTSDialogue/blob/master/tracking.png?raw=true'/>"
     },
     {
         "message": "I have some tools that might help you control your stress. Would you like to try?",
