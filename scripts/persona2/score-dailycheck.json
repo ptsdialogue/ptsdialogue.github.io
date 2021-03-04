@@ -8,6 +8,6 @@
     {
         "message": "You are feeling: ",
         "options": ["Good", "Bad"],
-        "dialogue": ["TODO.json", "TODO.json"]
+        "dialogue": ["persona2/score-good.json", "persona2/score-bad.json"]
     }
 ]
