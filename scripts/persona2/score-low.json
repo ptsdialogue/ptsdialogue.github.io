@@ -3,20 +3,20 @@
         "message": "CLEAR"
     },
     {
-        "message": "Your score is 66."
+        "message": "Your score is 21."
     },
     {
-        "message": "Your score puts you in the high range, which means that you have some PTSD symptoms 😥"
+        "message": "👏🏼👏🏼 Good news!"
     },
     {
-        "message": "I strongly recommend you talk to your health provider can be really essential at this point. In this app, there is a function called “Get Support”, it has included some resources for you to find professional help."
+        "message": "Your score shows you that you don't have many PTSD symptoms."
     },
     {
-        "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely normal 😊"
+        "message": "However, people who experience trauma have this kind of reaction, at least for the first few weeks or months after the trauma."
     },
     {
-        "message": "Other than that, I have some coping tools that might help you manage your symptoms. Would you like to try?",
-        "options": ["Manage Symptoms","Get Support"],
-        "dialogue": ["persona2/manage-symptoms.json","persona2/get-support.json"]
+        "message": "In this app, you can learn about PTSD. Do you want to learn more about PTSD?",
+        "options": ["Yes","No"],
+        "dialogue": ["persona2/learn-more.json","persona2/other-tools.json"]
     }
 ]
