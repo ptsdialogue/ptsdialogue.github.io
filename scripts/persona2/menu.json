@@ -5,6 +5,6 @@
     {
         "message": "In this application, there are other dialogues:",
         "options": ["Welcome", "Daily Check", "Activities"],
-        "dialogue": ["welcome.json", "daily-init.json", "activities.json"]
+        "dialogue": ["welcome.json", "daily-check/init.json", "activities.json"]
     }
 ]

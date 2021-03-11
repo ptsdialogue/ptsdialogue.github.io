@@ -1,0 +1,13 @@
+[
+    {
+        "message": "The first symptom of PTSD is <br/> re-experiencing or reliving the trauma"
+    },
+    {
+        "message": "Various signs can be shown"
+    },
+    { 
+        "message": "Do you need some examples?",
+        "options": ["Yes", "No"],
+        "dialogue": ["learn-more/symptoms/examples/first.json", "learn-more/symptoms/intro/second.json"]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "![image-1](https://images.freeimages.com/images/large-previews/37e/dreamy-spring-day-1178099.jpg)",
+        "options": ["Next"],
+        "dialogue": ["manage-symptoms/positive-images/2.json"]
+    }
+]

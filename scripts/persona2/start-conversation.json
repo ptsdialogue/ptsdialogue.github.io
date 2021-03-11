@@ -1,0 +1,13 @@
+[
+    {
+        "message": "Great! 🤗"
+    },
+    {
+        "message": "I want to know you better!"
+    },
+    {
+        "message": "Let's take an assessment first, shall we?",
+        "options": ["Sure", "Later"],
+        "dialogue": ["take-assessment/start.json","take-assessment/later.json"]
+    }
+]

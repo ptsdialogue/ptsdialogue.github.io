@@ -1,0 +1,10 @@
+[
+    {
+        "message": "No problem 😌"
+    },
+    {
+        "message": "In this app, you can learn PTSD. Do you want to learn more?",
+        "options": ["Yes", "No"],
+        "dialogue": ["learn-more/init.json", "end-conversation.json"]
+    }
+]

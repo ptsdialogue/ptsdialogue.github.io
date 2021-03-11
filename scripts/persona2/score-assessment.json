@@ -1,8 +1,0 @@
-[
-
-    {
-        "message": "Thank you for answering the questions!",
-        "options": ["Show the result"],
-        "dialogue": ["score-showresult.json"]
-    }
-]

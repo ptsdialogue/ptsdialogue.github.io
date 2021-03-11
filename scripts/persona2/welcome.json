@@ -18,7 +18,6 @@
     {
         "message": "Is the time for you to begin?",
         "options": ["Yes", "No"],
-        "dialogue": ["recovery-journey.json", "end-conversation.json"]
+        "dialogue": ["start-conversation.json","end-conversation.json"]
     }
-    
 ]

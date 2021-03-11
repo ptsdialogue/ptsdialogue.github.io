@@ -1,0 +1,16 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "Here is your previous assessment history."
+    },
+    {
+        "message": "![progress graph](https://raw.githubusercontent.com/HeeJeong-Han/PTSDialogue/master/tracking.png)"
+    },
+    {
+        "message": "I have some tools that might help you control your stress. Would you like to try?",
+        "options": ["Yes", "No"],
+        "dialogue": ["tool-list.json", "end-conversation.json"]
+    }
+]
