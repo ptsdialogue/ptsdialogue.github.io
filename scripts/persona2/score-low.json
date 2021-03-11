@@ -17,6 +17,6 @@
     {
         "message": "In this app, you can learn about PTSD. Do you want to learn more about PTSD?",
         "options": ["Yes","No"],
-        "dialogue": ["persona2/learn-more.json","persona2/other-tools.json"]
+        "dialogue": ["learn-more.json","other-tools.json"]
     }
 ]

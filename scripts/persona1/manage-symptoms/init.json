@@ -1,0 +1,10 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "I can relieve your symptom in two different ways. Which method do you want to try?",
+        "options": ["Change your perspective", "Positive images"],
+        "dialogue": ["manage-symptoms/change-perspective/init.json", "manage-symptoms/positive-images/init.json"]
+    }
+]

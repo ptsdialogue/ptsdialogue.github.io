@@ -5,6 +5,6 @@
     {
         "message": "Looking forward to talking to you soon.",
         "options": ["MENU"],
-        "dialogue": ["persona1/menu.json"]
+        "dialogue": ["menu.json"]
     }
 ]

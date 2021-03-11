@@ -5,6 +5,6 @@
     {
         "message": "I will ask you a couple of questions. <br /> Your answer will help me to better understand you.",
         "options": ["Take assessment"],
-        "dialogue": ["persona2/assessment.json"]
+        "dialogue": ["assessment.json"]
     }
 ]

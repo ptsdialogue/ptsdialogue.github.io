@@ -6,6 +6,6 @@
     {
         "message": "Your score is: ",
         "options": ["High", "Low"],
-        "dialogue": ["persona2/score-high.json", "TODO.json"]
+        "dialogue": ["score-high.json", "TODO.json"]
     }
 ]

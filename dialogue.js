@@ -1,13 +1,8 @@
-var botui = new BotUI('bot');
+var base = window.location.pathname.split("/").length == 2 ? "./" : "../"
 
+var botui = new BotUI('bot');
 var fixed_delay = 700;
 var protocol;
-
-function loadMessage(protocol, i) { // recursive message display function
-    if (i >= Object.keys(protocol).length) { return; } // end recursion
-    if (protocol[i].message == "CLEAR") { clearChat(protocol, i); }
-    else { updateUI(protocol, i);}
-}
 
 function updateUI(protocol, i) {
     var curr = protocol[i];
@@ -28,8 +23,9 @@ function updateUI(protocol, i) {
                 if (curr.dialogue) { // load next dialogue
                     var res_index = curr.options.indexOf(res.value);
                     var json_script = curr.dialogue[res_index];
-                    console.log(json_script);
-                    $.getJSON('scripts/'+json_script,loadDialogue);
+                    var filepath = base + 'scripts/' + persona + json_script;
+                    console.log(filepath);
+                    $.getJSON(filepath,loadDialogue);
                 } else {
                     loadMessage(protocol, i + 1);
                 }
@@ -38,6 +34,18 @@ function updateUI(protocol, i) {
             loadMessage(protocol, i + 1);
         }
     });
+}
+
+function loadDialogue(data) {
+    protocol = data;
+    loadMessage(protocol,0);
+}
+
+function loadMessage(protocol, i) { // recursive message display function
+    if (i >= Object.keys(protocol).length) { return; } // end recursion
+    if (protocol[i].message == "CLEAR") { clearChat(protocol, i); }
+    else if (protocol[i].message == "PERSONA") { savePersona(protocol, i); }
+    else { updateUI(protocol, i);}
 }
 
 function formatOptions(options) {
@@ -51,15 +59,16 @@ function formatOptions(options) {
     return formatted_opt;
 }
 
-function loadDialogue(data) {
-    protocol = data;
-    loadMessage(protocol,0);
-}
-
 function clearChat(protocol, i) {
     $('.botui-messages-container').children().fadeOut(500)
         .promise().then(function(){
             $('.botui-messages-container').empty(); 
             loadMessage(protocol, i + 1);
     });
+}
+
+var persona = '';
+function savePersona(protocol, i) { // preliminary function for saving persona choice during session
+    persona = protocol[i]["persona-choice"] + "/";
+    loadMessage(protocol, i + 1);
 }

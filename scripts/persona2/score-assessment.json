@@ -3,6 +3,6 @@
     {
         "message": "Thank you for answering the questions!",
         "options": ["Show the result"],
-        "dialogue": ["persona2/score-showresult.json"]
+        "dialogue": ["score-showresult.json"]
     }
 ]

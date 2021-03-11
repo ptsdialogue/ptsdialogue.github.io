@@ -1,0 +1,10 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "![image-2](https://images.freeimages.com/images/large-previews/eca/paradise-on-a-beach-1360144.jpg)",
+        "options": ["Next"],
+        "dialogue": ["manage-symptoms/positive-images/3.json"]
+    }
+]
