@@ -5,6 +5,6 @@
     {
         "message": "In this app, you can learn PTSD. Do you want to learn more?",
         "options": ["Yes", "No"],
-        "dialogue": ["persona1/learn-more.json", "TODO.json"]
+        "dialogue": ["persona1/learn-more.json", "persona2/end-conversation.json.json"]
     }
 ]
