@@ -1,0 +1,13 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "![image-5](https://images.freeimages.com/images/large-previews/6b0/nature-1056154.jpg)"
+    },
+    {
+        "message": "Do you feel better?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/feel-good.json", "manage-symptoms/feel-bad.json"]
+    }
+]

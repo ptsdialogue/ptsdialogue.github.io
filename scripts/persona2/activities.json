@@ -11,6 +11,6 @@
     {
         "message": "Would you like to work on something?",
         "options": ["Manage Symptoms", "Take Assessment", "Get Support", " Learn about PTSD", "Track Progress"],
-        "dialogue": ["TODO.json", "persona2/assessment.json", "persona2/get-support.json", "TODO.json", "persona2/track-progress.json"]
+        "dialogue": ["manage-symptoms/init.json", "take-assessment/start.json", "get-support/immediate.json", "learn-more/init.json", "track-progress/init.json"]
     }
 ]

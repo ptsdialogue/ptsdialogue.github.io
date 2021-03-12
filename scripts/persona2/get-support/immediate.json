@@ -1,0 +1,16 @@
+[
+    {
+        "message": "It may be best for you to get some immediate support."
+    },
+    {
+        "message": "I would like to provide contacts that you could talk to someone now."
+    },
+    {
+        "message": "<strong>National Suicide Prevention Lifeline</strong><br />1-800-273-8255<br /><br /><strong>National Domestic Violence Hotline</strong><br />1-800-799-7233<br /><br /><strong>National Sexual Assault Hotline</strong><br />1-800-656-4673"
+    },
+    {
+        "message": "Do you want to find professional care?",
+        "options": ["Yes", "No"],
+        "dialogue": ["get-support/professional-care.json","get-support/other-tools.json"]
+    }
+]

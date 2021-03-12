@@ -1,0 +1,13 @@
+[
+    {
+        "message": "Third symptom is negative thoughts and moods"
+    },
+    {
+        "message": "There are various signs of negative thoughts and moods"
+    },
+    { 
+        "message": "Do you want to learn more about?",
+        "options": ["Yes", "No"],
+        "dialogue": ["learn-more/symptoms/examples/third.json", "learn-more/symptoms/intro/fourth.json"]
+    }
+]

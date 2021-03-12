@@ -1,0 +1,14 @@
+[
+    {
+        "message": "No problem"
+    },
+    {
+        "message": "In this app, you can learn PTSD. Do you want to learn more?",
+        "options": ["Yes", "No"],
+<<<<<<< HEAD:scripts/persona1/assessment-later.json
+        "dialogue": ["persona1/learn-more.json", "persona2/end-conversation.json.json"]
+=======
+        "dialogue": ["learn-more/init.json", "end-conversation.json"]
+>>>>>>> refs/remotes/origin/main:scripts/persona1/take-assessment/later.json
+    }
+]

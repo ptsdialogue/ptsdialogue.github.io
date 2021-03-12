@@ -1,0 +1,10 @@
+[
+    {
+        "message": "I can relieve your symptom in different ways,"
+    },
+    {
+        "message": "Do you want to try others?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/init.json", "get-support/other-tools.json"]
+    }
+]

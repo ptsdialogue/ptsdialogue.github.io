@@ -1,0 +1,7 @@
+[
+    {
+        "message": "Ok. Which symptom would you like to review?",
+        "options": ["First Symptom", "Second Symptom", "Third Symptom", "Fourth Symptom"],
+        "dialogue": ["first-symptom.json", "second-symptom.json", "third-symptom.json", "fourth-symptom.json"]
+    }
+]

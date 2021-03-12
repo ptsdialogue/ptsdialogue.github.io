@@ -1,0 +1,15 @@
+[
+    {
+        "message": "That's great!"
+    },
+    {
+        "message": "In order to get to know you better, let's take an assessment first, shall we?",
+<<<<<<< HEAD:scripts/persona1/recovery-journey.json
+        "options": ["Yes", "No"],
+        "dialogue": ["persona1/start-assessment.json","persona1/assessment-later.json"]
+=======
+        "options": ["Sure", "Later"],
+        "dialogue": ["take-assessment/start.json","take-assessment/later.json"]
+>>>>>>> refs/remotes/origin/main:scripts/persona1/start-conversation.json
+    }
+]

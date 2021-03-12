@@ -1,0 +1,7 @@
+[
+    {
+        "message": "Do you want to know about PTSD more?",
+        "options": ["Yes", "No"],
+        "dialogue": ["learn-more/choice.json", "get-suport/other-tools.json"]
+    }
+]

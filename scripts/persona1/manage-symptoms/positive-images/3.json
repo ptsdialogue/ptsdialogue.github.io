@@ -1,0 +1,10 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "![image-3](https://images.freeimages.com/images/large-previews/e91/water-1562529.jpg)",
+        "options": ["Next"],
+        "dialogue": ["manage-symptoms/positive-images/4.json"]
+    }
+]
