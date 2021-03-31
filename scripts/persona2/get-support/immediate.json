@@ -11,6 +11,6 @@
     {
         "message": "Do you want to find professional care?",
         "options": ["Yes", "No"],
-        "dialogue": ["get-support/professional-care.json","get-support/other-tools.json"]
+        "dialogue": ["get-support/professional.json","get-support/other-tools.json"]
     }
 ]
