@@ -3,7 +3,7 @@
         "message": "CLEAR"
     },
     {
-        "message": "![image-4](https://images.freeimages.com/images/large-previews/84a/spring-1-1383964.jpg)",
+        "message": "![image-4](https://cdn.pixabay.com/photo/2014/07/01/12/36/tea-381235_960_720.jpg)",
         "options": ["Next"],
         "dialogue": ["manage-symptoms/positive-images/5.json"]
     }
