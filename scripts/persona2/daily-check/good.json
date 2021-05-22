@@ -8,6 +8,6 @@
     {
         "message": "In this application, you can learn about PTSD. Would you like to learn more about PTSD?",
         "options": ["Yes","No"],
-        "dialogue": ["learn-more/choice.json","get-support/other-tools.json"]
+        "dialogue": ["learn-more/init.json","get-support/other-tools.json"]
     }
 ]
