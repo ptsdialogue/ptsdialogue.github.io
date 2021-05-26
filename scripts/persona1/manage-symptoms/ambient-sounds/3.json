@@ -1,0 +1,13 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "<audio controls autoplay><source src='https://t1.daumcdn.net/cfile/tistory/231AA2415854D1D927?original' type='audio/mpeg'>Audio 2</audio>"
+    },
+    {
+        "message": "Do you feel better?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/feel-good.json", "manage-symptoms/feel-bad.json"]
+    }
+]
