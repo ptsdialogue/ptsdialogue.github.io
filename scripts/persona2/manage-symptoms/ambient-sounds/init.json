@@ -1,0 +1,10 @@
+[
+    {
+        "message": "Hearing something pleasant helps you relax and positive"
+    },
+    {
+        "message": "Let’s change it together",
+        "options": ["Start"],
+        "dialogue": ["manage-symptoms/ambient-sounds/1.json"]
+    }
+]

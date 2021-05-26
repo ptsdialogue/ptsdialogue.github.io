@@ -4,7 +4,7 @@
     },
     {
         "message": "I can relieve your symptom in two different ways. Which method do you want to try?",
-        "options": ["Change your perspective", "Positive images"],
-        "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json"]
+        "options": ["Change your perspective", "Positive images", "Ambient sounds"],
+        "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/ambient-sounds/init.json"]
     }
 ]
