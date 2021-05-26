@@ -3,7 +3,7 @@
         "message": "CLEAR"
     },
     {
-        "message": "<audio controls autoplay><source src='https://t1.daumcdn.net/cfile/tistory/231AA2415854D1D927?original' type='audio/mpeg'>Audio 2</audio>",
+        "message": "<audio><source src='https://t1.daumcdn.net/cfile/tistory/231AA2415854D1D927?original' type='audio/mpeg'>Audio 2</audio>",
         "options": ["Next"],
         "dialogue": ["manage-symptoms/ambient-sounds/3.json"]
     }
