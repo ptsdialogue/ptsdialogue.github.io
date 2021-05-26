@@ -3,7 +3,7 @@
         "message": "CLEAR"
     },
     {
-        "message": "I can relieve your symptom in two different ways. Which method do you want to try?",
+        "message": "I can relieve your symptom in four different ways. Which method do you want to try?",
         "options": ["Change your perspective", "Positive images", "Ambient sounds", "Thought Shifting"],
         "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/ambient-sounds/init.json", "manage-symptoms/thought-shifting/init.json"]
     }
