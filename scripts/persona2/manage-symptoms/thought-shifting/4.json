@@ -1,5 +1,7 @@
 [
-
+    {
+        "message": "CLEAR"
+    },
     {
         "message": "<b>This, too, will pass.</b>",
         "timer":["Timer"],
