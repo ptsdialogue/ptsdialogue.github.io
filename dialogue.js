@@ -14,26 +14,52 @@ function updateUI(protocol, i) {
     .then(function () {
         // autoscroll to bottom
         $(".botui-messages-container").stop().animate({ scrollTop: $(".botui-messages-container")[0].scrollHeight}, fixed_delay);
-        if (curr.options) {
-            var options = formatOptions(curr.options);
-            return botui.action.button({
-                delay: fixed_delay,
-                action: options
-            }).then(function (res) {
-                if (curr.dialogue) { // load next dialogue
-                    var res_index = curr.options.indexOf(res.value);
-                    var json_script = curr.dialogue[res_index];
-                    var filepath = base + 'scripts/' + persona + json_script;
-                    console.log(filepath);
-                    $.getJSON(filepath,loadDialogue);
-                } else {
-                    loadMessage(protocol, i + 1);
+        if (curr.timer == "Timer") { 
+            var timerDelay = 30000;
+            fixed_delay = timerDelay
+            if (curr.options) {
+                var options = formatOptions(curr.options);
+                return botui.action.button({
+                    delay: fixed_delay,
+                    action: options
+                }).then(function (res) {
+                    if (curr.dialogue) { // load next dialogue
+                        var res_index = curr.options.indexOf(res.value);
+                        var json_script = curr.dialogue[res_index];
+                        var filepath = base + 'scripts/' + persona + json_script;
+                        console.log(filepath);
+                        $.getJSON(filepath,loadDialogue);
+                    } else {
+                        loadMessage(protocol, i + 1);
+                    }
+                });
+            } else {
+                loadMessage(protocol, i + 1);
                 }
-            });
         } else {
-            loadMessage(protocol, i + 1);
+            fixed_delay = 700;
+            if (curr.options) {
+                var options = formatOptions(curr.options);
+                return botui.action.button({
+                    delay: fixed_delay,
+                    action: options
+                }).then(function (res) {
+                    if (curr.dialogue) { // load next dialogue
+                        var res_index = curr.options.indexOf(res.value);
+                        var json_script = curr.dialogue[res_index];
+                        var filepath = base + 'scripts/' + persona + json_script;
+                        console.log(filepath);
+                        $.getJSON(filepath,loadDialogue);
+                    } else {
+                        loadMessage(protocol, i + 1);
+                    }
+                });
+            } else {
+                loadMessage(protocol, i + 1);
+                }
         }
-    });
+        }
+    );
 }
 
 function loadDialogue(data) {
@@ -71,4 +97,24 @@ var persona = '';
 function savePersona(protocol, i) { // preliminary function for saving persona choice during session
     persona = protocol[i]["persona-choice"] + "/";
     loadMessage(protocol, i + 1);
+}
+
+function countdown(minutes) {
+    var seconds = 60;
+    var mins = minutes
+    function tick() {
+        //This script expects an element with an ID = "counter". You can change that to what ever you want. 
+        var counter = document.getElementById("counter");
+        var current_minutes = mins-1
+        seconds--;
+        counter.innerHTML = current_minutes.toString() + ":" + (seconds < 10 ? "0" : "") + String(seconds);
+        if( seconds > 0 ) {
+            setTimeout(tick, 1000);
+        } else {
+            if(mins > 1){
+                countdown(mins-1);           
+            }
+        }
+    }
+    tick();
 }

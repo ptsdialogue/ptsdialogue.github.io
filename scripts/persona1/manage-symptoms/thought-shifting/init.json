@@ -1,0 +1,10 @@
+[
+    {
+        "message": "It is helpful to repeat the phrase several times to yourself when you interrupt unhelpful angry thoughts."
+    },
+    {
+        "message": "Let’s change it together",
+        "options": ["Start"],
+        "dialogue": ["manage-symptoms/thought-shifting/1.json"]
+    }
+]

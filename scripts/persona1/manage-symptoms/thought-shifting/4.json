@@ -1,0 +1,9 @@
+[
+
+    {
+        "message": "<b>This, too, will pass.</b>",
+        "timer":["Timer"],
+        "options": ["Next"],
+        "dialogue": ["manage-symptoms/ambient-sounds/5.json"]
+    }
+]
