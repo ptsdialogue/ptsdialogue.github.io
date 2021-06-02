@@ -4,7 +4,7 @@
     },
     {
         "message": "<b>One night of poor sleep is not the end of the world.</b>",
-        "options": ["Next"],
-        "dialogue": ["manage-symptoms/perspective-change/5.json"]
+        "options": ["I could try this though", "It doesn't work for me"],
+        "dialogue": ["manage-symptoms/perspective-change/2.json", "manage-symptoms/perspective-change/hate.json"]
     }
 ]

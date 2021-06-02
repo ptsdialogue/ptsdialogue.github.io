@@ -3,7 +3,7 @@
         "message": "CLEAR"
     },
     {
-        "message": "Do you want to try another quote?",
+        "message": "Do you want to try another one?",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/perspective-change/2.json", "manage-symptoms/feel-bad.json"]
     }
