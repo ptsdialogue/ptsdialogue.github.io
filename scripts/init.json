@@ -6,6 +6,9 @@
         "message": "Welcome to PTSDialogue"
     },
     {
+        "message": "<audio controls autoplay><source src='https://freesound.org/people/ermine/sounds/23724' type='audio/mpeg'>Audio 1</audio>"
+    },
+    {
         "message": "I am a personal therapy chatbot designed to help you: <ul> <li>understand PTSD symptoms</li><li>develop solutions for your concern, and</li><li>assist you to make positive and lasting changes in your life</li></ul>"
     },
     {
