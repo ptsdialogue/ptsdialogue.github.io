@@ -6,9 +6,12 @@
         "message": "Repeat a phrase to yourself for 10 times."
     },
     {
-        "message": "<b>I am my own unique person: special, talented, and worthwhile.</b>",
-        "timer":["Timer"],
-        "options": ["Next"],
-        "dialogue": ["manage-symptoms/perspective-change/4.json"]
+        "message": "<b>One night of poor sleep is not the end of the world.</b>",
+        "timer":["Timer"]
+    },
+    {
+        "message": "Do you feel better?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/feel-good.json", "manage-symptoms/feel-bad.json"]
     }
 ]

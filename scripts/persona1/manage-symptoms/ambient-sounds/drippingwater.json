@@ -1,0 +1,13 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "<audio controls autoplay><source src='https://freesound.org/people/pulseczar42/sounds/170025/' type='audio/mpeg'>Audio 2</audio>"
+    },
+    {
+        "message": "Do you want to try new sound?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/ambient-sounds/menu.json", "mmanage-symptoms/ambient-sounds/stop-music.json"]
+    }
+]
