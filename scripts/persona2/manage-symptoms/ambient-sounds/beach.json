@@ -1,0 +1,13 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "<audio controls autoplay><source src='https://freesound.org/people/ermine/sounds/23724' type='audio/mpeg'>Audio 1</audio>"
+    },
+    {
+        "message": "Do you want to try new sound?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/menu.json", "manage-symptoms/stop-music.json"]
+    }
+]

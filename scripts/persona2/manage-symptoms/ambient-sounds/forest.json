@@ -1,0 +1,13 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "<audio controls autoplay><source src='https://freesound.org/people/dobroide/sounds/43661/' type='audio/mpeg'>Audio 2</audio>"
+    },
+    {
+        "message": "Do you feel better?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/feel-good.json", "manage-symptoms/feel-bad.json"]
+    }
+]

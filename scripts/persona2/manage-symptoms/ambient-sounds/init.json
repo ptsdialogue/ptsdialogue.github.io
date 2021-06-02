@@ -5,6 +5,6 @@
     {
         "message": "Let’s change it together",
         "options": ["Start"],
-        "dialogue": ["manage-symptoms/ambient-sounds/1.json"]
+        "dialogue": ["manage-symptoms/ambient-sounds/menu.json"]
     }
 ]
