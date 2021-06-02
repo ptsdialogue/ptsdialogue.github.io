@@ -1,0 +1,19 @@
+[
+    {
+        "message": "CLEAR"
+    },
+    {
+        "message": "Persona #1 is professional, straightforward, precise"
+    },
+    {
+        "message": "![image-10](https://github.com/ptsdialogue/ptsdialogue.github.io/blob/main/help_persona1.png?raw=true)"
+    },
+    {
+        "message": "Persona #2 is positive, friendly, openness"
+    },
+    {
+        "message": "![image-11](https://github.com/ptsdialogue/ptsdialogue.github.io/blob/main/help_persona2.png?raw=true)",
+        "options": ["Go back"],
+        "dialogue": ["init.json"]
+    }
+]

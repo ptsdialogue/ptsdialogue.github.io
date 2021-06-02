@@ -10,7 +10,7 @@
     },
     {
         "message": "Which persona would you like to chat with?",
-        "options": ["Persona #1","Persona #2"],
-        "dialogue": ["persona1/welcome.json","persona2/welcome.json"]
+        "options": ["Persona #1","Persona #2", "Help"],
+        "dialogue": ["persona1/welcome.json","persona2/welcome.json", "help.json"]
     }
 ]
