@@ -8,6 +8,6 @@
     {
         "message": "Do you want to try new sound?",
         "options": ["Yes", "No"],
-        "dialogue": ["mmanage-symptoms/ambient-sounds/menu.json", "manage-symptoms/ambient-sounds/stop-music.json"]
+        "dialogue": ["manage-symptoms/ambient-sounds/menu.json", "manage-symptoms/ambient-sounds/stop-music.json"]
     }
 ]
