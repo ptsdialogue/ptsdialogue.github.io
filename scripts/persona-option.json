@@ -1,0 +1,7 @@
+[
+    {
+        "message": "Which tone do you like?",
+        "options": ["Doctor John", "Friendly Smith"],
+        "dialogue": ["persona1/welcome.json", "persona2/welcome.json"]
+    }
+]
