@@ -7,13 +7,13 @@
         "message": "CLEAR"
     },
     {
-        "message": "I am your personal therapy chatbot"
+        "message": "I am your personal chatbot"
     },
     {
-        "message": "I will help you understand PTSD symptoms, develop solutions for your concern, and assist you to make positive and lasting changes in your life"
+        "message": "I will help you understand PTSD symptoms and your concern, and assist you to make positive and lasting changes in your life"
     },
     {
-        "message": "Are you ready to start to recovery journey with me?",
+        "message": "Are you ready to start it?",
         "options": ["Yes", "No"],
         "dialogue": ["start-conversation.json","end-conversation.json"]
     }

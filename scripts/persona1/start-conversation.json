@@ -3,7 +3,7 @@
         "message": "That's great!"
     },
     {
-        "message": "In order to get to know you better, let's take an assessment first, shall we?",
+        "message": "In order to get to know you better, let’s check up the challenge that you might have now, shall we?",
         "options": ["Sure", "Later"],
         "dialogue": ["take-assessment/start.json","take-assessment/later.json"]
     }
