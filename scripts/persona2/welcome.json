@@ -7,7 +7,13 @@
         "message": "CLEAR"
     },
     {
-        "message": "Nice to meet you 😊 I'm your personal chatbot"
+        "message": "Welcome to PTSDialogue"
+    },
+    {
+        "message": "Nice to meet you 😊"
+    },
+    {
+        "message": "I am helping you to self-managing in PTSD: <ul> <li>understand PTSD symptoms</li><li>develop solutions for your concern, and</li><li>assist you to make positive and lasting changes in your life</li></ul>"
     },
     {
         "message": "I’m here to help you make positive and lasting changes in your life."
