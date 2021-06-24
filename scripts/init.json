@@ -9,17 +9,11 @@
         "message": "I am a personal therapy chatbot designed to help you: <ul> <li>understand PTSD symptoms</li><li>develop solutions for your concern, and</li><li>assist you to make positive and lasting changes in your life</li></ul>"
     },
     {
-        "message": "Hi, I am Friendly Smith 😄"
+        "message": "This was the front page that we are not using any more."
     },
     {
-        "message": "How are you?"
-    },
-    {
-        "message": "I want to know you better 🤗"
-    },
-    {
-        "message": "Do you like to talk with me?",
-        "options": ["Yes","No"],
-        "dialogue": ["persona2/welcome.json", "init02.json"]
+        "message": "Choose one of personas",
+        "options": ["Persona 1","Persona 2", "HELP"],
+        "dialogue": ["persona1/welcome.json", "persona2/welcome.json", "help.json"]
     }
 ]
