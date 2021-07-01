@@ -1,10 +1,6 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "<b>Let it be.</b>",
-        "timer":["Timer"],
         "options": ["Next"],
         "dialogue": ["manage-symptoms/ambient-sounds/3.json"]
     }

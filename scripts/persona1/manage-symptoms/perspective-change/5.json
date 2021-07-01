@@ -1,8 +1,5 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "<b>This tossing and turning at night will pass.</b>",
         "options": ["I could try this though", "It doesn't work for me"],
         "dialogue": ["manage-symptoms/perspective-change/5-love.json", "manage-symptoms/perspective-change/hate.json"]
