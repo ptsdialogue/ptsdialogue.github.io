@@ -3,11 +3,17 @@
         "message": "Great! 🤗"
     },
     {
-        "message": "I want to know you better!"
+        "message": "In order to get to know you better, I will ask you a couple of questions!"
     },
     {
-        "message": "Let’s check up the challenge that you might have now, shall we?",
+        "message": "It includes 20 questions and it will take around 2 minutes."
+    },
+    {
+        "message": "Your answer will help me to better understand you. 😁"
+    },
+    {
+        "message": "Let’s check up on the challenge that you might have now, shall we?",
         "options": ["Sure", "Later"],
-        "dialogue": ["take-assessment/start.json","take-assessment/later.json"]
+        "dialogue": ["take-assessment/start.json","take-assessment/explain.json"]
     }
 ]

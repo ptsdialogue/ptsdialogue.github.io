@@ -1,0 +1,26 @@
+[
+    {
+        "message": "The self-assessment in this app is called the PTSD Checklist or “PCL-5” for short."
+    },
+    {
+        "message": "This scale has been used with people with PTSD for screening, diagnosis, and monitoring for many years and has been scientifically validated."
+    },
+    {
+        "message": "It was originally developed in 1993 by the National Center for PTSD."
+    },
+    {
+        "message": "It can give you some valuable information about how severe your symptoms are, and if you are getting better or worse over time."
+    },
+    {
+        "message": "Do you want to try it? 🧐",
+        "options": ["Sure", "Later"],
+        "dialogue": ["take-assessment/start.json","take-assessment/later.json"]
+    }
+]
+
+
+
+
+
+
+

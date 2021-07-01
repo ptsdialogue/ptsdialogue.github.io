@@ -1,9 +1,6 @@
 [
     {
-        "message": "Great 👏 Let's start it!"
-    },
-    {
-        "message": "I will ask you a couple of questions. Your answer will help me to better understand you.",
+        "message": "Great 👏 Let's start it!",
         "options": ["Take assessment"],
         "dialogue": ["take-assessment/survey.json"]
     }
