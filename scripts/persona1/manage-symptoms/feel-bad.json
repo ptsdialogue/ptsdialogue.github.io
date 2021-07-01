@@ -1,10 +1,10 @@
 [
     {
-        "message": "I can relieve your symptom in different ways,"
+        "message": "I am sorry to hear that."
     },
     {
-        "message": "Do you want to try others?",
+        "message": "Do you want to relieve other symptom?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/init.json", "get-support/other-tools.json"]
+        "dialogue": ["manage-symptoms/init.json", "manage-symptoms/feel-bad2.json"]
     }
 ]
