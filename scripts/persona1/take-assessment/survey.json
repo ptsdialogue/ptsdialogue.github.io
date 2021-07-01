@@ -3,67 +3,84 @@
         "message": "CLEAR"
     },
     {
-        "message": "1. Do you have repeated, disturbing memories, thoughts, or images of a stressful experience from the past?",
+        "message": "1. Do you have repeated, disturbing memories, thoughts, or images of a stressful experience in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "2. Do you have repeated, disturbing dreams of a stressful experience from the past?",
+        "message": "2. Do you have repeated, disturbing dreams of a stressful experience in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "3. Are you suddenly acting or feeling as if a stressful experience were happening again?",
+        "message": "3. Are you suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it) in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "4. Do you feel very upset when something reminded you of a stressful experience from the past?",
+        "message": "4. Do you feel very upset when something reminded you of a stressful experience in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "5. Do you avoid thinking about or talking about a stressful experience from the past or avoid having feelings related to it?",
+        "message": "5. Do you have strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating) in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "6. Do you avoid activities or situations because they remind you of a stressful experience from the past?",
+        "message": "6. Do you avoid memories, thoughts, or feelings related to the stressful experience in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "7. Do you have trouble remembering important parts of a stressful experience from the past?",
+        "message": "7. Do you avoid external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations) in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "8. Do you lose interest in things that you used to enjoy?",
+        "message": "8. Do you have trouble remembering important parts of a stressful experience in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "9. Do you feel distant or cut off from other people?",
+        "message": "9. Do you have strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as: I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous) in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "10. Do you feel emotionally numb or being unable to have loving feelings for those close to you?",
+        "message": "10. Do you blame yourself or someone else for the stressful experience or what happened after it in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "11. Do you feel as if your future will somehow be cut short?",
+        "message": "11. Do you have trong negative feelings such as fear, horror, anger, guilt, or shame in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "12. Do you have trouble falling or staying asleep?",
+        "message": "12. Do you lose interest in activities that you used to enjoy in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "13. Do you feel irritable or having angry outbursts?",
+        "message": "13. Do you feel distant or cut off from other people in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "14. Do you have difficulty concentrating?",
+        "message": "14. Do you have trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you) in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "15. Are you 'super alert' or watchful on guard?",
+        "message": "15. Do you have irritable behavior, angry outbursts, or acting aggressively in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "16. Do you feel jumpy or easily startled?",
+        "message": "16. Do you take too many risks or doing things that could cause you harm in the past month?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+    },
+    {
+        "message": "17. Are you 'super alert' or watchful on guard in the past month?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+    },
+    {
+        "message": "18. Do you feel jumpy or easily startled in the past month?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
+        "dialogue": ["take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json"]
+    },
+    {
+        "message": "19. Do you have difficulty concentrating in the past month?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+    },  
+    {
+        "message": "20. Do you have trouble falling or staying asleep in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
         "dialogue": ["take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json"]
     }
