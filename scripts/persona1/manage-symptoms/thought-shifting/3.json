@@ -2,6 +2,6 @@
     {
         "message": "<b>Slow down.</b>",
         "options": ["Next"],
-        "dialogue": ["manage-symptoms/ambient-sounds/4.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/4.json"]
     }
 ]

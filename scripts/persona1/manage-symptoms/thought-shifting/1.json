@@ -8,6 +8,6 @@
     {
         "message": "<b>Take a big breath.</b>",
         "options": ["Next"],
-        "dialogue": ["manage-symptoms/ambient-sounds/2.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/2.json"]
     }
 ]

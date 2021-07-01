@@ -2,6 +2,6 @@
     {
         "message": "<b>Let it be.</b>",
         "options": ["Next"],
-        "dialogue": ["manage-symptoms/ambient-sounds/3.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/3.json"]
     }
 ]

@@ -2,6 +2,6 @@
     {
         "message": "<b>This, too, will pass.</b>",
         "options": ["Next"],
-        "dialogue": ["manage-symptoms/ambient-sounds/5.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/5.json"]
     }
 ]
