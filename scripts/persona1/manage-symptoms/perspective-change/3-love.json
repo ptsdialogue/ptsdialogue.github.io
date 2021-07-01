@@ -7,7 +7,6 @@
     },
     {
         "message": "<b>I am my own unique person: special, talented, and worthwhile.</b>",
-        "timer":["Timer"],
         "options": ["Next"],
         "dialogue": ["manage-symptoms/perspective-change/4.json"]
     }
