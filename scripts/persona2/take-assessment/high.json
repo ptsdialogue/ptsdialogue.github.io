@@ -15,8 +15,8 @@
         "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely normal 😊"
     },
     {
-        "message": "Other than that, I have some coping tools that might help you manage your symptoms. Would you like to try?",
-        "options": ["Manage Symptoms","Get Support"],
-        "dialogue": ["manage-symptoms/init.json","get-support/immediate.json"]
+        "message": "Would you like to try?",
+        "options": ["Yes", "No"],
+        "dialogue": ["get-support/immediate.json", "take-assessment/high2.json"]
     }
 ]

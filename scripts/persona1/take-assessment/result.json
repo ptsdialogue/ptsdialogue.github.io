@@ -2,7 +2,6 @@
     {
         "message": "CLEAR"
     },
-
     {
         "message": "Your score is: ",
         "options": ["High", "Low"],
