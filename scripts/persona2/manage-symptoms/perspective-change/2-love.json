@@ -7,7 +7,6 @@
     },
     {
         "message": "<b>I know that I deserve love.</b>",
-        "timer":["Timer"],
         "options": ["Next"],
         "dialogue": ["manage-symptoms/perspective-change/3.json"]
     }

@@ -3,8 +3,7 @@
         "message": "CLEAR"
     },
     {
-        "message": "<b>Don't let it get to you.</b>",
-        "timer":["Timer"]
+        "message": "<b>Don't let it get to you.</b>"
     },
     {
         "message": "Do you feel better?",
