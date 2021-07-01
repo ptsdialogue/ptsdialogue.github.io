@@ -1,10 +1,6 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "<b>Slow down.</b>",
-        "timer":["Timer"],
         "options": ["Next"],
         "dialogue": ["manage-symptoms/ambient-sounds/4.json"]
     }

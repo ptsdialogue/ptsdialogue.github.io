@@ -7,7 +7,6 @@
     },
     {
         "message": "<b>Take a big breath.</b>",
-        "timer":["Timer"],
         "options": ["Next"],
         "dialogue": ["manage-symptoms/ambient-sounds/2.json"]
     }

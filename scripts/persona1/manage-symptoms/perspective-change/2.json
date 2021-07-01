@@ -1,8 +1,5 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "<b>I know that I deserve love.</b>",
         "options": ["I could try this though", "It doesn't work for me"],
         "dialogue": ["manage-symptoms/perspective-change/2-love.json", "manage-symptoms/perspective-change/hate.json"]
