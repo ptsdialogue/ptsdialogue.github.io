@@ -4,7 +4,7 @@
     },
     {
         "message": "Which symptom do you want to relieve?",
-        "options": ["Sad/Hopeless", "Angry", "Unable to sleep", "Worried/Anxious"],
+        "options": ["Sad/Hopeless", "Worried/Anxious", "Unable to sleep", "Angry"],
         "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/ambient-sounds/init.json", "manage-symptoms/thought-shifting/init.json"]
     }
 ]
