@@ -1,7 +1,10 @@
 [
     {
+        "message": "Repeat this phrase to yourself for 10 times:"
+    },
+    {
         "message": "<b>This, too, will pass.</b>",
-        "options": ["Next"],
-        "dialogue": ["manage-symptoms/thought-shifting/5.json"]
+        "options": ["I want to try another phrase.", "It doesn't work for me."],
+        "dialogue": ["manage-symptoms/thought-shifting/5.json", "manage-symptoms/feel-bad2.json"]
     }
 ]
