@@ -12,9 +12,9 @@
         "message": "Your answers will help me to better understand you."
     },
     {
-        "message": "Let’s check up on the challenge that you might have now, shall we?",
+        "message": "Let’s now check up on the challenge that you might have, shall we?",
         "options": ["Sure", "Later"],
-        "dialogue": ["take-assessment/start.json","take-assessment/explain.json"]
+        "dialogue": ["take-assessment/survey.json","take-assessment/later.json"]
     }
 ]
 
