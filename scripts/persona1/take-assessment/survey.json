@@ -1,8 +1,5 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "1. Do you have repeated, disturbing memories, thoughts, or images of a stressful experience in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
