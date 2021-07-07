@@ -69,8 +69,7 @@
     },
     {
         "message": "18. Do you feel jumpy or easily startled in the past month?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
-        "dialogue": ["take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json", "take-assessment/score.json"]
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
         "message": "19. Do you have difficulty concentrating in the past month?",
