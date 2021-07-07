@@ -1,10 +1,7 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
-        "message": "Which symptom do you want to relieve?",
-        "options": ["Sad/Hopeless", "Worried/Anxious", "Unable to sleep", "Angry"],
+        "message": "I can help you to manage different states. Which of the following describes you the best?",
+        "options": ["I am sad", "I am worried", "I am unable to sleep", "I am angry"],
         "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/ambient-sounds/init.json", "manage-symptoms/thought-shifting/init.json"]
     }
 ]
