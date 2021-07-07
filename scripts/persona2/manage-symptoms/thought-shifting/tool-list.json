@@ -1,6 +1,9 @@
 [
     {
-    "message": "I can manage your symptom in four different ways. Which options do you want to try?",
+    "message": "I can manage your symptom in four different ways."
+    },
+    {
+    "message": "You did <b>Thought Shifting</b>. Which options do you want to try?",
     "options": ["Change your perspective", "Positive images", "Ambient sounds", "Thought Shifting"],
     "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/ambient-sounds/init.json", "manage-symptoms/thought-shifting/init.json"]
 }

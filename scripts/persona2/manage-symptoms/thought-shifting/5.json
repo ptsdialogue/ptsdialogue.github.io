@@ -8,6 +8,6 @@
     {
         "message": "Do you feel better?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/feel-good.json", "manage-symptoms/feel-bad.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/feel-good.json", "manage-symptoms/thought-shifting/feel-bad.json"]
     }
 ]

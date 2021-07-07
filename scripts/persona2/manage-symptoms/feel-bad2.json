@@ -1,6 +1,6 @@
 [
     {
-        "message": "Then, how about try other tools?",
+        "message": "Then, how about trying other tools?",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/tool-list.json", "end-conversation.json"]
     }

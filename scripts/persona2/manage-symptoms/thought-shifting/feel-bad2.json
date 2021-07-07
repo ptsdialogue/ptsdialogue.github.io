@@ -2,6 +2,6 @@
     {
         "message": "Then, how about trying other tools?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/tool-list.json", "end-conversation.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/tool-list.json", "end-conversation.json"]
     }
 ]

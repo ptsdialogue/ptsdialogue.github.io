@@ -5,6 +5,6 @@
     {
         "message": "Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/thought-shifting/1.json", "manage-symptoms/feel-bad2.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/1.json", "manage-symptoms/thought-shifting/feel-bad2.json"]
     }
 ]

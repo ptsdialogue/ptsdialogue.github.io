@@ -5,6 +5,6 @@
     {
         "message": "Do you want to cope with other symptoms?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/init.json", "manage-symptoms/feel-bad2.json"]
+        "dialogue": ["manage-symptoms/init.json", "manage-symptoms/thought-shifting/feel-bad2.json"]
     }
 ]

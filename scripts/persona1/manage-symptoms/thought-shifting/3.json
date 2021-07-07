@@ -5,6 +5,6 @@
     {
         "message": "<b>Slow down.</b>",
         "options": ["I want to try another phrase.", "It doesn't work for me."],
-        "dialogue": ["manage-symptoms/thought-shifting/4.json", "manage-symptoms/feel-bad2.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/4.json", "manage-symptoms/thought-shifting/feel-bad2.json"]
     }
 ]
