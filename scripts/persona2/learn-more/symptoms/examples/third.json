@@ -1,6 +1,6 @@
 [
     {
-        "message": "If someone feel negative thoughts and moods, he/she might have:<ul><li>feeling detached or isolating from others</li><li>negative beliefs</li><li>self-blame for the trauma</li><li>trouble feeling positive emotions like happiness and love</li></ul>",
+        "message": "If someone feel negative thoughts and moods, they might experience:<ul><li>feeling detached or isolating from others</li><li>negative beliefs</li><li>self-blame for the trauma</li><li>trouble feeling positive emotions like happiness and love</li></ul>",
         "options": ["Ok. Tell me about the fourth symptom"],
         "dialogue": ["learn-more/symptoms/intro/fourth.json"]
     }
