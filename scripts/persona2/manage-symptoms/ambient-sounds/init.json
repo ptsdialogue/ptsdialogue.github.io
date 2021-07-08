@@ -1,10 +1,10 @@
 [
     {
-        "message": "Hearing something pleasant helps you relax and positive"
+        "message": "Hearing something pleasant can help you to relax."
     },
     {
-        "message": "Let’s change it together",
-        "options": ["Start"],
-        "dialogue": ["manage-symptoms/ambient-sounds/menu.json"]
+        "message": "Are you ready to start?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/ambient-sounds/menu.json", "manage-symptoms/ambient-sounds/feel-bad2"]
     }
 ]

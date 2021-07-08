@@ -1,10 +1,7 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "Do you feel better?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/feel-good.json", "manage-symptoms/feel-bad.json"]
+        "dialogue": ["manage-symptoms/ambient-sounds/feel-good.json", "manage-symptoms/ambient-sounds/feel-bad.json"]
     }
 ]

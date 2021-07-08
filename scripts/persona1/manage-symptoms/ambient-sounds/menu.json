@@ -1,8 +1,5 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "You can choose one in the list.",
         "options": ["Beach", "Country Road", "Crickets", "Dripping Water", "Forest"],
         "dialogue": ["manage-symptoms/ambient-sounds/beach.json", "manage-symptoms/ambient-sounds/countryroad.json", "manage-symptoms/ambient-sounds/crickets.json", "manage-symptoms/ambient-sounds/drippingwater.json", "manage-symptoms/ambient-sounds/forest.json"]

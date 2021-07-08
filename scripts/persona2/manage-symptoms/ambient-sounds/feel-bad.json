@@ -1,0 +1,10 @@
+[
+    {
+        "message": "I am sorry to hear that."
+    },
+    {
+        "message": "Do you want to cope with other symptoms?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/init.json", "manage-symptoms/ambient-sounds/feel-bad2.json"]
+    }
+]

@@ -1,12 +1,9 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "<audio controls autoplay><source src='https://docs.google.com/uc?export=open&id=1LmQ_u5-U06zOpHgu2g__gVX0gf-EPCRE' type='audio/mpeg'>Audio  5</audio>"
     },
     {
-        "message": "Do you want to try new sound?",
+        "message": "Do you want to try a different sound?",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/ambient-sounds/menu.json", "manage-symptoms/ambient-sounds/stop-music.json"]
     }
