@@ -1,9 +1,9 @@
 [
     {
-        "message": "No problem"
+        "message": "No problem."
     },
     {
-        "message": "In this app, you can learn PTSD. Do you want to learn more?",
+        "message": "I have some resources for you to learn about PTSD. Would you like to try?",
         "options": ["Yes", "No"],
         "dialogue": ["learn-more/init.json", "end-conversation.json"]
     }

@@ -9,7 +9,7 @@
         "message": "People who experience a trauma have this kind of reaction, at least for the first few weeks or months after the trauma."
     },
     {
-        "message": "In this app, you can learn about PTSD. Do you want to learn more about PTSD?",
+        "message": "I have some resources for you to learn about PTSD. Would you like to try?",
         "options": ["Yes","No"],
         "dialogue": ["learn-more/init.json","get-support/other-tools.json"]
     }

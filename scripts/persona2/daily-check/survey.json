@@ -3,9 +3,6 @@
         "message": "Great! Let's start it"
     },
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "1. Can you sleep well?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },

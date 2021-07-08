@@ -1,9 +1,6 @@
 [
     {
-        "message": "Great! Let's start it"
-    },
-    {
-        "message": "CLEAR"
+        "message": "Great! Let's start it."
     },
     {
         "message": "1. Can you sleep well?",
@@ -30,7 +27,7 @@
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "7. Do you remind trauma often?",
+        "message": "7. Do you remember trauma often?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
         "dialogue": ["daily-check/score.json", "daily-check/score.json", "daily-check/score.json", "daily-check/score.json", "daily-check/score.json"]
     }
