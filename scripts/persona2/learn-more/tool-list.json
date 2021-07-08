@@ -1,8 +1,5 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "Which tool do you want to try?",
         "options": ["Manage Symtoms", "Take Assessment", "Get Supports", "Track Progress"],
         "dialogue": ["manage-symptoms/init.json","take-assessment/start.json", "get-support/immediate.json", "track-progress/init.json"]
