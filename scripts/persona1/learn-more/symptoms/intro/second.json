@@ -2,9 +2,6 @@
     {
         "message": "The second symptom of PTSD is persistent avoidance"
     },
-    {
-        "message": "Various signs can be shown"
-    },
     { 
         "message": "Do you want to know more about indicators of this symptom?",
         "options": ["Yes", "No"],
