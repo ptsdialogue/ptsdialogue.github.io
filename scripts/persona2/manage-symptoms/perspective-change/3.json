@@ -1,7 +1,7 @@
 [
     {
         "message": "<b>I am my own unique person: special, talented, and worthwhile.</b>",
-        "options": ["I could try this though", "It doesn't work for me"],
+        "options": ["I could try this though", "I want to try another thought"],
         "dialogue": ["manage-symptoms/perspective-change/3-love.json", "manage-symptoms/perspective-change/4.json"]
     }
 ]

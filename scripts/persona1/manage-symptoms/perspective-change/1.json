@@ -1,10 +1,7 @@
 [
     {
-        "message": "CLEAR"
-    },
-    {
         "message": "<b>It’s not always like this. There are times I have felt pretty amazing, too.</b>",
-        "options": ["I could try this thought", "It doesn't work for me"],
+        "options": ["I could try this thought", "I want to try another thought"],
         "dialogue": ["manage-symptoms/perspective-change/1-love.json", "manage-symptoms/perspective-change/2.json"]
     }
 ]

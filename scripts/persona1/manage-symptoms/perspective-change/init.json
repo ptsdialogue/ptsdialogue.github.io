@@ -1,10 +1,11 @@
 [
     {
-        "message": "Changing the way you think can change the way you feel"
+        "message": "Changing the way you think can change the way you feel."
     },
     {
-        "message": "I help you to concentrate on helpful thought. Let’s change it together",
-        "options": ["Start"],
-        "dialogue": ["manage-symptoms/perspective-change/1.json"]
+        "message": "I help you to concentrate on helpful thought. Are you ready to start?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/perspective-change/1.json", "manage-symptoms/perspective-change/feel-bad2.json"]
     }
 ]
+

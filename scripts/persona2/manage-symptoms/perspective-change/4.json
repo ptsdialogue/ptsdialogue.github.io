@@ -1,7 +1,7 @@
 [
     {
         "message": "<b>One night of poor sleep is not the end of the world.</b>",
-        "options": ["I could try this though", "It doesn't work for me"],
+        "options": ["I could try this though", "I want to try another thoughte"],
         "dialogue": ["manage-symptoms/perspective-change/4-love.json", "manage-symptoms/perspective-change/5.json"]
     }
 ]
