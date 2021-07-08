@@ -1,10 +1,10 @@
 [
     {
-        "message": "Looking something pleasant helps you relax and positive"
+        "message": "Looking something pleasant can help you to relax."
     },
     {
-        "message": "Let’s change it together",
-        "options": ["Start"],
-        "dialogue": ["manage-symptoms/positive-images/1.json"]
+        "message": "Are you ready to start?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/positive-images/1.json", "manage-symptoms/positive-images/feel-bad2.json"]
     }
 ]
