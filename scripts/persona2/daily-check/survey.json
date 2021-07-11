@@ -4,31 +4,31 @@
     },
     {
         "message": "1. How much do you agree with this statement that I can sleep well?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
     },
     {
         "message": "2. How much do you agree with this statement that I feel anger often?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
     },
     {
         "message": "3. How much do you agree with this statement that I feel worried or anxious often?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
     },
     {
         "message": "4. How much do you agree with this statement that I feel sad or hopeless often?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
     },
     {
         "message": "5. How much do you agree with this statement that I am disconnected from reality?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
     },
     {
         "message": "6. How much do you agree with this statement that I am disconnected from people?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
     },
     {
         "message": "7. How much do you agree with this statement that I remember trauma often?",
-        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"],
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"],
         "dialogue": ["daily-check/score.json", "daily-check/score.json", "daily-check/score.json", "daily-check/score.json", "daily-check/score.json"]
     }
 ]
