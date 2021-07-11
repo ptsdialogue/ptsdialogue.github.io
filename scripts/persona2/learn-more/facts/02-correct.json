@@ -1,0 +1,22 @@
+[
+    {
+        "message": "You are right! 👍"
+    },
+    {
+        "message": "5 out of every 100 active duty Service Members were estimated to have PTSD after deployment."
+    },
+    {
+        "message": "For those in infantry units that experienced combat, 13 out of every 100 Service Members had PTSD."
+    },
+    {
+        "message": "So, you are not alone!"
+    },
+    {
+        "message": "Don’t be afraid to seek out help and support to help you deal with any stress you’re experiencing."
+    },
+    {
+        "message": "Do you want to know about PTSD more?",
+        "options": ["Yes", "No"],
+        "dialogue": ["learn-more/choice.json", "learn-more/other-tools.json"]
+    }
+]

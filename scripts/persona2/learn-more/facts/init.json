@@ -1,7 +1,8 @@
 [
+
     {
         "message": "Did you know that PTSD is a quite common?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/facts/next.json", "learn-more/facts/next.json"]
+        "dialogue": ["learn-more/facts/01-yes.json", "learn-more/facts/01-no.json"]
     }
 ]

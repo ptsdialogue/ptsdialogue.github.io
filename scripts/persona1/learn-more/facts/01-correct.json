@@ -1,0 +1,13 @@
+[
+    {
+        "message": "You are right!"
+    },
+    {
+        "message": "Over 600,000 Veterans who used Veterans Affair services as recently as 2016 were diagnosed with PTSD."
+    },
+    {
+        "message": "Do you know how many service members were estimated to have PTSD after deployment out of every 100?",
+        "options": ["1", "2", "3", "4", "5"],
+        "dialogue": ["learn-more/facts/02-wrong.json", "learn-more/facts/02-wrong.json", "learn-more/facts/02-wrong.json", "learn-more/facts/02-wrong.json", "learn-more/facts/02-correct.json"]
+    }
+]
