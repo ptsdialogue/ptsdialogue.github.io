@@ -1,6 +1,6 @@
 [
     {
-        "message": "<audio controls autoplay><source src='https://docs.google.com/uc?export=open&id=1_aKYaz8Iwii0zDL-Df4SF0DLcHK6eXLO' type='audio/mpeg'>Audio 4</audio>"
+        "message": "<audio><source src='https://docs.google.com/uc?export=open&id=1_aKYaz8Iwii0zDL-Df4SF0DLcHK6eXLO' type='audio/mpeg'>Audio 4</audio>"
     },
     {
         "message": "Do you want to try a different sound?",
