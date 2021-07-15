@@ -1,6 +1,6 @@
 [
     {
-        "message": "<audio><source src='https://docs.google.com/uc?export=open&id=1jXhU5yjepSoeoIxW3hfywKvdkrJ-_eEw' type='audio/mpeg'>Audio 1</audio>"
+        "message": "<audio controls><source src='https://docs.google.com/uc?export=open&id=1jXhU5yjepSoeoIxW3hfywKvdkrJ-_eEw' type='audio/mpeg'>Audio 1</audio>"
 
     },
     {
