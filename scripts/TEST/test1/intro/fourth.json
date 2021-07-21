@@ -3,11 +3,8 @@
         "message": "Fourth symptom is feeling more on-edge and reactive"
     },
     {
-        "message": "If someone feel more on-edge and reactive, they might experience:<ul><li>feeling on guard</li><li>being irritable or angry</li><li>trouble sleeping</li><li>startling easily</li></ul>"
-    },
-    { 
-        "message": "Do you want to review other symptom again?",
-        "options": ["Yes", "No"],
-        "dialogue": ["Test/test1/review.json", "Test/test1/end.json"]
+        "message": "If someone feel more on-edge and reactive, they might experience:<ul><li>feeling on guard</li><li>being irritable or angry</li><li>trouble sleeping</li><li>startling easily</li></ul>",
+        "options": ["I am done with learning 4 types of symptoms"],
+        "dialogue": ["learn-more/end.json"]
     }
 ]
