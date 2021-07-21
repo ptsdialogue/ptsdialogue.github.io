@@ -1,0 +1,7 @@
+[
+    {
+        "message": "Which tool do you want to try?",
+        "options": ["Manage Symptoms", "Take Assessment", "Get Support", " Learn about PTSD"],
+        "dialogue": ["manage-symptoms/init.json", "take-assessment/start.json", "get-support/immediate.json", "learn-more/init.json"]
+    }
+]
