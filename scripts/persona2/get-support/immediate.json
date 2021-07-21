@@ -1,6 +1,6 @@
 [
     {
-        "message": "I would like to provide contacts that you could get some immediate support."
+        "message": "You can can call these numbers to get support."
     },
     {
         "message": "<a href='tel:+1-800-273-8255'><strong>National Suicide Prevention Lifeline</strong><br />1-800-273-8255<br /></a>"
@@ -12,7 +12,7 @@
         "message": "<a href='tel:+1-800-656-4673'><strong>National Sexual Assault Hotline</strong><br />1-800-656-4673<br /></a>"
     },
     {
-        "message": "Do you want to find professional care?",
+        "message": "I can also help you to find a VA location or in-network community care provider near you. Would you like to try?",
         "options": ["Yes", "No"],
         "dialogue": ["get-support/professional.json","get-support/other-tools.json"]
     }
