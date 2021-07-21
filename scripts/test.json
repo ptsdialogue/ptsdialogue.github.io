@@ -1,7 +1,7 @@
 [
     {
-        "message": "Test Function",
-        "options": ["Original function", "Test1"],
-        "dialogue": ["Test/original/init.json" , "Test/test1/init.json"]
+        "message": "Please select one of the following test cases:",
+        "options": ["Original", "Test1", "Test2"],
+        "dialogue": ["Test/original/init.json" , "Test/test1/init.json", "Test/test2/init.json"]
     }
 ]
