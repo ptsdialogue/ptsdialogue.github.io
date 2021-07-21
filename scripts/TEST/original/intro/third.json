@@ -5,6 +5,6 @@
     { 
         "message": "Do you want to learn more about negative thoughts and moods?",
         "options": ["Yes", "No"],
-        "dialogue": ["Test/original/examples/third.json", "Test/original/intro/fourth.json"]
+        "dialogue": ["TEST/original/examples/third.json", "TEST/original/intro/fourth.json"]
     }
 ]

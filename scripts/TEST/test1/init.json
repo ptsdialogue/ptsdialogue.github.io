@@ -2,6 +2,6 @@
     {
         "message": "PTSD includes 4 types of symptoms",
         "options": ["Tell me about the first symptom"],
-        "dialogue": ["Test/test1/intro/first.json"]
+        "dialogue": ["TEST/test1/intro/first.json"]
     }
 ]

@@ -5,6 +5,6 @@
     { 
         "message": "Would you like to see some examples?",
         "options": ["Yes", "No"],
-        "dialogue": ["Test/original/examples/first.json", "Test/original/intro/second.json"]
+        "dialogue": ["TEST/original/examples/first.json", "TEST/original/intro/second.json"]
     }
 ]

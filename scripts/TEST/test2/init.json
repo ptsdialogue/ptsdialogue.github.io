@@ -5,6 +5,6 @@
     {
         "message": "Do you want to learn more about these symptoms?",
         "options": ["Yes", "No"],
-        "dialogue": ["Test/test2/pick-symptom.json", "Test/test2/end.json"]
+        "dialogue": ["TEST/test2/pick-symptom.json", "TEST/test2/end.json"]
     }
 ]
