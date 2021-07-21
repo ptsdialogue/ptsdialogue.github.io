@@ -14,6 +14,7 @@ function updateUI(protocol, i) {
     .then(function () {
         // autoscroll to bottom
         $(".botui-messages-container").stop().animate({ scrollTop: $(".botui-messages-container")[0].scrollHeight}, fixed_delay);
+        
         if (curr.timer == "Timer") { 
             var timerDelay = 30000;
             fixed_delay = timerDelay
@@ -58,8 +59,8 @@ function updateUI(protocol, i) {
                 loadMessage(protocol, i + 1);
                 }
         }
-        }
-    );
+
+    });
 }
 
 function loadDialogue(data) {
