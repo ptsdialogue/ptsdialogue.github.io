@@ -1,7 +1,5 @@
 [
-    {
-        "message": "CLEAR"
-    },
+
     {
         "message": "Which tool do you want to try?",
         "options": ["Manage Symtoms", "Take Assessment", "Learn about PTSD", "Track Progress"],
