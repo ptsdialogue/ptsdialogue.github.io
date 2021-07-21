@@ -8,6 +8,6 @@
     {
         "message": "I have some tools that might help you control your stress. Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["get-support/tool-list.json", "end-conversation.json"]
+        "dialogue": ["track-progress/tool-list.json", "end-conversation.json"]
     }
 ]

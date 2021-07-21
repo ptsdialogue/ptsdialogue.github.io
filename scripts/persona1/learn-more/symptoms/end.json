@@ -3,11 +3,20 @@
         "message": "OK"
     },
     {
-        "message": "These symptoms last for a month or more and are bothersome, and/or lead to problems in social or family life, work, and school."
+        "message": "These symptoms can last for a month or more and can be bothersome."
     },
-    { 
-        "message": "Do you want to review other symptom again?",
+    {
+        "message": "It can lead to problems in social and family life, work, and school."
+    },
+    {
+        "message": "Hope you find this useful!"
+    },
+    {
+        "message": "I have some other tools that you might be interested in."
+    },
+    {
+        "message": "Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/symptoms/review.json", "learn-more/repeat.json"]
+        "dialogue": ["learn-more/tool-list.json","end-conversation.json"]
     }
 ]

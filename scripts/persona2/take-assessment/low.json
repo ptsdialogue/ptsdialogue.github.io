@@ -9,11 +9,13 @@
         "message": "Your score shows you that you don't have many PTSD symptoms."
     },
     {
-        "message": "However, people who experience trauma have this kind of reaction, at least for the first few weeks or months after the trauma."
+        "message": "However, people who experience trauma can have this kind of reaction, at least for the first few weeks or months after the trauma."
     },
     {
-        "message": "I have some resources for you to learn about PTSD. Do you want to try?",
+        "message": "I have some resources for you to learn about PTSD just in case. Would you like to take a look? 🧐",
         "options": ["Yes","No"],
         "dialogue": ["learn-more/init.json","get-support/other-tools.json"]
     }
 ]
+
+

@@ -1,0 +1,22 @@
+[
+    {
+        "message": "OK"
+    },
+    {
+        "message": "These symptoms can last for a month or more and can be bothersome."
+    },
+    {
+        "message": "It can lead to problems in social and family life, work, and school."
+    },
+    {
+        "message": "Hope you find this useful! 🤗"
+    },
+    {
+        "message": "I have some other tools that you might be interested in."
+    },
+    {
+        "message": "END TEST",
+        "options": ["Go back"],
+        "dialogue": ["test.json"]
+    }
+]

@@ -13,7 +13,7 @@
     },
     {
         "message": "Choose one of personas",
-        "options": ["Persona 1","Persona 2", "HELP"],
-        "dialogue": ["persona1/welcome.json", "persona2/welcome.json", "help.json"]
+        "options": ["Persona 1","Persona 2", "Test"],
+        "dialogue": ["persona1/welcome.json", "persona2/welcome.json", "test.json"]
     }
 ]

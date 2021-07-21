@@ -1,0 +1,10 @@
+[
+    {
+        "message": "Fourth symptom is feeling more on-edge and reactive"
+    },
+    { 
+        "message": "Do you want to know more about indicators of this symptom?",
+        "options": ["Yes", "No"],
+        "dialogue": ["Test/original/examples/fourth.json", "Test/original/end.json"]
+    }
+]

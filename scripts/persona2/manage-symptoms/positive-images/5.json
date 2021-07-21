@@ -3,7 +3,7 @@
         "message": "![image-5](https://cdn.pixabay.com/photo/2016/11/08/04/49/jungle-1807476_960_720.jpg)"
     },
     {
-        "message": "Do you feel better?",
+        "message": "Do you feel better? 🧐",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/positive-images/feel-good.json", "manage-symptoms/positive-images/feel-bad.json"]
     }

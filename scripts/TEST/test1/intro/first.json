@@ -1,0 +1,10 @@
+[
+    {
+        "message": "The first symptom of PTSD is <br/> re-experiencing or reliving the trauma"
+    },
+    {
+        "message": "If someone is under re-experiencing or reliving the trauma, they might experience: <ul><li>disturbing memories</li><li>nightmares</li><li>feeling or acting like the trauma is happening again</li><li>becoming very upset when reminded of the trauma.</li></ul>",
+        "options": ["Ok. Tell me about the second symptom"],
+        "dialogue": ["Test/test1/intro/second.json"]
+    }
+]

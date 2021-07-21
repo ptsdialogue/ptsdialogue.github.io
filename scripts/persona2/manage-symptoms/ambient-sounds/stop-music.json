@@ -1,6 +1,6 @@
 [
     {
-        "message": "Do you feel better?",
+        "message": "Do you feel better? 🧐",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/ambient-sounds/feel-good.json", "manage-symptoms/ambient-sounds/feel-bad.json"]
     }

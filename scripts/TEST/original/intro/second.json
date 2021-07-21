@@ -1,0 +1,10 @@
+[
+    {
+        "message": "The second symptom of PTSD is persistent avoidance"
+    },
+    { 
+        "message": "Do you want to know more about indicators of this symptom?",
+        "options": ["Yes", "No"],
+        "dialogue": ["Test/original/examples/second.json", "Test/original/intro/third.json"]
+    }
+]

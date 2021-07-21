@@ -20,6 +20,9 @@
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
+        "message": "You have completed 25% already!"
+    },
+    {
         "message": "6. Do you avoid memories, thoughts, or feelings related to the stressful experience in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
@@ -40,6 +43,9 @@
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
+        "message": "You are half-way through."
+    },
+    {
         "message": "11. Do you have trong negative feelings such as fear, horror, anger, guilt, or shame in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
@@ -58,6 +64,9 @@
     {
         "message": "15. Do you have irritable behavior, angry outbursts, or acting aggressively in the past month?",
         "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+    },
+    {
+        "message": "You have completed 75%!"
     },
     {
         "message": "16. Do you take too many risks or doing things that could cause you harm in the past month?",

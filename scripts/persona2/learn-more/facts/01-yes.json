@@ -1,9 +1,9 @@
 [
     {
-        "message": "Great!"
+        "message": "Great! 👏"
     },
     {
-        "message": "How many veterans are diagnosed with PTSD in a year?",
+        "message": "Can you take a guess how many veterans are diagnosed with PTSD in a year? 🧐",
         "options": ["less than 6,000", "around 10,000", "around 60,000", "around 100,000", "over 600,000"],
         "dialogue": ["learn-more/facts/01-wrong.json", "learn-more/facts/01-wrong.json", "learn-more/facts/01-wrong.json", "learn-more/facts/01-wrong.json", "learn-more/facts/01-correct.json"]
     }

@@ -1,0 +1,7 @@
+[
+    {
+        "message": "Test Function",
+        "options": ["Original function", "Test1"],
+        "dialogue": ["Test/original/init.json" , "Test/test1/init.json"]
+    }
+]
