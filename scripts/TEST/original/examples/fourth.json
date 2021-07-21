@@ -2,9 +2,6 @@
     {
         "message": "If someone feel more on-edge and reactive, they might experience:<ul><li>feeling on guard</li><li>being irritable or angry</li><li>trouble sleeping</li><li>startling easily</li></ul>"
     },
-    {
-        "message": "These symptoms last for a month or more and are bothersome, and/or lead to problems in social or family life, work, and school"
-    },
     { 
         "message": "Do you want to review other symptom again?",
         "options": ["Yes", "No"],

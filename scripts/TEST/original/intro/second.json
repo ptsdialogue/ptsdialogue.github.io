@@ -5,6 +5,6 @@
     { 
         "message": "Do you want to know more about indicators of this symptom?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/symptoms/examples/second.json", "learn-more/symptoms/intro/third.json"]
+        "dialogue": ["Test/original/examples/second.json", "Test/original/intro/third.json"]
     }
 ]
