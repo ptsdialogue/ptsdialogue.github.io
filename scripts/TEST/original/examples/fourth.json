@@ -8,6 +8,6 @@
     { 
         "message": "Do you want to review other symptom again?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/symptoms/review.json", "learn-more/repeat.json"]
+        "dialogue": ["Test/original/review.json", "Test/original/end.json"]
     }
 ]
