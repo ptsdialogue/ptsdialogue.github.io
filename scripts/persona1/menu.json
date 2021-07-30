@@ -1,6 +1,6 @@
 [
     {
-        "message": "I can help you with the followings:",
+        "message": "I can help you with the following:",
         "options": ["Welcome", "Daily Check", "Activities"],
         "dialogue": ["welcome.json", "daily-check/init.json", "activities.json"]
     }

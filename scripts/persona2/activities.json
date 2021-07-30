@@ -1,12 +1,9 @@
 [
     {
-        "message": "Welcome back!"
+        "message": "Great!"
     },
     {
-        "message": "How can I help you?"
-    },
-    {
-        "message": "Would you like to work on something?",
+        "message": "What would you like to work on?",
         "options": ["Manage Symptoms", "Take Assessment", "Get Support", " Learn about PTSD", "Track Progress"],
         "dialogue": ["manage-symptoms/init.json", "take-assessment/start.json", "get-support/immediate.json", "learn-more/init.json", "track-progress/init.json"]
     }

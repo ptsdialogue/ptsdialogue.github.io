@@ -1,10 +1,10 @@
 [
     {
-        "message": "Fourth symptom is feeling more on-edge and reactive"
+        "message": "If someone feel more on-edge and reactive, they might experience:<ul><li>feeling on guard</li><li>being irritable or angry</li><li>trouble sleeping</li><li>startling easily</li></ul>"
     },
-    { 
-        "message": "Do you want to know more about indicators of this symptom?",
+    {
+        "message": "Do you want to learn more about any other symptoms?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/symptoms/examples/fourth.json", "learn-more/symptoms/end.json"]
+        "dialogue": ["TEST/test2/pick-symptom.json", "TEST/test2/end.json"]
     }
 ]

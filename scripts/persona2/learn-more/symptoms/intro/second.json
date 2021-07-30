@@ -1,10 +1,10 @@
 [
     {
-        "message": "The second symptom of PTSD is persistent avoidance"
+        "message": "If someone shows persistent avoidance, they might experience:<ul><li>avoiding places</li><li>people or conversations that remind you of the trauma</li><li>avoiding thoughts, feelings, or memories closely associated with traumatic events</li></ul>"
     },
-    { 
-        "message": "Do you want to know more about indicators of this symptom?",
+    {
+        "message": "Do you want to learn more about any other symptoms?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/symptoms/examples/second.json", "learn-more/symptoms/intro/third.json"]
+        "dialogue": ["TEST/test2/pick-symptom.json", "TEST/test2/end.json"]
     }
 ]
