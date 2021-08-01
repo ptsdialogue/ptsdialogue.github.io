@@ -1,10 +1,13 @@
 [
     {
-        "message": "The first symptom of PTSD is <br/> re-experiencing or reliving the trauma"
+        "message": "The first symptom of PTSD is <br/> re-experiencing or reliving the trauma."
     },
-    { 
-        "message": "Would you like to see some examples?",
+    {
+        "message": "If someone is under re-experiencing or reliving the trauma, they might experience: <ul><li>disturbing memories</li><li>nightmares</li><li>feeling or acting like the trauma is happening again</li><li>becoming very upset when reminded of the trauma.</li></ul>"
+    },
+    {
+        "message": "Do you want to learn more about any other symptoms?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/symptoms/examples/first.json", "learn-more/symptoms/intro/second.json"]
+        "dialogue": ["learn-more/symptoms/pick-symptom.json", "learn-more/symptoms/end.json"]
     }
 ]
