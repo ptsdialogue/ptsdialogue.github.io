@@ -3,16 +3,16 @@
         "message": "Great! 🤗"
     },
     {
-        "message": "In order to get to know you better, I will ask you a couple of questions!"
+        "message": "In order to get to know you better, I will ask you a few of questions!"
     },
     {
-        "message": "It includes 20 questions and it will take around 2 minutes."
+        "message": "It includes 20 questions and it will take around 5 minutes."
     },
     {
         "message": "Your answers will help me to better understand you. 😁"
     },
     {
-        "message": "Let’s now check up on the challenge that you might have, shall we?",
+        "message": "Let’s now check up on some experience that you might face, ready to your first question?",
         "options": ["Sure", "Later"],
         "dialogue": ["take-assessment/survey.json","take-assessment/later.json"]
     }
