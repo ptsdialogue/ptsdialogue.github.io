@@ -1,7 +1,14 @@
 [
     {
-        "message": "Other than that, I have some coping tools that might help you manage your symptoms. Would you like to try?",
+        "message": "I have some resources for you to find professional help."
+    },
+    {
+        "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely normal 😊"
+    },
+    {
+        "message": "Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/init.json","take-assessment/later.json"]
+        "dialogue": ["get-support/immediate.json", "take-assessment/high3.json"]
     }
 ]
+
