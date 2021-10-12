@@ -4,31 +4,31 @@
     },
     {
         "message": "1. How much do you agree with this statement that I can sleep well?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
     },
     {
         "message": "2. How much do you agree with this statement that I feel anger often?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
     },
     {
         "message": "3. How much do you agree with this statement that I feel worried or anxious often?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
     },
     {
         "message": "4. How much do you agree with this statement that I feel sad or hopeless often?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
     },
     {
         "message": "5. How much do you agree with this statement that I am disconnected from reality?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
     },
     {
         "message": "6. How much do you agree with this statement that I am disconnected from people?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"]
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
     },
     {
         "message": "7. How much do you agree with this statement that I remember trauma often?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Stronly agree"],
+        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"],
         "dialogue": ["daily-check/score.json", "daily-check/score.json", "daily-check/score.json", "daily-check/score.json", "daily-check/score.json"]
     }
 ]

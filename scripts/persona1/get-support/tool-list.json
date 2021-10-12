@@ -2,7 +2,7 @@
 
     {
         "message": "Which tool do you want to try?",
-        "options": ["Manage Symtoms", "Take Assessment", "Learn about PTSD", "Track Progress"],
+        "options": ["Manage Symptoms", "Take Assessment", "Learn about PTSD", "Track Progress"],
         "dialogue": ["manage-symptoms/init.json","take-assessment/start.json", "learn-more/init.json", "track-progress/init.json"]
     }
 ]
