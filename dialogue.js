@@ -1,4 +1,7 @@
 var base = window.location.pathname.split("/").length == 2 ? "./" : "../"
+base = window.location.pathname.split("/").length > 2 ? "../../" : base
+console.log(window.location.pathname.split("/").length);
+console.log(base);
 
 var botui = new BotUI('bot');
 var fixed_delay = 700;
