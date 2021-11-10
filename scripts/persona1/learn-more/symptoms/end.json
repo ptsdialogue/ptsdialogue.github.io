@@ -12,11 +12,8 @@
         "message": "Hope you find this useful"
     },
     {
-        "message": "I have some other tools that you might be interested in."
-    },
-    {
-        "message": "Would you like to try?",
+        "message": "Now that you've learned about the symptoms of PTSD, would you like to learn about more general facts also?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/tool-list.json","end-conversation.json"]
+        "dialogue": ["learn-more/facts/init.json","end-conversation.json"]
     }
 ]

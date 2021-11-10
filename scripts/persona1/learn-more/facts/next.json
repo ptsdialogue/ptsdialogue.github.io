@@ -15,8 +15,8 @@
         "message": "Don’t be afraid to seek out help and support to help you deal with any stress you’re experiencing."
     },
     {
-        "message": "Do you want to know about PTSD more?",
+        "message": "Now that you've learned about the prevalence of PTSD, would you like to learn about more about related symptoms?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/choice.json", "learn-more/other-tools.json"]
+        "dialogue": ["learn-more/symptoms/init.json", "end-conversation.json"]
     }
 ]
