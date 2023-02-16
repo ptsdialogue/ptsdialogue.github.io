@@ -1,7 +1,5 @@
 var base = window.location.pathname.split("/").length == 2 ? "./" : "../"
 base = window.location.pathname.split("/").length > 2 ? "../../" : base
-console.log(window.location.pathname.split("/").length);
-console.log(base);
 
 var botui = new BotUI('bot');
 var fixed_delay = 700;
@@ -18,51 +16,26 @@ function updateUI(protocol, i) {
         // autoscroll to bottom
         $(".botui-messages-container").stop().animate({ scrollTop: $(".botui-messages-container")[0].scrollHeight}, fixed_delay);
         
-        if (curr.timer == "Timer") { 
-            var timerDelay = 30000;
-            fixed_delay = timerDelay
-            if (curr.options) {
-                var options = formatOptions(curr.options);
-                return botui.action.button({
-                    delay: fixed_delay,
-                    action: options
-                }).then(function (res) {
-                    if (curr.dialogue) { // load next dialogue
-                        var res_index = curr.options.indexOf(res.value);
-                        var json_script = curr.dialogue[res_index];
-                        var filepath = base + 'scripts/' + persona + json_script;
-                        console.log(filepath);
-                        $.getJSON(filepath,loadDialogue);
-                    } else {
-                        loadMessage(protocol, i + 1);
-                    }
-                });
-            } else {
-                loadMessage(protocol, i + 1);
+        fixed_delay = curr.Timer == "Timer" ? 30000 : 700;
+        if (curr.options) {
+            var options = formatOptions(curr.options);
+            return botui.action.button({
+                delay: fixed_delay,
+                action: options
+            }).then(function (res) {
+                if (curr.dialogue) { // load next dialogue
+                    var res_index = curr.options.indexOf(res.value);
+                    var json_script = curr.dialogue[res_index];
+                    var filepath = base + 'scripts/' + persona + json_script;
+                    console.log(filepath);
+                    $.getJSON(filepath,loadDialogue);
+                } else {
+                    loadMessage(protocol, i + 1);
                 }
+            });
         } else {
-            fixed_delay = 700;
-            if (curr.options) {
-                var options = formatOptions(curr.options);
-                return botui.action.button({
-                    delay: fixed_delay,
-                    action: options
-                }).then(function (res) {
-                    if (curr.dialogue) { // load next dialogue
-                        var res_index = curr.options.indexOf(res.value);
-                        var json_script = curr.dialogue[res_index];
-                        var filepath = base + 'scripts/' + persona + json_script;
-                        console.log(filepath);
-                        $.getJSON(filepath,loadDialogue);
-                    } else {
-                        loadMessage(protocol, i + 1);
-                    }
-                });
-            } else {
-                loadMessage(protocol, i + 1);
-                }
+            loadMessage(protocol, i + 1);
         }
-
     });
 }
 
@@ -101,5 +74,15 @@ var persona = '';
 function savePersona(protocol, i) { // preliminary function for saving persona choice during session
     persona = protocol[i]["persona-choice"] + "/";
     loadMessage(protocol, i + 1);
+}
+
+function menu() {
+    menu_script = 'scripts/init.json';
+    if (persona != '') {
+        menu_script = base + 'scripts/' + persona + "activities.json";
+    }
+    $("#menu").attr("disabled", "disabled");
+    setTimeout(function() { $("#menu").removeAttr("disabled"); }, 3500);
+    $.getJSON(menu_script,loadDialogue)
 }
 
