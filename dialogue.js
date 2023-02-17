@@ -5,7 +5,18 @@ var botui = new BotUI('bot');
 var fixed_delay = 700;
 var protocol;
 
+var interrupt_requested;
+var interrupt_executed;
+
 function updateUI(protocol, i) {
+
+    if (interrupt_requested) {
+        console.log("getting here");
+        interrupt_executed=true;
+        interrupt_requested=false;
+        return;
+    }
+
     var curr = protocol[i];
     botui.message.bot({
         delay: Math.max(curr.message.length * 10, fixed_delay),
@@ -65,7 +76,6 @@ function formatOptions(options) {
 function clearChat(protocol, i) {
     $('.botui-messages-container').children().fadeOut(500)
         .promise().then(function(){
-            $('.botui-messages-container').empty(); 
             loadMessage(protocol, i + 1);
     });
 }
@@ -77,12 +87,23 @@ function savePersona(protocol, i) { // preliminary function for saving persona c
 }
 
 function menu() {
-    menu_script = 'scripts/init.json';
-    if (persona != '') {
-        menu_script = base + 'scripts/' + persona + "activities.json";
-    }
-    $("#menu").attr("disabled", "disabled");
-    setTimeout(function() { $("#menu").removeAttr("disabled"); }, 3500);
-    $.getJSON(menu_script,loadDialogue)
-}
 
+    // // TODO: fix preliminary code to interrupt previous dialogue rendering before showing menu content
+    // interrupt_requested = true;
+
+    // setTimeout(() => {
+    //     interrupt_executed = false;
+
+    //     botui.message.removeAll();
+    //     botui.action.hide();
+
+    //     menu_script = persona == '' ? 'scripts/init.json' : base + 'scripts/' + persona + "menu.json";
+    //     $.getJSON(menu_script,loadDialogue);
+    // }, 2000);
+   
+    botui.message.removeAll();
+    botui.action.hide();
+
+    menu_script = persona == '' ? 'scripts/init.json' : base + 'scripts/' + persona + "menu.json";
+    $.getJSON(menu_script,loadDialogue);
+}

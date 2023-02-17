@@ -102,3 +102,11 @@ a {
     /*  zoom: 1.0 ;*/
 }
 
+#menu {
+    height: 50%;
+    font-size: 50%;
+    vertical-align: middle;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    box-shadow: none;
+}
