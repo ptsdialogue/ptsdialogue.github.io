@@ -5,17 +5,19 @@ var botui = new BotUI('bot');
 var fixed_delay = 700;
 var protocol;
 
-var interrupt_requested;
-var interrupt_executed;
+// // TODO: fix menu button issue
+// var interrupt_requested;
+// var interrupt_executed;
 
 function updateUI(protocol, i) {
 
-    if (interrupt_requested) {
-        console.log("getting here");
-        interrupt_executed=true;
-        interrupt_requested=false;
-        return;
-    }
+    // // TODO: fix menu button issue
+    // if (interrupt_requested) {
+    //     console.log("getting here");
+    //     interrupt_executed=true;
+    //     interrupt_requested=false;
+    //     return;
+    // }
 
     var curr = protocol[i];
     botui.message.bot({
