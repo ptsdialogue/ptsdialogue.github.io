@@ -10,7 +10,7 @@
     },
     {
         "message": "Please choose a dialogue option below to proceed:",
-        "options": ["Persona 1","Persona 2", "DEBUG"],
-        "dialogue": ["persona1/welcome.json", "persona2/welcome.json", "test.json"]
+        "options": ["Persona 1","Persona 2"],
+        "dialogue": ["persona1/welcome.json", "persona2/welcome.json"]
     }
 ]
