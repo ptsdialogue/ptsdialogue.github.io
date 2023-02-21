@@ -6,7 +6,7 @@
         "message": "<b>Don't let it get to you.</b>"
     },
     {
-        "message": "Do you feel better? 🧐",
+        "message": "Do you feel better sort of connected to the problem? 🧐",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/thought-shifting/feel-good.json", "manage-symptoms/thought-shifting/feel-bad.json"]
     }

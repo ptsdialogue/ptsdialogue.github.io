@@ -6,7 +6,7 @@
         "message": "Your score puts you in the high range, which means that you have some PTSD symptoms."
     },
     {
-        "message": "I strongly recommend you talk to your health provider. Do you have yours?",
+        "message": "I strongly recommend you talk to your health provider. Do you have someone that you meet on a regular basis something to that effect?",
         "options": ["Yes", "No"],
         "dialogue": ["take-assessment/have_healthprovider.json", "take-assessment/high2.json"]
     }

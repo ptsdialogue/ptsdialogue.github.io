@@ -6,7 +6,7 @@
         "message": "<b>One night of poor sleep is not the end of the world.</b>"
     },
     {
-        "message": "Do you feel better? 🧐",
+        "message": "Do you feel better sort of connected to the problem? 🧐",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/perspective-change/feel-good.json", "manage-symptoms/perspective-change/feel-bad.json"]
     }
