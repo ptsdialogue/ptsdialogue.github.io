@@ -713,7 +713,7 @@
       "message": "Great!"
     },
     {
-      "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely normal."
+      "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely fine."
     },
     {
       "message": "I encourage you to meet our health provider."
@@ -732,7 +732,7 @@
       "message": "Your score puts you in the high range, which means that you have some PTSD symptoms."
     },
     {
-      "message": "I strongly recommend you talk to your health provider. Do you have yours?",
+      "message": "I strongly recommend you talk to your health provider. Do you have someone that you meet on a regular basis something to that effect?",
       "options": ["Yes", "No"],
       "dialogue": [
         "take-assessment/have_healthprovider.json",
@@ -745,7 +745,7 @@
       "message": "I have some resources for you to find professional help."
     },
     {
-      "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely normal 😊"
+      "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely fine"
     },
     {
       "message": "Would you like to try?",
@@ -1429,7 +1429,7 @@
       "message": "Great! 😀"
     },
     {
-      "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely normal 😊"
+      "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely fine 😊"
     },
     {
       "message": "I encourage you to meet our health provider."
@@ -1448,7 +1448,7 @@
       "message": "Your score puts you in the high range, which means that you have some PTSD symptoms 😥"
     },
     {
-      "message": "I strongly recommend you talk to your health provider. Do you have yours?",
+      "message": "I strongly recommend you talk to your health provider. Do you have someone that you meet on a regular basis something to that effect?",
       "options": ["Yes", "No"],
       "dialogue": [
         "take-assessment/have_healthprovider.json",
@@ -1461,7 +1461,7 @@
       "message": "I have some resources for you to find professional help."
     },
     {
-      "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely normal 😊"
+      "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely fine 😊"
     },
     {
       "message": "Would you like to try?",
@@ -2276,7 +2276,7 @@
   ],
   "scripts/persona1/manage-symptoms/ambient-sounds/stop-music.json": [
     {
-      "message": "Do you feel better?",
+      "message": "Do you feel better sort of connected to the problem?",
       "options": ["Yes", "No"],
       "dialogue": [
         "manage-symptoms/ambient-sounds/feel-good.json",
@@ -2392,7 +2392,7 @@
       "message": "<b>One night of poor sleep is not the end of the world.</b>"
     },
     {
-      "message": "Do you feel better?",
+      "message": "Do you feel better sort of connected to the problem?",
       "options": ["Yes", "No"],
       "dialogue": [
         "manage-symptoms/perspective-change/feel-good.json",
@@ -2512,7 +2512,7 @@
       "message": "![image-5](https://cdn.pixabay.com/photo/2016/11/08/04/49/jungle-1807476_960_720.jpg)"
     },
     {
-      "message": "Do you feel better?",
+      "message": "Do you feel better sort of connected to the problem?",
       "options": ["Yes", "No"],
       "dialogue": [
         "manage-symptoms/positive-images/feel-good.json",
@@ -2649,7 +2649,7 @@
       "message": "<b>Don't let it get to you.</b>"
     },
     {
-      "message": "Do you feel better?",
+      "message": "Do you feel better sort of connected to the problem?",
       "options": ["Yes", "No"],
       "dialogue": [
         "manage-symptoms/thought-shifting/feel-good.json",
@@ -3071,7 +3071,7 @@
   ],
   "scripts/persona2/manage-symptoms/ambient-sounds/stop-music.json": [
     {
-      "message": "Do you feel better? 🧐",
+      "message": "Do you feel better sort of connected to the problem? 🧐",
       "options": ["Yes", "No"],
       "dialogue": [
         "manage-symptoms/ambient-sounds/feel-good.json",
@@ -3187,7 +3187,7 @@
       "message": "<b>One night of poor sleep is not the end of the world.</b>"
     },
     {
-      "message": "Do you feel better? 🧐",
+      "message": "Do you feel better sort of connected to the problem? 🧐",
       "options": ["Yes", "No"],
       "dialogue": [
         "manage-symptoms/perspective-change/feel-good.json",
@@ -3307,7 +3307,7 @@
       "message": "![image-5](https://cdn.pixabay.com/photo/2016/11/08/04/49/jungle-1807476_960_720.jpg)"
     },
     {
-      "message": "Do you feel better? 🧐",
+      "message": "Do you feel better sort of connected to the problem? 🧐",
       "options": ["Yes", "No"],
       "dialogue": [
         "manage-symptoms/positive-images/feel-good.json",
@@ -3444,7 +3444,7 @@
       "message": "<b>Don't let it get to you.</b>"
     },
     {
-      "message": "Do you feel better? 🧐",
+      "message": "Do you feel better sort of connected to the problem? 🧐",
       "options": ["Yes", "No"],
       "dialogue": [
         "manage-symptoms/thought-shifting/feel-good.json",
