@@ -1,7 +1,13 @@
 /* **
 -- Custom font
 ** */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+    /* font-family: 'Averta';
+    src: url('averta_regular.otf'); */
+}
 
 :root {
     --bg-color-0: #3368DE;
@@ -37,9 +43,9 @@
 }
 
 .botui-message-content {
+    font-family: 'Open Sans';
     font-size: 14px;
     font-size: 1rem;
-    font-family: 'Open Sans';
     background: #F5F5FA;
     color: black;
 }
@@ -47,9 +53,9 @@
 .botui-actions-buttons-button {
     background-color: var(--bg-color-3);
     color: white;
+    font-family: 'Open Sans';
     font-size: 21.599px;
     font-size: 1.2rem;
-    font-family: 'Open Sans';
     -webkit-transition: 300ms ease-in-out;
     transition: 300ms ease-in-out
 }
@@ -61,10 +67,10 @@
 
 .botui-actions-text-input {
     color: var(--bg-color-3);
+    font-family: 'Open Sans';
     font-size: 21.599px;
     font-size: 1.2rem;
     border-bottom: solid 2px currentColor;
-    font-family: 'Open Sans';
     font-weight: bold;
     -webkit-transition: 300ms ease-in-out;
     transition: 300ms ease-in-out
@@ -87,9 +93,9 @@ html {
 
 body {
     margin: 0 auto;
+    font-family: 'Open Sans';
     font-size: 18px;
     font-size: 1rem;
-    font-family: 'Open Sans';
     background-color: white;
     color: white;
 }
@@ -114,6 +120,7 @@ a {
 
 #menu {
     height: 50%;
+    font-family: 'Open Sans';
     font-size: 50%;
     vertical-align: middle;
     margin-right: 0px;
