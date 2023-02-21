@@ -1,7 +1,17 @@
 /* **
 -- Custom font
 ** */
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+    --bg-color-0: #3368DE;
+    --bg-color-1: #16466E;
+    --bg-color-2: #17547E;
+    --bg-color-3: #185B86;
+    --bg-color-4: #156695;
+    --bg-color-5: #0973A5;
+    --bg-color-6: #0876A9;
+  }
 
 /* **
 -- BotUI styling
@@ -22,24 +32,24 @@
 }
 
 .human.botui-message-content.text {
-    background: #3368DE;
+    background: var(--bg-color-3);
     color: white;
 }
 
 .botui-message-content {
     font-size: 14px;
     font-size: 1rem;
-    font-family: 'Montserrat';
-    background: #FFFFFF;
+    font-family: 'Open Sans';
+    background: #F5F5FA;
     color: black;
 }
 
 .botui-actions-buttons-button {
-    background-color: #3368DE;
+    background-color: var(--bg-color-3);
     color: white;
     font-size: 21.599px;
     font-size: 1.2rem;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
     -webkit-transition: 300ms ease-in-out;
     transition: 300ms ease-in-out
 }
@@ -50,11 +60,11 @@
 }
 
 .botui-actions-text-input {
-    color: #64AAD0;
+    color: var(--bg-color-3);
     font-size: 21.599px;
     font-size: 1.2rem;
     border-bottom: solid 2px currentColor;
-    font-family: 'Montserrat';
+    font-family: 'Open Sans';
     font-weight: bold;
     -webkit-transition: 300ms ease-in-out;
     transition: 300ms ease-in-out
@@ -79,13 +89,13 @@ body {
     margin: 0 auto;
     font-size: 18px;
     font-size: 1rem;
-    font-family: 'Montserrat';
-    background-color: #F5F5FA;
-    color: #FFFFFF;
+    font-family: 'Open Sans';
+    background-color: white;
+    color: white;
 }
 
 header, a, a:visited {
-    color: #3F51B5;
+    color: var(--bg-color-3);
 }
 
 header {
