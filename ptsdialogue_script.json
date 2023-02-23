@@ -30,9 +30,9 @@
         "Test2"
       ],
       "dialogue": [
-        "TEST/original/init.json",
-        "TEST/test1/init.json",
-        "TEST/test2/init.json"
+        "debug/original/init.json",
+        "debug/test1/init.json",
+        "debug/test2/init.json"
       ]
     }
   ],
@@ -222,7 +222,7 @@
       ]
     }
   ],
-  "scripts/TEST/original/end.json": [
+  "scripts/debug/original/end.json": [
     {
       "message": "OK"
     },
@@ -239,7 +239,7 @@
       "message": "I have some other tools that you might be interested in."
     },
     {
-      "message": "END TEST",
+      "message": "END debug",
       "options": [
         "Go back"
       ],
@@ -248,18 +248,18 @@
       ]
     }
   ],
-  "scripts/TEST/original/init.json": [
+  "scripts/debug/original/init.json": [
     {
       "message": "PTSD includes 4 types of symptoms",
       "options": [
         "Tell me about the first symptom"
       ],
       "dialogue": [
-        "TEST/original/intro/first.json"
+        "debug/original/intro/first.json"
       ]
     }
   ],
-  "scripts/TEST/test1/end.json": [
+  "scripts/debug/test1/end.json": [
     {
       "message": "OK"
     },
@@ -276,7 +276,7 @@
       "message": "I have some other tools that you might be interested in."
     },
     {
-      "message": "END TEST",
+      "message": "END debug",
       "options": [
         "Go back"
       ],
@@ -285,18 +285,18 @@
       ]
     }
   ],
-  "scripts/TEST/test1/init.json": [
+  "scripts/debug/test1/init.json": [
     {
       "message": "PTSD includes 4 types of symptoms",
       "options": [
         "Tell me about the first symptom"
       ],
       "dialogue": [
-        "TEST/test1/intro/first.json"
+        "debug/test1/intro/first.json"
       ]
     }
   ],
-  "scripts/TEST/test2/end.json": [
+  "scripts/debug/test2/end.json": [
     {
       "message": "Okay"
     },
@@ -304,7 +304,7 @@
       "message": "I have some other tools that you might be interested in."
     },
     {
-      "message": "END TEST",
+      "message": "END debug",
       "options": [
         "Go back"
       ],
@@ -313,7 +313,7 @@
       ]
     }
   ],
-  "scripts/TEST/test2/init.json": [
+  "scripts/debug/test2/init.json": [
     {
       "message": "PTSD includes 4 types of symptoms: <ol> <li>re-experiencing or reliving the trauma</li> <li>persistent avoidance</li> <li>negative thoughts and moods, and</li> <li>feeling more on-edge and reactive</li></ol>"
     },
@@ -324,12 +324,12 @@
         "No"
       ],
       "dialogue": [
-        "TEST/test2/pick-symptom.json",
-        "TEST/test2/end.json"
+        "debug/test2/pick-symptom.json",
+        "debug/test2/end.json"
       ]
     }
   ],
-  "scripts/TEST/test2/pick-symptom.json": [
+  "scripts/debug/test2/pick-symptom.json": [
     {
       "message": "Which symptom do you want to learn more about?",
       "options": [
@@ -339,10 +339,10 @@
         "4. Feeling more on-edge and reactive"
       ],
       "dialogue": [
-        "TEST/test2/intro/first.json",
-        "TEST/test2/intro/second.json",
-        "TEST/test2/intro/third.json",
-        "TEST/test2/intro/fourth.json"
+        "debug/test2/intro/first.json",
+        "debug/test2/intro/second.json",
+        "debug/test2/intro/third.json",
+        "debug/test2/intro/fourth.json"
       ]
     }
   ],
@@ -2052,51 +2052,51 @@
       ]
     }
   ],
-  "scripts/TEST/original/examples/first.json": [
+  "scripts/debug/original/examples/first.json": [
     {
       "message": "If someone is under re-experiencing or reliving the trauma, they might experience: <ul><li>disturbing memories</li><li>nightmares</li><li>feeling or acting like the trauma is happening again</li><li>becoming very upset when reminded of the trauma.</li></ul>",
       "options": [
         "Ok. Tell me about the second symptom"
       ],
       "dialogue": [
-        "TEST/original/intro/second.json"
+        "debug/original/intro/second.json"
       ]
     }
   ],
-  "scripts/TEST/original/examples/fourth.json": [
+  "scripts/debug/original/examples/fourth.json": [
     {
       "message": "If someone feel more on-edge and reactive, they might experience:<ul><li>feeling on guard</li><li>being irritable or angry</li><li>trouble sleeping</li><li>startling easily</li></ul>",
       "options": [
         "I am done with learning 4 types of symptoms"
       ],
       "dialogue": [
-        "TEST/original/end.json"
+        "debug/original/end.json"
       ]
     }
   ],
-  "scripts/TEST/original/examples/second.json": [
+  "scripts/debug/original/examples/second.json": [
     {
       "message": "If someone shows persistent avoidance, they might experience:<ul><li>avoiding places</li><li>people or conversations that remind you of the trauma</li><li>avoiding thoughts, feelings, or memories closely associated with traumatic events</li></ul>",
       "options": [
         "Ok. Tell me about the third symptom"
       ],
       "dialogue": [
-        "TEST/original/intro/third.json"
+        "debug/original/intro/third.json"
       ]
     }
   ],
-  "scripts/TEST/original/examples/third.json": [
+  "scripts/debug/original/examples/third.json": [
     {
       "message": "If someone feel negative thoughts and moods, they might experience:<ul><li>feeling detached or isolating from others</li><li>negative beliefs</li><li>self-blame for the trauma</li><li>trouble feeling positive emotions like happiness and love</li></ul>",
       "options": [
         "Ok. Tell me about the fourth symptom"
       ],
       "dialogue": [
-        "TEST/original/intro/fourth.json"
+        "debug/original/intro/fourth.json"
       ]
     }
   ],
-  "scripts/TEST/original/intro/first.json": [
+  "scripts/debug/original/intro/first.json": [
     {
       "message": "The first symptom of PTSD is <br/> re-experiencing or reliving the trauma"
     },
@@ -2107,12 +2107,12 @@
         "No"
       ],
       "dialogue": [
-        "TEST/original/examples/first.json",
-        "TEST/original/intro/second.json"
+        "debug/original/examples/first.json",
+        "debug/original/intro/second.json"
       ]
     }
   ],
-  "scripts/TEST/original/intro/fourth.json": [
+  "scripts/debug/original/intro/fourth.json": [
     {
       "message": "Fourth symptom is feeling more on-edge and reactive"
     },
@@ -2123,12 +2123,12 @@
         "No"
       ],
       "dialogue": [
-        "TEST/original/examples/fourth.json",
-        "TEST/original/end.json"
+        "debug/original/examples/fourth.json",
+        "debug/original/end.json"
       ]
     }
   ],
-  "scripts/TEST/original/intro/second.json": [
+  "scripts/debug/original/intro/second.json": [
     {
       "message": "The second symptom of PTSD is persistent avoidance"
     },
@@ -2139,12 +2139,12 @@
         "No"
       ],
       "dialogue": [
-        "TEST/original/examples/second.json",
-        "TEST/original/intro/third.json"
+        "debug/original/examples/second.json",
+        "debug/original/intro/third.json"
       ]
     }
   ],
-  "scripts/TEST/original/intro/third.json": [
+  "scripts/debug/original/intro/third.json": [
     {
       "message": "Third symptom is negative thoughts and moods"
     },
@@ -2155,12 +2155,12 @@
         "No"
       ],
       "dialogue": [
-        "TEST/original/examples/third.json",
-        "TEST/original/intro/fourth.json"
+        "debug/original/examples/third.json",
+        "debug/original/intro/fourth.json"
       ]
     }
   ],
-  "scripts/TEST/test1/intro/first.json": [
+  "scripts/debug/test1/intro/first.json": [
     {
       "message": "The first symptom of PTSD is <br/> re-experiencing or reliving the trauma"
     },
@@ -2170,11 +2170,11 @@
         "Ok. Tell me about the second symptom"
       ],
       "dialogue": [
-        "TEST/test1/intro/second.json"
+        "debug/test1/intro/second.json"
       ]
     }
   ],
-  "scripts/TEST/test1/intro/fourth.json": [
+  "scripts/debug/test1/intro/fourth.json": [
     {
       "message": "Fourth symptom is feeling more on-edge and reactive"
     },
@@ -2184,11 +2184,11 @@
         "I am done with learning 4 types of symptoms"
       ],
       "dialogue": [
-        "TEST/test1/end.json"
+        "debug/test1/end.json"
       ]
     }
   ],
-  "scripts/TEST/test1/intro/second.json": [
+  "scripts/debug/test1/intro/second.json": [
     {
       "message": "The second symptom of PTSD is persistent avoidance"
     },
@@ -2198,11 +2198,11 @@
         "Ok. Tell me about the third symptom"
       ],
       "dialogue": [
-        "TEST/test1/intro/third.json"
+        "debug/test1/intro/third.json"
       ]
     }
   ],
-  "scripts/TEST/test1/intro/third.json": [
+  "scripts/debug/test1/intro/third.json": [
     {
       "message": "Third symptom is negative thoughts and moods"
     },
@@ -2212,11 +2212,11 @@
         "Ok. Tell me about the fourth symptom"
       ],
       "dialogue": [
-        "TEST/test1/intro/fourth.json"
+        "debug/test1/intro/fourth.json"
       ]
     }
   ],
-  "scripts/TEST/test2/intro/first.json": [
+  "scripts/debug/test2/intro/first.json": [
     {
       "message": "If someone is under re-experiencing or reliving the trauma, they might experience: <ul><li>disturbing memories</li><li>nightmares</li><li>feeling or acting like the trauma is happening again</li><li>becoming very upset when reminded of the trauma.</li></ul>"
     },
@@ -2227,12 +2227,12 @@
         "No"
       ],
       "dialogue": [
-        "TEST/test2/pick-symptom.json",
-        "TEST/test2/end.json"
+        "debug/test2/pick-symptom.json",
+        "debug/test2/end.json"
       ]
     }
   ],
-  "scripts/TEST/test2/intro/fourth.json": [
+  "scripts/debug/test2/intro/fourth.json": [
     {
       "message": "If someone feel more on-edge and reactive, they might experience:<ul><li>feeling on guard</li><li>being irritable or angry</li><li>trouble sleeping</li><li>startling easily</li></ul>"
     },
@@ -2243,12 +2243,12 @@
         "No"
       ],
       "dialogue": [
-        "TEST/test2/pick-symptom.json",
-        "TEST/test2/end.json"
+        "debug/test2/pick-symptom.json",
+        "debug/test2/end.json"
       ]
     }
   ],
-  "scripts/TEST/test2/intro/second.json": [
+  "scripts/debug/test2/intro/second.json": [
     {
       "message": "If someone shows persistent avoidance, they might experience:<ul><li>avoiding places</li><li>people or conversations that remind you of the trauma</li><li>avoiding thoughts, feelings, or memories closely associated with traumatic events</li></ul>"
     },
@@ -2259,12 +2259,12 @@
         "No"
       ],
       "dialogue": [
-        "TEST/test2/pick-symptom.json",
-        "TEST/test2/end.json"
+        "debug/test2/pick-symptom.json",
+        "debug/test2/end.json"
       ]
     }
   ],
-  "scripts/TEST/test2/intro/third.json": [
+  "scripts/debug/test2/intro/third.json": [
     {
       "message": "If someone feel negative thoughts and moods, they might experience:<ul><li>feeling detached or isolating from others</li><li>negative beliefs</li><li>self-blame for the trauma</li><li>trouble feeling positive emotions like happiness and love</li></ul>"
     },
@@ -2275,8 +2275,8 @@
         "No"
       ],
       "dialogue": [
-        "TEST/test2/pick-symptom.json",
-        "TEST/test2/end.json"
+        "debug/test2/pick-symptom.json",
+        "debug/test2/end.json"
       ]
     }
   ],

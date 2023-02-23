@@ -5,6 +5,6 @@
     {
         "message": "If someone feel more on-edge and reactive, they might experience:<ul><li>feeling on guard</li><li>being irritable or angry</li><li>trouble sleeping</li><li>startling easily</li></ul>",
         "options": ["I am done with learning 4 types of symptoms"],
-        "dialogue": ["TEST/test1/end.json"]
+        "dialogue": ["debug/test1/end.json"]
     }
 ]

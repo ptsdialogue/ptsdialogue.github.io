@@ -6,7 +6,7 @@
         "message": "I have some other tools that you might be interested in."
     },
     {
-        "message": "END TEST",
+        "message": "END debug",
         "options": ["Go back"],
         "dialogue": ["test.json"]
     }

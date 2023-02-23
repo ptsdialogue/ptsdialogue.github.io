@@ -2,6 +2,6 @@
     {
         "message": "If someone shows persistent avoidance, they might experience:<ul><li>avoiding places</li><li>people or conversations that remind you of the trauma</li><li>avoiding thoughts, feelings, or memories closely associated with traumatic events</li></ul>",
         "options": ["Ok. Tell me about the third symptom"],
-        "dialogue": ["TEST/original/intro/third.json"]
+        "dialogue": ["debug/original/intro/third.json"]
     }
 ]
