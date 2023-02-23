@@ -36,31 +36,6 @@
       ]
     }
   ],
-  "scripts/persona1/activities.json": [
-    {
-      "message": "Welcome back!"
-    },
-    {
-      "message": "How can I help you?"
-    },
-    {
-      "message": "Would you like to work on something?",
-      "options": [
-        "Manage Symptoms",
-        "Take Assessment",
-        "Get Support",
-        " Learn about PTSD",
-        "Track Progress"
-      ],
-      "dialogue": [
-        "manage-symptoms/init.json",
-        "take-assessment/start.json",
-        "get-support/immediate.json",
-        "learn-more/init.json",
-        "track-progress/init.json"
-      ]
-    }
-  ],
   "scripts/persona1/end-conversation.json": [
     {
       "message": "It was nice meeting you!"
@@ -151,31 +126,6 @@
       "dialogue": [
         "start-conversation.json",
         "end-conversation.json"
-      ]
-    }
-  ],
-  "scripts/persona2/activities.json": [
-    {
-      "message": "Welcome back!"
-    },
-    {
-      "message": "How can I help you?"
-    },
-    {
-      "message": "Would you like to work on something?",
-      "options": [
-        "Manage Symptoms",
-        "Take Assessment",
-        "Get Support",
-        " Learn about PTSD",
-        "Track Progress"
-      ],
-      "dialogue": [
-        "manage-symptoms/init.json",
-        "take-assessment/start.json",
-        "get-support/immediate.json",
-        "learn-more/init.json",
-        "track-progress/init.json"
       ]
     }
   ],
