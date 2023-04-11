@@ -1,7 +1,0 @@
-[
-    {
-        "message": "Please select one of the following test cases:",
-        "options": ["Original", "Test1", "Test2"],
-        "dialogue": ["debug/original/init.json" , "debug/test1/init.json", "debug/test2/init.json"]
-    }
-]
