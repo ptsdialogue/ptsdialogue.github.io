@@ -1,7 +1,0 @@
-[
-    {
-        "message": "Which symptom do you want to learn more about?",
-        "options": ["1. Re-experiencing or reliving the trauma", "2. Persistent avoidance", "3. Negative thoughts and moods", "4. Feeling more on-edge and reactive"],
-        "dialogue": ["debug/test2/intro/first.json", "debug/test2/intro/second.json", "debug/test2/intro/third.json", "debug/test2/intro/fourth.json"]
-    }
-]
