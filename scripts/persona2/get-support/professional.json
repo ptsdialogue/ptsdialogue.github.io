@@ -1,16 +1,13 @@
 [
     {
-        "message": "To learn more about treatment, visit the National Center for PTSD website."
+        "message": "To learn more about treatment, including where to find it, visit the <a href='https://www.ptsd.va.gov' target='_blank'><strong> National Center for PTSD website</strong></a>."
     },
     {
-        "message": "In the website, you can find the location of treatment."
-    },
-    {
-        "message": "<a href='https://www.va.gov/find-locations' target='_blank'><strong>The National Center for PTSD Website: find local locations </strong></a>"
+        "message": "For help finding a local healthcare provider, visit the <a href='https://findtreatment.samhsa.gov' target='_blank'><strong>SAMHSA (Substance Abuse and Mental Health Services Administration) Behavioral Health Treatment Services Locator</strong></a>"
     },
     {
         "message": "I have some other tools that might help you. Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["get-support/tool-list.json","end-conversation.json"]
+        "dialogue": ["tool-list.json","end-conversation.json"]
     }
 ]

@@ -1,7 +1,13 @@
 [
     {
-        "message": "<b>This tossing and turning at night will pass.</b>",
-        "options": ["I could try this thought", "It doesn't work for me"],
-        "dialogue": ["manage-symptoms/perspective-change/5-love.json", "manage-symptoms/feel-bad.json"]
+        "message": "Repeat this phrase to yourself for 10 times:"
+    },
+    {
+        "message": "<b>One night of poor sleep is not the end of the world.</b>"
+    },
+    {
+        "message": "Would you like to try another phrase?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/perspective-change/1.json", "manage-symptoms/end.json"]
     }
 ]

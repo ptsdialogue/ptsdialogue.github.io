@@ -1,10 +1,13 @@
 [
     {
-        "message": "It’s okay! I will help you to know more about PTSD."
+        "message": "That's okay! Not many people do."
     },
     {
-        "message": "Can you take a guess how many veterans are diagnosed with PTSD in a year?",
-        "options": ["less than 6,000", "around 10,000", "around 60,000", "around 100,000", "over 600,000"],
+        "message": "I can help clear up your misconceptions and teach you more about PTSD."
+    },
+    {
+        "message": "Can you guess how many veterans have been diagnosed with PTSD since 2016?",
+        "options": ["< 6,000", "10,000", "60,000", "100,000", "> 600,000"],
         "dialogue": ["learn-more/facts/01-wrong.json", "learn-more/facts/01-wrong.json", "learn-more/facts/01-wrong.json", "learn-more/facts/01-wrong.json", "learn-more/facts/01-correct.json"]
     }
 ]

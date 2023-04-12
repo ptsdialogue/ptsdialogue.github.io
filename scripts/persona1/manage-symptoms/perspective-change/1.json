@@ -1,7 +1,13 @@
 [
     {
-        "message": "<b>It’s not always like this. There are times I have felt pretty amazing, too.</b>",
-        "options": ["I could try this thought", "I want to try another thought"],
-        "dialogue": ["manage-symptoms/perspective-change/1-love.json", "manage-symptoms/perspective-change/2.json"]
+        "message": "Repeat this phrase to yourself for 10 times:"
+    },
+    {
+        "message": "<b>It’s not always like this. There are times I have felt pretty amazing, too.</b>"
+    },
+    {
+        "message": "Would you like to try another phrase?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/perspective-change/2.json", "manage-symptoms/end.json"]
     }
 ]

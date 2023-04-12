@@ -1,7 +1,7 @@
 [
     {
-        "message": "Then, how about trying other tools?",
+        "message": "Then, how about exploring other symptoms you might be experiencing?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/tool-list.json", "end-conversation.json"]
+        "dialogue": ["manage-symptoms/pick-symptom.json.json", "end-conversation.json"]
     }
 ]

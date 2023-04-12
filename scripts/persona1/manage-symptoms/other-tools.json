@@ -1,0 +1,10 @@
+[
+    {
+        "message": "Okay."
+    },
+    {
+        "message": "Would you like to try another tool instead?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/tool-list.json", "end-conversation.json"]
+    }
+]

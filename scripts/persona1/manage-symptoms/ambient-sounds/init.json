@@ -1,10 +1,10 @@
 [
     {
-        "message": "Hearing something pleasant can help you to relax."
+        "message": "Listening to ambient sounds may help reduce your stress and promote relaxation."
     },
     {
-        "message": "Are you ready to start?",
+        "message": "Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/ambient-sounds/menu.json", "manage-symptoms/ambient-sounds/feel-bad2"]
+        "dialogue": ["manage-symptoms/ambient-sounds/menu.json", "manage-symptoms/other-tools.json"]
     }
 ]

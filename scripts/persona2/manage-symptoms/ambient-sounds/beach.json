@@ -6,7 +6,7 @@
     {
         "message": "Do you want to try a different sound?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/ambient-sounds/menu.json", "manage-symptoms/ambient-sounds/stop-music.json"]
+        "dialogue": ["manage-symptoms/ambient-sounds/menu.json", "manage-symptoms/end.json"]
     }
 ]
 

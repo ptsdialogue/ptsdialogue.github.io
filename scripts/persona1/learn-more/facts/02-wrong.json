@@ -1,22 +1,22 @@
 [
     {
-        "message": "Good guess! But there is significantly more..."
+        "message": "Good guess! But there are significantly more..."
     },
     {
         "message": "5 out of every 100 active duty Service Members were estimated to have PTSD after deployment."
     },
     {
-        "message": "For those in infantry units that experienced combat, 13 out of every 100 Service Members had PTSD."
+        "message": "That number is even higher (13 out of every 100) for infantry unit members who experienced combat."
     },
     {
         "message": "So, you are not alone!"
     },
     {
-        "message": "Don’t be afraid to seek out help and support to help you deal with any stress you’re experiencing."
+        "message": "Don't be afraid to seek support to help you deal with any stress you may be experiencing."
     },
     {
-        "message": "Now that you've learned about the prevalence of PTSD, would you like to learn about more about related symptoms?",
+        "message": "Would you like to review these facts again?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/symptoms/init.json", "end-conversation.json"]
+        "dialogue": ["learn-more/facts/1-yes.json", "next.json"]
     }
 ]

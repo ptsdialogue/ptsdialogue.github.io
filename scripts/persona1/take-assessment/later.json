@@ -3,7 +3,7 @@
         "message": "No problem."
     },
     {
-        "message": "I have some resources for you to learn about PTSD. Would you like to try?",
+        "message": "Would you like to review some facts about PTSD instead?",
         "options": ["Yes", "No"],
         "dialogue": ["learn-more/init.json", "end-conversation.json"]
     }

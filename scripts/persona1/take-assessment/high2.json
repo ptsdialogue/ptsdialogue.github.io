@@ -1,12 +1,9 @@
 [
     {
-        "message": "I have some resources for you to find professional help."
+        "message": "That's okay! I have some resources that could help you connect with a professional."
     },
     {
-        "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely fine"
-    },
-    {
-        "message": "Would you like to try?",
+        "message": "Would you like to learn more?",
         "options": ["Yes", "No"],
         "dialogue": ["get-support/immediate.json", "take-assessment/high3.json"]
     }

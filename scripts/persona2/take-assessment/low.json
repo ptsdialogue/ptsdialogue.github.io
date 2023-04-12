@@ -1,21 +1,22 @@
 [
     {
-        "message": "Your score is 21."
-    },
-    {
         "message": "👏🏼👏🏼 Good news!"
     },
     {
-        "message": "Your score shows you that you don't have many PTSD symptoms."
+        "message": "Based on your responses, you are having relatively few difficulties related to your traumatic experience"
     },
     {
-        "message": "However, people who experience trauma can have this kind of reaction, at least for the first few weeks or months after the trauma."
+        "message": "However, even mild posttraumatic stress can be distressing enough to interrupt your life."
     },
     {
-        "message": "I have some resources for you to learn about PTSD just in case. Would you like to take a look? 🧐",
+        "message": "Plus, problems like depression, substance abuse, and anxiety can also happen after a trauma and may not register on a PTSD scale."
+    },
+    {
+        "message": "While there is no replacement for professional face-to-face care, I can help you learn more about PTSD as well as provide tools for managing your stress as it comes up."
+    },
+    {
+        "message": "Would you like to take some time now to review some facts about PTSD?",
         "options": ["Yes","No"],
-        "dialogue": ["learn-more/init.json","get-support/other-tools.json"]
+        "dialogue": ["learn-more/init.json","other-tools.json"]
     }
 ]
-
-

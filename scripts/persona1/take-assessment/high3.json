@@ -1,6 +1,12 @@
 [
     {
-        "message": "Other than that, I have some coping resources that might help you manage your symptoms. Would you like to try?",
+        "message": "Understood."
+    },
+    {
+        "message": "While there is no replacement for professional face-to-face care, I can help you learn tools for managing your stress as it comes up."
+    },
+    {
+        "message": "Would you like to try?",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/init.json","take-assessment/later.json"]
     }

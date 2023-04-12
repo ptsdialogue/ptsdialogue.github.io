@@ -1,7 +1,13 @@
 [
     {
-        "message": "<b>I am my own unique person: special, talented, and worthwhile.</b>",
-        "options": ["I could try this thought", "I want to try another thought"],
-        "dialogue": ["manage-symptoms/perspective-change/3-love.json", "manage-symptoms/perspective-change/4.json"]
+        "message": "Repeat this phrase to yourself for 10 times:"
+    },
+    {
+        "message": "<b>I am my own unique person: special, talented, and worthwhile.</b>"
+    },
+    {
+        "message": "Would you like to try another phrase?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/perspective-change/4.json", "manage-symptoms/end.json"]
     }
 ]

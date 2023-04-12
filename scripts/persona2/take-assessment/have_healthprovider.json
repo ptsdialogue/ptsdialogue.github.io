@@ -3,13 +3,13 @@
         "message": "Great! 😀"
     },
     {
-        "message": "People see therapy for many reasons, but almost everyone does so to relieve some kind of pain. It’s completely fine 😊"
+        "message": "It takes courage to ask for help. You are actively taking charge of your life and improving your ability to help yourself! 😊"
     },
     {
-        "message": "I encourage you to meet our health provider."
+        "message": "I encourage you to  continue engaging with your provider to support your healing process."
     },
     {
-        "message": "Other than that, I have some coping resources that might help you manage your symptoms. Would you like to try?",
+        "message": "Would you like to explore other resources for self-managing your symptoms?",
         "options": ["Yes", "No"],
         "dialogue": ["manage-symptoms/init.json","take-assessment/later.json"]
     }

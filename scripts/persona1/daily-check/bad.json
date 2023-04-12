@@ -1,15 +1,15 @@
 [
     {
-        "message": "I am sorry to hear that."
+        "message": "I am sorry to hear that you're struggling today."
     },
     {
-        "message": "To reduce your symptom, I can suggest multiple functions."
+        "message": "It's normal for people who have experienced trauma to face some challenges adjusting afterwards -- so don't be too hard on yourself!"
     },
     {
-        "message": "I strongly recommend you talk to your health provider. I have some resources for you to find professional help."
+        "message": "Based on the current severity of your symptoms, I strongly recommend you seek professional help."
     },
     {
-        "message": "Would you like to try?",
+        "message": "Would you like me to help you begin that process?",
         "options": ["Yes", "No"],
         "dialogue": ["get-support/immediate.json", "daily-check/bad2.json"]
     }

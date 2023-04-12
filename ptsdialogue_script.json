@@ -139,7 +139,7 @@
       ],
       "dialogue": [
         "learn-more/choice.json",
-        "daily-check/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
@@ -165,7 +165,7 @@
       ]
     }
   ],
-  "scripts/persona1/daily-check/other-tools.json": [
+  "scripts/persona1/other-tools.json": [
     {
       "message": "I have some other tools that might help you."
     },
@@ -176,7 +176,7 @@
         "No"
       ],
       "dialogue": [
-        "daily-check/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -279,7 +279,7 @@
       ]
     }
   ],
-  "scripts/persona1/daily-check/tool-list.json": [
+  "scripts/persona1/tool-list.json": [
     {
       "message": "Which tool do you want to try?",
       "options": [
@@ -319,11 +319,11 @@
       ],
       "dialogue": [
         "get-support/professional.json",
-        "get-support/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
-  "scripts/persona1/get-support/other-tools.json": [
+  "scripts/persona1/other-tools.json": [
     {
       "message": "I have some other tools that might help you."
     },
@@ -334,7 +334,7 @@
         "No"
       ],
       "dialogue": [
-        "get-support/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -356,12 +356,12 @@
         "No"
       ],
       "dialogue": [
-        "get-support/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona1/get-support/tool-list.json": [
+  "scripts/persona1/tool-list.json": [
     {
       "message": "Which tool do you want to try?",
       "options": [
@@ -417,7 +417,7 @@
       ]
     }
   ],
-  "scripts/persona1/learn-more/other-tools.json": [
+  "scripts/persona1/other-tools.json": [
     {
       "message": "I have some other tools that might help you."
     },
@@ -428,7 +428,7 @@
         "No"
       ],
       "dialogue": [
-        "learn-more/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -442,11 +442,11 @@
       ],
       "dialogue": [
         "learn-more/choice.json",
-        "learn-more/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
-  "scripts/persona1/learn-more/tool-list.json": [
+  "scripts/persona1/tool-list.json": [
     {
       "message": "Which tool do you want to try?",
       "options": [
@@ -649,7 +649,7 @@
       ],
       "dialogue": [
         "learn-more/init.json",
-        "get-support/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
@@ -920,12 +920,12 @@
         "No"
       ],
       "dialogue": [
-        "track-progress/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona1/track-progress/tool-list.json": [
+  "scripts/persona1/tool-list.json": [
     {
       "message": "Which tool do you want to try?",
       "options": [
@@ -1060,7 +1060,7 @@
       ],
       "dialogue": [
         "learn-more/choice.json",
-        "learn-more/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
@@ -1203,7 +1203,7 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
@@ -1219,7 +1219,7 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
@@ -1235,7 +1235,7 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
@@ -1255,7 +1255,7 @@
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/ambient-sounds/feel-bad.json": [
+  "scripts/persona1/manage-symptoms/feel-bad.json": [
     {
       "message": "I am sorry to hear that."
     },
@@ -1267,11 +1267,11 @@
       ],
       "dialogue": [
         "manage-symptoms/init.json",
-        "manage-symptoms/ambient-sounds/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/ambient-sounds/feel-bad2.json": [
+  "scripts/persona1/manage-symptoms/feel-bad2.json": [
     {
       "message": "Then, how about trying other tools?",
       "options": [
@@ -1279,12 +1279,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/ambient-sounds/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/ambient-sounds/feel-good.json": [
+  "scripts/persona1/manage-symptoms/feel-good.json": [
     {
       "message": "Great!"
     },
@@ -1295,7 +1295,7 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/ambient-sounds/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -1312,7 +1312,7 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
@@ -1351,7 +1351,7 @@
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/ambient-sounds/stop-music.json": [
+  "scripts/persona1/manage-symptoms/end.json": [
     {
       "message": "Do you feel better sort of connected to the problem?",
       "options": [
@@ -1359,12 +1359,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/ambient-sounds/feel-good.json",
-        "manage-symptoms/ambient-sounds/feel-bad.json"
+        "manage-symptoms/feel-good.json",
+        "manage-symptoms/feel-bad.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/ambient-sounds/tool-list.json": [
+  "scripts/persona1/manage-symptoms/tool-list.json": [
     {
       "message": "I can manage your symptom in four different ways."
     },
@@ -1492,7 +1492,7 @@
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/perspective-change/5-love.json": [
+  "scripts/persona1/manage-symptoms/end.json": [
     {
       "message": "Repeat this phrase to yourself for 10 times:"
     },
@@ -1506,8 +1506,8 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/perspective-change/feel-good.json",
-        "manage-symptoms/perspective-change/feel-bad.json"
+        "manage-symptoms/feel-good.json",
+        "manage-symptoms/feel-bad.json"
       ]
     }
   ],
@@ -1519,12 +1519,12 @@
         "It doesn't work for me"
       ],
       "dialogue": [
-        "manage-symptoms/perspective-change/5-love.json",
+        "manage-symptoms/end.json",
         "manage-symptoms/feel-bad.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/perspective-change/feel-bad.json": [
+  "scripts/persona1/manage-symptoms/feel-bad.json": [
     {
       "message": "I am sorry to hear that."
     },
@@ -1536,11 +1536,11 @@
       ],
       "dialogue": [
         "manage-symptoms/init.json",
-        "manage-symptoms/perspective-change/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/perspective-change/feel-bad2.json": [
+  "scripts/persona1/manage-symptoms/feel-bad2.json": [
     {
       "message": "Then, how about trying other tools?",
       "options": [
@@ -1548,12 +1548,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/perspective-change/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/perspective-change/feel-good.json": [
+  "scripts/persona1/manage-symptoms/feel-good.json": [
     {
       "message": "Great!"
     },
@@ -1564,7 +1564,7 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/perspective-change/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -1581,11 +1581,11 @@
       ],
       "dialogue": [
         "manage-symptoms/perspective-change/1.json",
-        "manage-symptoms/perspective-change/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/perspective-change/tool-list.json": [
+  "scripts/persona1/manage-symptoms/tool-list.json": [
     {
       "message": "I can manage your symptom in four different ways."
     },
@@ -1645,11 +1645,11 @@
         "Next"
       ],
       "dialogue": [
-        "manage-symptoms/positive-images/5.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/positive-images/5.json": [
+  "scripts/persona1/manage-symptoms/end.json": [
     {
       "message": "![image-5](https://cdn.pixabay.com/photo/2016/11/08/04/49/jungle-1807476_960_720.jpg)"
     },
@@ -1660,12 +1660,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/positive-images/feel-good.json",
-        "manage-symptoms/positive-images/feel-bad.json"
+        "manage-symptoms/feel-good.json",
+        "manage-symptoms/feel-bad.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/positive-images/feel-bad.json": [
+  "scripts/persona1/manage-symptoms/feel-bad.json": [
     {
       "message": "I am sorry to hear that."
     },
@@ -1677,11 +1677,11 @@
       ],
       "dialogue": [
         "manage-symptoms/init.json",
-        "manage-symptoms/positive-images/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/positive-images/feel-bad2.json": [
+  "scripts/persona1/manage-symptoms/feel-bad2.json": [
     {
       "message": "Then, how about trying other tools?",
       "options": [
@@ -1689,12 +1689,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/positive-images/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/positive-images/feel-good.json": [
+  "scripts/persona1/manage-symptoms/feel-good.json": [
     {
       "message": "Great!"
     },
@@ -1705,7 +1705,7 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/positive-images/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -1722,11 +1722,11 @@
       ],
       "dialogue": [
         "manage-symptoms/positive-images/1.json",
-        "manage-symptoms/positive-images/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/positive-images/tool-list.json": [
+  "scripts/persona1/manage-symptoms/tool-list.json": [
     {
       "message": "I can manage your symptom in four different ways."
     },
@@ -1758,7 +1758,7 @@
       ],
       "dialogue": [
         "manage-symptoms/thought-shifting/2.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
@@ -1774,7 +1774,7 @@
       ],
       "dialogue": [
         "manage-symptoms/thought-shifting/3.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
@@ -1790,7 +1790,7 @@
       ],
       "dialogue": [
         "manage-symptoms/thought-shifting/4.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
@@ -1805,12 +1805,12 @@
         "It doesn't work for me."
       ],
       "dialogue": [
-        "manage-symptoms/thought-shifting/5.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/end.json",
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/thought-shifting/5.json": [
+  "scripts/persona1/manage-symptoms/end.json": [
     {
       "message": "Repeat this phrase to yourself for 10 times:"
     },
@@ -1824,12 +1824,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/thought-shifting/feel-good.json",
-        "manage-symptoms/thought-shifting/feel-bad.json"
+        "manage-symptoms/feel-good.json",
+        "manage-symptoms/feel-bad.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/thought-shifting/feel-bad.json": [
+  "scripts/persona1/manage-symptoms/feel-bad.json": [
     {
       "message": "I am sorry to hear that."
     },
@@ -1841,11 +1841,11 @@
       ],
       "dialogue": [
         "manage-symptoms/init.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/thought-shifting/feel-bad2.json": [
+  "scripts/persona1/manage-symptoms/feel-bad2.json": [
     {
       "message": "Then, how about trying other tools?",
       "options": [
@@ -1853,12 +1853,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/thought-shifting/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/thought-shifting/feel-good.json": [
+  "scripts/persona1/manage-symptoms/feel-good.json": [
     {
       "message": "Great!"
     },
@@ -1869,7 +1869,7 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/thought-shifting/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -1886,11 +1886,11 @@
       ],
       "dialogue": [
         "manage-symptoms/thought-shifting/1.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona1/manage-symptoms/thought-shifting/tool-list.json": [
+  "scripts/persona1/manage-symptoms/tool-list.json": [
     {
       "message": "I can manage your symptom in four different ways."
     },
@@ -2173,7 +2173,7 @@
       ],
       "dialogue": [
         "learn-more/init.json",
-        "get-support/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
@@ -2199,7 +2199,7 @@
       ]
     }
   ],
-  "scripts/persona2/daily-check/other-tools.json": [
+  "scripts/persona2/other-tools.json": [
     {
       "message": "I have some other tools that might help you."
     },
@@ -2210,7 +2210,7 @@
         "No"
       ],
       "dialogue": [
-        "daily-check/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -2313,7 +2313,7 @@
       ]
     }
   ],
-  "scripts/persona2/daily-check/tool-list.json": [
+  "scripts/persona2/tool-list.json": [
     {
       "message": "Which tool do you want to try?",
       "options": [
@@ -2353,11 +2353,11 @@
       ],
       "dialogue": [
         "get-support/professional.json",
-        "get-support/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
-  "scripts/persona2/get-support/other-tools.json": [
+  "scripts/persona2/other-tools.json": [
     {
       "message": "I have some other tools that might help you."
     },
@@ -2368,7 +2368,7 @@
         "No"
       ],
       "dialogue": [
-        "get-support/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -2390,12 +2390,12 @@
         "No"
       ],
       "dialogue": [
-        "get-support/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona2/get-support/tool-list.json": [
+  "scripts/persona2/tool-list.json": [
     {
       "message": "Which tool do you want to try?",
       "options": [
@@ -2451,7 +2451,7 @@
       ]
     }
   ],
-  "scripts/persona2/learn-more/other-tools.json": [
+  "scripts/persona2/other-tools.json": [
     {
       "message": "I have some other tools that might help you."
     },
@@ -2462,7 +2462,7 @@
         "No"
       ],
       "dialogue": [
-        "learn-more/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -2476,11 +2476,11 @@
       ],
       "dialogue": [
         "learn-more/choice.json",
-        "learn-more/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
-  "scripts/persona2/learn-more/tool-list.json": [
+  "scripts/persona2/tool-list.json": [
     {
       "message": "Which tool do you want to try?",
       "options": [
@@ -2686,7 +2686,7 @@
       ],
       "dialogue": [
         "learn-more/init.json",
-        "get-support/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
@@ -2957,12 +2957,12 @@
         "No"
       ],
       "dialogue": [
-        "track-progress/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona2/track-progress/tool-list.json": [
+  "scripts/persona2/tool-list.json": [
     {
       "message": "Which tool do you want to try?",
       "options": [
@@ -3097,7 +3097,7 @@
       ],
       "dialogue": [
         "learn-more/choice.json",
-        "learn-more/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
@@ -3125,7 +3125,7 @@
       ],
       "dialogue": [
         "learn-more/choice.json",
-        "learn-more/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
@@ -3166,7 +3166,7 @@
       ],
       "dialogue": [
         "learn-more/choice.json",
-        "learn-more/other-tools.json"
+        "other-tools.json"
       ]
     }
   ],
@@ -3193,7 +3193,7 @@
         "No"
       ],
       "dialogue": [
-        "learn-more/tool-list.json",
+        "tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -3243,7 +3243,7 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
@@ -3259,7 +3259,7 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
@@ -3275,7 +3275,7 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
@@ -3291,11 +3291,11 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/ambient-sounds/feel-bad.json": [
+  "scripts/persona2/manage-symptoms/feel-bad.json": [
     {
       "message": "I am sorry to hear that. 😔"
     },
@@ -3307,11 +3307,11 @@
       ],
       "dialogue": [
         "manage-symptoms/init.json",
-        "manage-symptoms/ambient-sounds/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/ambient-sounds/feel-bad2.json": [
+  "scripts/persona2/manage-symptoms/feel-bad2.json": [
     {
       "message": "Then, how about trying other tools?",
       "options": [
@@ -3319,12 +3319,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/ambient-sounds/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/ambient-sounds/feel-good.json": [
+  "scripts/persona2/manage-symptoms/feel-good.json": [
     {
       "message": "Great! 😊"
     },
@@ -3335,7 +3335,7 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/ambient-sounds/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -3352,7 +3352,7 @@
       ],
       "dialogue": [
         "manage-symptoms/ambient-sounds/menu.json",
-        "manage-symptoms/ambient-sounds/stop-music.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
@@ -3391,7 +3391,7 @@
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/ambient-sounds/stop-music.json": [
+  "scripts/persona2/manage-symptoms/end.json": [
     {
       "message": "Do you feel better sort of connected to the problem? 🧐",
       "options": [
@@ -3399,12 +3399,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/ambient-sounds/feel-good.json",
-        "manage-symptoms/ambient-sounds/feel-bad.json"
+        "manage-symptoms/feel-good.json",
+        "manage-symptoms/feel-bad.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/ambient-sounds/tool-list.json": [
+  "scripts/persona2/manage-symptoms/tool-list.json": [
     {
       "message": "I can manage your symptom in four different ways."
     },
@@ -3532,7 +3532,7 @@
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/perspective-change/5-love.json": [
+  "scripts/persona2/manage-symptoms/end.json": [
     {
       "message": "Repeat this phrase to yourself for 10 times:"
     },
@@ -3546,8 +3546,8 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/perspective-change/feel-good.json",
-        "manage-symptoms/perspective-change/feel-bad.json"
+        "manage-symptoms/feel-good.json",
+        "manage-symptoms/feel-bad.json"
       ]
     }
   ],
@@ -3559,12 +3559,12 @@
         "It doesn't work for me"
       ],
       "dialogue": [
-        "manage-symptoms/perspective-change/5-love.json",
+        "manage-symptoms/end.json",
         "manage-symptoms/feel-bad.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/perspective-change/feel-bad.json": [
+  "scripts/persona2/manage-symptoms/feel-bad.json": [
     {
       "message": "I am sorry to hear that. 😔"
     },
@@ -3576,11 +3576,11 @@
       ],
       "dialogue": [
         "manage-symptoms/init.json",
-        "manage-symptoms/perspective-change/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/perspective-change/feel-bad2.json": [
+  "scripts/persona2/manage-symptoms/feel-bad2.json": [
     {
       "message": "Then, how about trying other tools?",
       "options": [
@@ -3588,12 +3588,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/perspective-change/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/perspective-change/feel-good.json": [
+  "scripts/persona2/manage-symptoms/feel-good.json": [
     {
       "message": "Great! 😊"
     },
@@ -3604,7 +3604,7 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/perspective-change/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -3621,11 +3621,11 @@
       ],
       "dialogue": [
         "manage-symptoms/perspective-change/1.json",
-        "manage-symptoms/perspective-change/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/perspective-change/tool-list.json": [
+  "scripts/persona2/manage-symptoms/tool-list.json": [
     {
       "message": "I can manage your symptom in four different ways."
     },
@@ -3685,11 +3685,11 @@
         "Next"
       ],
       "dialogue": [
-        "manage-symptoms/positive-images/5.json"
+        "manage-symptoms/end.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/positive-images/5.json": [
+  "scripts/persona2/manage-symptoms/end.json": [
     {
       "message": "![image-5](https://cdn.pixabay.com/photo/2016/11/08/04/49/jungle-1807476_960_720.jpg)"
     },
@@ -3700,12 +3700,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/positive-images/feel-good.json",
-        "manage-symptoms/positive-images/feel-bad.json"
+        "manage-symptoms/feel-good.json",
+        "manage-symptoms/feel-bad.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/positive-images/feel-bad.json": [
+  "scripts/persona2/manage-symptoms/feel-bad.json": [
     {
       "message": "I am sorry to hear that. 😔"
     },
@@ -3717,11 +3717,11 @@
       ],
       "dialogue": [
         "manage-symptoms/init.json",
-        "manage-symptoms/positive-images/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/positive-images/feel-bad2.json": [
+  "scripts/persona2/manage-symptoms/feel-bad2.json": [
     {
       "message": "Then, how about trying other tools?",
       "options": [
@@ -3729,12 +3729,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/positive-images/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/positive-images/feel-good.json": [
+  "scripts/persona2/manage-symptoms/feel-good.json": [
     {
       "message": "Great! 😊"
     },
@@ -3745,7 +3745,7 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/positive-images/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -3762,11 +3762,11 @@
       ],
       "dialogue": [
         "manage-symptoms/positive-images/1.json",
-        "manage-symptoms/positive-images/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/positive-images/tool-list.json": [
+  "scripts/persona2/manage-symptoms/tool-list.json": [
     {
       "message": "I can manage your symptom in four different ways."
     },
@@ -3798,7 +3798,7 @@
       ],
       "dialogue": [
         "manage-symptoms/thought-shifting/2.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
@@ -3814,7 +3814,7 @@
       ],
       "dialogue": [
         "manage-symptoms/thought-shifting/3.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
@@ -3830,7 +3830,7 @@
       ],
       "dialogue": [
         "manage-symptoms/thought-shifting/4.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
@@ -3845,12 +3845,12 @@
         "It doesn't work for me."
       ],
       "dialogue": [
-        "manage-symptoms/thought-shifting/5.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/end.json",
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/thought-shifting/5.json": [
+  "scripts/persona2/manage-symptoms/end.json": [
     {
       "message": "Repeat this phrase to yourself for 10 times:"
     },
@@ -3864,12 +3864,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/thought-shifting/feel-good.json",
-        "manage-symptoms/thought-shifting/feel-bad.json"
+        "manage-symptoms/feel-good.json",
+        "manage-symptoms/feel-bad.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/thought-shifting/feel-bad.json": [
+  "scripts/persona2/manage-symptoms/feel-bad.json": [
     {
       "message": "I am sorry to hear that. 😔"
     },
@@ -3881,11 +3881,11 @@
       ],
       "dialogue": [
         "manage-symptoms/init.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/thought-shifting/feel-bad2.json": [
+  "scripts/persona2/manage-symptoms/feel-bad2.json": [
     {
       "message": "Then, how about trying other tools?",
       "options": [
@@ -3893,12 +3893,12 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/thought-shifting/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/thought-shifting/feel-good.json": [
+  "scripts/persona2/manage-symptoms/feel-good.json": [
     {
       "message": "Great! 😊"
     },
@@ -3909,7 +3909,7 @@
         "No"
       ],
       "dialogue": [
-        "manage-symptoms/thought-shifting/tool-list.json",
+        "manage-symptoms/tool-list.json",
         "end-conversation.json"
       ]
     }
@@ -3926,11 +3926,11 @@
       ],
       "dialogue": [
         "manage-symptoms/thought-shifting/1.json",
-        "manage-symptoms/thought-shifting/feel-bad2.json"
+        "manage-symptoms/feel-bad2.json"
       ]
     }
   ],
-  "scripts/persona2/manage-symptoms/thought-shifting/tool-list.json": [
+  "scripts/persona2/manage-symptoms/tool-list.json": [
     {
       "message": "I can manage your symptom in four different ways."
     },

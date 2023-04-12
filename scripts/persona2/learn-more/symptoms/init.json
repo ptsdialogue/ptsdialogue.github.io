@@ -3,7 +3,7 @@
         "message": "PTSD includes 4 types of symptoms: <ol> <li>re-experiencing or reliving the trauma</li> <li>persistent avoidance</li> <li>negative thoughts and moods, and</li> <li>feeling more on-edge and reactive</li></ol>"
     },
     {
-        "message": "Do you want to learn more about these symptoms?",
+        "message": "Would you like to learn more about these symptoms?",
         "options": ["Yes", "No"],
         "dialogue": ["learn-more/symptoms/pick-symptom.json", "learn-more/symptoms/end.json"]
     }

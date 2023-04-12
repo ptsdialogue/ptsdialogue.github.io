@@ -1,10 +1,10 @@
 [
     {
-        "message": "Looking something pleasant can help you to relax."
+        "message": "During this exercise, I will guide you in imagining a pleasant scene in order to reduce stress and help you relax."
     },
     {
-        "message": "Are you ready to start?",
+        "message": "Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/positive-images/1.json", "manage-symptoms/positive-images/feel-bad2.json"]
+        "dialogue": ["manage-symptoms/positive-images/beach.json", "manage-symptoms/other-tools.json"]
     }
 ]

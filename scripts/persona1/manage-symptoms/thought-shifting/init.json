@@ -1,10 +1,22 @@
 [
     {
-        "message": "I can suggest a phrase for you. Repeating the phrase to yourself might help to prevent angry thoughts."
+        "message": "Thought Shifting is intended to help you interrupt the unhelpful thoughts that make you angry before you do or say something you'll regret."
+    },
+    {
+        "message": "The key is to interrupt your thinking and say a phrase to yourself in the heat of the moment to counteract those angry thoughts before you get into trouble."
+    },
+    {
+        "message": "You can also use thought shifting to prepare yourself before you go into a risky situation."
+    },
+    {
+        "message": "There is no one right thing to say to yourself when you interrupt unhelpful angry thoughts."
+    },
+    {
+        "message": "But, with practice, you can find phrases that work well for you!"
     },
     {
         "message": "Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/thought-shifting/1.json", "manage-symptoms/thought-shifting/feel-bad2.json"]
+        "dialogue": ["manage-symptoms/thought-shifting/1.json", "manage-symptoms/other-tools.json"]
     }
 ]

@@ -1,0 +1,10 @@
+[
+    {
+        "message": "![image-4](https://cdn.pixabay.com/photo/2019/10/26/11/30/landscape-4579215_1280.jpg)"
+    },
+    {
+        "message": "Would you like to try another scene?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/positive-images/forest.json", "manage-symptoms/end.json"]
+    }
+]

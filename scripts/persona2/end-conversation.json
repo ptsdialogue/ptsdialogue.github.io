@@ -1,7 +1,7 @@
 [
     {
         "message": "No problem. Talk to you later🌈👋",
-        "options": ["MENU"],
-        "dialogue": ["menu.json"]
+        "options": ["Welcome", "Daily Use", "Activities"],
+        "dialogue": ["welcome.json", "daily-check/init.json", "menu.json"]
     }
 ]

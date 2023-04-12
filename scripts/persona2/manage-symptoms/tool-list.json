@@ -1,7 +1,7 @@
 [
     {
-    "message": "I can manage your symptom in four different ways. Which options do you want to try?",
-    "options": ["Change your perspective", "Positive images", "Ambient sounds", "Thought Shifting"],
-    "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/ambient-sounds/init.json", "manage-symptoms/thought-shifting/init.json"]
-}
+        "message": "Which tool would you like to try?",
+        "options": ["Change your Perspective", "Positive Images", "Ambient Sounds", "Thought Shifting"],
+        "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/ambient-sounds/init.json", "manage-symptoms/thought-shifting/init.json"]
+    }
 ]

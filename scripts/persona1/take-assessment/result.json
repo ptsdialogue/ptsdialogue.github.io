@@ -1,7 +1,0 @@
-[
-    {
-        "message": "Your score is: ",
-        "options": ["High", "Low"],
-        "dialogue": ["take-assessment/high.json", "take-assessment/low.json"]
-    }
-]

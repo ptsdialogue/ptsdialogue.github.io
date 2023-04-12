@@ -1,22 +1,19 @@
 [
     {
-        "message": "OK"
+        "message": "Okay."
     },
     {
         "message": "These symptoms can last for a month or more and can be bothersome."
     },
     {
-        "message": "It can lead to problems in social and family life, work, and school."
+        "message": "They may also lead to problems in social and family life, work, and school."
     },
     {
-        "message": "Hope you find this useful! 🤗"
+        "message": "PTSD can also include <i>dissociation</i>, in which people feel like they are detached from themselves or as if the world around them seems unreal, distant, or distorted."
     },
     {
-        "message": "I have some other tools that you might be interested in."
-    },
-    {
-        "message": "Would you like to try?",
+        "message": "Would you like to review this information again?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/tool-list.json","end-conversation.json"]
+        "dialogue": ["learn-more/symptoms/pick-symptom.json","next.json"]
     }
 ]

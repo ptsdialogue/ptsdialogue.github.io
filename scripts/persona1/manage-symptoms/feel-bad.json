@@ -3,8 +3,8 @@
         "message": "I am sorry to hear that."
     },
     {
-        "message": "Do you want to cope with other symptoms?",
+        "message": "Would you like to try another tool?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/init.json", "manage-symptoms/feel-bad2.json"]
+        "dialogue": ["manage-symptoms/tool-list.json", "manage-symptoms/feel-bad2.json"]
     }
 ]

@@ -3,7 +3,7 @@
         "message": "Thank you for answering the questions!"
     },
     {
-        "message": "You are feeling: ",
+        "message": "Based on your responses, you are feeling: ",
         "options": ["Good", "Bad"],
         "dialogue": ["daily-check/good.json", "daily-check/bad.json"]
     }

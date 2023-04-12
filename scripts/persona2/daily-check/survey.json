@@ -1,33 +1,37 @@
 [
     {
-        "message": "Great! Let's start it."
+        "message": "Great! Let's get started."
     },
     {
-        "message": "1. How much do you agree with this statement that I can sleep well?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
+        "message": "1. In the past day, how much were you bothered by being unable to sleep?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "2. How much do you agree with this statement that I feel anger often?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
+        "message": "2. In the past day, how much were you bothered by feeling angry?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "3. How much do you agree with this statement that I feel worried or anxious often?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
+        "message": "3. In the past day, how much were you bothered by feeling worried or anxious?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "4. How much do you agree with this statement that I feel sad or hopeless often?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
+        "message": "4. In the past day, how much were you bothered by feeling sad or hopeless?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "5. How much do you agree with this statement that I am disconnected from reality?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
+        "message": "5. In the past day, how much were you bothered by feeling disconnected from reality?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "6. How much do you agree with this statement that I am disconnected from people?",
-        "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"]
+        "message": "6. In the past day, how much were you bothered by feeling disconnected from people?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
     },
     {
-        "message": "7. How much do you agree with this statement that I remember trauma often?",
+        "message": "7. In the past day, how much were you bothered by avoiding triggers?",
+        "options": ["Not at all", "A little bit", "Moderately", "Quite a bit", "Extremely"]
+    },
+    {
+        "message": "8. In the past day, how much were you bothered by remembering the trauma?",
         "options": ["Strongly disagree", "Disagree", "Neither agree nor disagree", "Agree", "Strongly agree"],
         "dialogue": ["daily-check/score.json", "daily-check/score.json", "daily-check/score.json", "daily-check/score.json", "daily-check/score.json"]
     }

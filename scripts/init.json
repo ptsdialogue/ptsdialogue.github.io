@@ -6,7 +6,7 @@
         "message": "Welcome to PTSDialogue"
     },
     {
-        "message": "I am a personal therapy chatbot designed to help you: <ul> <li>understand PTSD symptoms</li><li>develop solutions for your concern, and</li><li>assist you to make positive and lasting changes in your life</li></ul>"
+        "message": "I am a chatbot designed to help you: <ul> <li>understand PTSD symptoms</li><li>develop solutions for your concern, and</li><li>assist you to make positive and lasting changes in your life</li></ul>"
     },
     {
         "message": "Please choose a dialogue option below to proceed:",

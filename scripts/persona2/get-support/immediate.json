@@ -1,6 +1,6 @@
 [
     {
-        "message": "You can can call these numbers to get support."
+        "message": "For any crisis, including medical emergencies, go to your nearest emergency room or call one of the numbers listed below:"
     },
     {
         "message": "<a href='tel:+1-800-273-8255'><strong>National Suicide Prevention Lifeline</strong><br />1-800-273-8255<br /></a>"
@@ -14,6 +14,6 @@
     {
         "message": "I can also help you to find a VA location or in-network community care provider near you. Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["get-support/professional.json","get-support/other-tools.json"]
+        "dialogue": ["get-support/professional.json","other-tools.json"]
     }
 ]

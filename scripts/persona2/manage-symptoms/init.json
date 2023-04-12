@@ -1,7 +1,10 @@
 [
     {
-        "message": "I can help you to manage different states. Which of the following describes you the best?",
-        "options": ["I am sad", "I am worried", "I am unable to sleep", "I am angry"],
-        "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/ambient-sounds/init.json", "manage-symptoms/thought-shifting/init.json"]
+        "message": "I can help you learn tools to self-manage different symptoms you may experience."
+    },
+    {
+        "message": "Which of the following phrases best describes your current feelings?",
+        "options": ["I am sad", "I am worried", "I am angry", "I am unable to sleep"],
+        "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/thought-shifting/init.json", "manage-symptoms/ambient-sounds/init.json"]
     }
 ]

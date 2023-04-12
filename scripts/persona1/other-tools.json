@@ -1,0 +1,10 @@
+[
+    {
+        "message": "Okay."
+    },
+    {
+        "message": "Would you like to try some other tools?",
+        "options": ["Yes", "No"],
+        "dialogue": ["tool-list.json","end-conversation.json"]
+    }
+]

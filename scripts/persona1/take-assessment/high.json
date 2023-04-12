@@ -1,12 +1,15 @@
 [
     {
-        "message": "Your score is 66."
+        "message": "Your score puts you in the high range, which means that you have been experiencing a lot of PTSD symptoms."
     },
     {
-        "message": "Your score puts you in the high range, which means that you have some PTSD symptoms."
+        "message": "Many people who experience a trauma have this kind of reaction, at least for the first few weeks or months after the trauma."
     },
     {
-        "message": "I strongly recommend you talk to your health provider. Do you have someone that you meet on a regular basis something to that effect?",
+        "message": "But once the problems have gone on for a while or they start to make it hard to function at home, school, or work, it's time to ask for some help."
+    },
+    {
+        "message": "Are you currently connected with a healthcare provider for your PTSD?",
         "options": ["Yes", "No"],
         "dialogue": ["take-assessment/have_healthprovider.json", "take-assessment/high2.json"]
     }

@@ -24,10 +24,10 @@
 >       "message": "Good to hear that! 🥰"
 43,44c46,47
 <         "learn-more/choice.json",
-<         "daily-check/other-tools.json"
+<         "other-tools.json"
 ---
 >         "learn-more/init.json",
->         "get-support/other-tools.json"
+>         "other-tools.json"
 53c56
 <   "scripts/persona1/daily-check/init.json": [
 ---
@@ -41,9 +41,9 @@
 ---
 >       "message": "How's everything? 🤗😊"
 75c78
-<   "scripts/persona1/daily-check/other-tools.json": [
+<   "scripts/persona1/other-tools.json": [
 ---
->   "scripts/persona2/daily-check/other-tools.json": [
+>   "scripts/persona2/other-tools.json": [
 91c94
 <   "scripts/persona1/daily-check/score.json": [
 ---
@@ -53,9 +53,9 @@
 ---
 >   "scripts/persona2/daily-check/survey.json": [
 189c192
-<   "scripts/persona1/daily-check/tool-list.json": [
+<   "scripts/persona1/tool-list.json": [
 ---
->   "scripts/persona2/daily-check/tool-list.json": [
+>   "scripts/persona2/tool-list.json": [
 208c211
 <   "scripts/persona1/end-conversation.json": [
 ---
@@ -73,17 +73,17 @@
 ---
 >   "scripts/persona2/get-support/immediate.json": [
 247c247
-<   "scripts/persona1/get-support/other-tools.json": [
+<   "scripts/persona1/other-tools.json": [
 ---
->   "scripts/persona2/get-support/other-tools.json": [
+>   "scripts/persona2/other-tools.json": [
 263c263
 <   "scripts/persona1/get-support/professional.json": [
 ---
 >   "scripts/persona2/get-support/professional.json": [
 285c285
-<   "scripts/persona1/get-support/tool-list.json": [
+<   "scripts/persona1/tool-list.json": [
 ---
->   "scripts/persona2/get-support/tool-list.json": [
+>   "scripts/persona2/tool-list.json": [
 302c302
 <   "scripts/persona1/learn-more/choice.json": [
 ---
@@ -149,7 +149,7 @@
 <         "end-conversation.json"
 ---
 >         "learn-more/choice.json",
->         "learn-more/other-tools.json"
+>         "other-tools.json"
 458c458
 <       "message": "Now that you've learned about the prevalence of PTSD, would you like to learn about more about related symptoms?",
 ---
@@ -167,7 +167,7 @@
 <         "end-conversation.json"
 ---
 >         "learn-more/choice.json",
->         "learn-more/other-tools.json"
+>         "other-tools.json"
 499c499
 <       "message": "Now that you've learned about the prevalence of PTSD, would you like to learn about more about related symptoms?",
 ---
@@ -181,9 +181,9 @@
 ---
 >       "persona-choice": "persona2"
 532c532
-<   "scripts/persona1/learn-more/other-tools.json": [
+<   "scripts/persona1/other-tools.json": [
 ---
->   "scripts/persona2/learn-more/other-tools.json": [
+>   "scripts/persona2/other-tools.json": [
 548c548
 <   "scripts/persona1/learn-more/repeat.json": [
 ---
@@ -203,7 +203,7 @@
 576c579
 <         "learn-more/facts/init.json",
 ---
->         "learn-more/tool-list.json",
+>         "tool-list.json",
 579c582
 <       "message": "Now that you've learned about the symptoms of PTSD, would you like to learn about more general facts also?",
 ---
@@ -249,9 +249,9 @@
 ---
 >   "scripts/persona2/learn-more/symptoms/pick-symptom.json": [
 739c742
-<   "scripts/persona1/learn-more/tool-list.json": [
+<   "scripts/persona1/tool-list.json": [
 ---
->   "scripts/persona2/learn-more/tool-list.json": [
+>   "scripts/persona2/tool-list.json": [
 756c759
 <   "scripts/persona1/manage-symptoms/ambient-sounds/beach.json": [
 ---
@@ -287,23 +287,23 @@
 811c814
 <         "mmanage-symptoms/ambient-sounds/stop-music.json"
 ---
->         "manage-symptoms/ambient-sounds/stop-music.json"
+>         "manage-symptoms/end.json"
 820c823
-<   "scripts/persona1/manage-symptoms/ambient-sounds/feel-bad.json": [
+<   "scripts/persona1/manage-symptoms/feel-bad.json": [
 ---
->   "scripts/persona2/manage-symptoms/ambient-sounds/feel-bad.json": [
+>   "scripts/persona2/manage-symptoms/feel-bad.json": [
 822c825
 <       "message": "I am sorry to hear that."
 ---
 >       "message": "I am sorry to hear that. 😔"
 836c839
-<   "scripts/persona1/manage-symptoms/ambient-sounds/feel-bad2.json": [
+<   "scripts/persona1/manage-symptoms/feel-bad2.json": [
 ---
->   "scripts/persona2/manage-symptoms/ambient-sounds/feel-bad2.json": [
+>   "scripts/persona2/manage-symptoms/feel-bad2.json": [
 849c852
-<   "scripts/persona1/manage-symptoms/ambient-sounds/feel-good.json": [
+<   "scripts/persona1/manage-symptoms/feel-good.json": [
 ---
->   "scripts/persona2/manage-symptoms/ambient-sounds/feel-good.json": [
+>   "scripts/persona2/manage-symptoms/feel-good.json": [
 851c854
 <       "message": "Great!"
 ---
@@ -325,17 +325,17 @@
 ---
 >   "scripts/persona2/manage-symptoms/ambient-sounds/menu.json": [
 916c919
-<   "scripts/persona1/manage-symptoms/ambient-sounds/stop-music.json": [
+<   "scripts/persona1/manage-symptoms/end.json": [
 ---
->   "scripts/persona2/manage-symptoms/ambient-sounds/stop-music.json": [
+>   "scripts/persona2/manage-symptoms/end.json": [
 922c925
 <       "message": "Do you feel better sort of connected to the problem?",
 ---
 >       "message": "Do you feel better sort of connected to the problem? 🧐",
 929c932
-<   "scripts/persona1/manage-symptoms/ambient-sounds/tool-list.json": [
+<   "scripts/persona1/manage-symptoms/tool-list.json": [
 ---
->   "scripts/persona2/manage-symptoms/ambient-sounds/tool-list.json": [
+>   "scripts/persona2/manage-symptoms/tool-list.json": [
 949c952
 <   "scripts/persona1/manage-symptoms/feel-bad.json": [
 ---
@@ -393,9 +393,9 @@
 ---
 >   "scripts/persona2/manage-symptoms/perspective-change/4.json": [
 1119c1122
-<   "scripts/persona1/manage-symptoms/perspective-change/5-love.json": [
+<   "scripts/persona1/manage-symptoms/end.json": [
 ---
->   "scripts/persona2/manage-symptoms/perspective-change/5-love.json": [
+>   "scripts/persona2/manage-symptoms/end.json": [
 1131c1134
 <       "message": "Do you feel better sort of connected to the problem?",
 ---
@@ -405,21 +405,21 @@
 ---
 >   "scripts/persona2/manage-symptoms/perspective-change/5.json": [
 1151c1154
-<   "scripts/persona1/manage-symptoms/perspective-change/feel-bad.json": [
+<   "scripts/persona1/manage-symptoms/feel-bad.json": [
 ---
->   "scripts/persona2/manage-symptoms/perspective-change/feel-bad.json": [
+>   "scripts/persona2/manage-symptoms/feel-bad.json": [
 1153c1156
 <       "message": "I am sorry to hear that."
 ---
 >       "message": "I am sorry to hear that. 😔"
 1167c1170
-<   "scripts/persona1/manage-symptoms/perspective-change/feel-bad2.json": [
+<   "scripts/persona1/manage-symptoms/feel-bad2.json": [
 ---
->   "scripts/persona2/manage-symptoms/perspective-change/feel-bad2.json": [
+>   "scripts/persona2/manage-symptoms/feel-bad2.json": [
 1180c1183
-<   "scripts/persona1/manage-symptoms/perspective-change/feel-good.json": [
+<   "scripts/persona1/manage-symptoms/feel-good.json": [
 ---
->   "scripts/persona2/manage-symptoms/perspective-change/feel-good.json": [
+>   "scripts/persona2/manage-symptoms/feel-good.json": [
 1182c1185
 <       "message": "Great!"
 ---
@@ -429,9 +429,9 @@
 ---
 >   "scripts/persona2/manage-symptoms/perspective-change/init.json": [
 1212c1215
-<   "scripts/persona1/manage-symptoms/perspective-change/tool-list.json": [
+<   "scripts/persona1/manage-symptoms/tool-list.json": [
 ---
->   "scripts/persona2/manage-symptoms/perspective-change/tool-list.json": [
+>   "scripts/persona2/manage-symptoms/tool-list.json": [
 1232c1235
 <   "scripts/persona1/manage-symptoms/positive-images/1.json": [
 ---
@@ -449,29 +449,29 @@
 ---
 >   "scripts/persona2/manage-symptoms/positive-images/4.json": [
 1276c1279
-<   "scripts/persona1/manage-symptoms/positive-images/5.json": [
+<   "scripts/persona1/manage-symptoms/end.json": [
 ---
->   "scripts/persona2/manage-symptoms/positive-images/5.json": [
+>   "scripts/persona2/manage-symptoms/end.json": [
 1285c1288
 <       "message": "Do you feel better sort of connected to the problem?",
 ---
 >       "message": "Do you feel better sort of connected to the problem? 🧐",
 1292c1295
-<   "scripts/persona1/manage-symptoms/positive-images/feel-bad.json": [
+<   "scripts/persona1/manage-symptoms/feel-bad.json": [
 ---
->   "scripts/persona2/manage-symptoms/positive-images/feel-bad.json": [
+>   "scripts/persona2/manage-symptoms/feel-bad.json": [
 1294c1297
 <       "message": "I am sorry to hear that."
 ---
 >       "message": "I am sorry to hear that. 😔"
 1308c1311
-<   "scripts/persona1/manage-symptoms/positive-images/feel-bad2.json": [
+<   "scripts/persona1/manage-symptoms/feel-bad2.json": [
 ---
->   "scripts/persona2/manage-symptoms/positive-images/feel-bad2.json": [
+>   "scripts/persona2/manage-symptoms/feel-bad2.json": [
 1321c1324
-<   "scripts/persona1/manage-symptoms/positive-images/feel-good.json": [
+<   "scripts/persona1/manage-symptoms/feel-good.json": [
 ---
->   "scripts/persona2/manage-symptoms/positive-images/feel-good.json": [
+>   "scripts/persona2/manage-symptoms/feel-good.json": [
 1323c1326
 <       "message": "Great!"
 ---
@@ -481,9 +481,9 @@
 ---
 >   "scripts/persona2/manage-symptoms/positive-images/init.json": [
 1353c1356
-<   "scripts/persona1/manage-symptoms/positive-images/tool-list.json": [
+<   "scripts/persona1/manage-symptoms/tool-list.json": [
 ---
->   "scripts/persona2/manage-symptoms/positive-images/tool-list.json": [
+>   "scripts/persona2/manage-symptoms/tool-list.json": [
 1373c1376
 <   "scripts/persona1/manage-symptoms/thought-shifting/1.json": [
 ---
@@ -501,29 +501,29 @@
 ---
 >   "scripts/persona2/manage-symptoms/thought-shifting/4.json": [
 1437c1440
-<   "scripts/persona1/manage-symptoms/thought-shifting/5.json": [
+<   "scripts/persona1/manage-symptoms/end.json": [
 ---
->   "scripts/persona2/manage-symptoms/thought-shifting/5.json": [
+>   "scripts/persona2/manage-symptoms/end.json": [
 1449c1452
 <       "message": "Do you feel better sort of connected to the problem?",
 ---
 >       "message": "Do you feel better sort of connected to the problem? 🧐",
 1456c1459
-<   "scripts/persona1/manage-symptoms/thought-shifting/feel-bad.json": [
+<   "scripts/persona1/manage-symptoms/feel-bad.json": [
 ---
->   "scripts/persona2/manage-symptoms/thought-shifting/feel-bad.json": [
+>   "scripts/persona2/manage-symptoms/feel-bad.json": [
 1458c1461
 <       "message": "I am sorry to hear that."
 ---
 >       "message": "I am sorry to hear that. 😔"
 1472c1475
-<   "scripts/persona1/manage-symptoms/thought-shifting/feel-bad2.json": [
+<   "scripts/persona1/manage-symptoms/feel-bad2.json": [
 ---
->   "scripts/persona2/manage-symptoms/thought-shifting/feel-bad2.json": [
+>   "scripts/persona2/manage-symptoms/feel-bad2.json": [
 1485c1488
-<   "scripts/persona1/manage-symptoms/thought-shifting/feel-good.json": [
+<   "scripts/persona1/manage-symptoms/feel-good.json": [
 ---
->   "scripts/persona2/manage-symptoms/thought-shifting/feel-good.json": [
+>   "scripts/persona2/manage-symptoms/feel-good.json": [
 1487c1490
 <       "message": "Great!"
 ---
@@ -533,9 +533,9 @@
 ---
 >   "scripts/persona2/manage-symptoms/thought-shifting/init.json": [
 1517c1520
-<   "scripts/persona1/manage-symptoms/thought-shifting/tool-list.json": [
+<   "scripts/persona1/manage-symptoms/tool-list.json": [
 ---
->   "scripts/persona2/manage-symptoms/thought-shifting/tool-list.json": [
+>   "scripts/persona2/manage-symptoms/tool-list.json": [
 1537c1540
 <   "scripts/persona1/manage-symptoms/tool-list.json": [
 ---
@@ -657,9 +657,9 @@
 ---
 >   "scripts/persona2/track-progress/init.json": [
 1990c1996
-<   "scripts/persona1/track-progress/tool-list.json": [
+<   "scripts/persona1/tool-list.json": [
 ---
->   "scripts/persona2/track-progress/tool-list.json": [
+>   "scripts/persona2/tool-list.json": [
 2007c2013
 <   "scripts/persona1/welcome.json": [
 ---

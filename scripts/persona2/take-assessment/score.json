@@ -1,8 +1,10 @@
 [
-
     {
-        "message": "Thank you for answering the questions 🙏",
-        "options": ["Show the result"],
-        "dialogue": ["take-assessment/result.json"]
+        "message": "Thank you for answering the questions 🙏"
+    },
+    {
+        "message": "Your score indicates that the severity of your PTSD symptoms is:",
+        "options": ["High", "Low"],
+        "dialogue": ["take-assessment/high.json", "take-assessment/low.json"]
     }
 ]

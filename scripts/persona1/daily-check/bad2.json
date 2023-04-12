@@ -1,7 +1,10 @@
 [
     {
-        "message": "Other than that, I have some coping tools that might help you manage your symptoms. Would you like to try?",
+        "message": "Okay."
+    },
+    {
+        "message": "Would you like to try some tools for managing your symptoms instead?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/init.json","take-assessment/later.json"]
+        "dialogue": ["manage-symptoms/tool-list.json","take-assessment/later.json"]
     }
 ]

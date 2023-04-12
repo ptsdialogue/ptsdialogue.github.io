@@ -1,7 +1,0 @@
-[
-    {
-        "message": "Then, how about trying other tools?",
-        "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/positive-images/tool-list.json", "end-conversation.json"]
-    }
-]

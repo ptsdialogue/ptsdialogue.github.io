@@ -3,8 +3,11 @@
         "message": "Repeat this phrase to yourself for 10 times:"
     },
     {
-        "message": "<b>Take a big breath.</b>",
-        "options": ["I want to try another phrase.", "It doesn't work for me."],
-        "dialogue": ["manage-symptoms/thought-shifting/2.json", "manage-symptoms/thought-shifting/feel-bad2.json"]
+        "message": "<b>Take a big breath.</b>"
+    },
+    {
+        "message": "Would you like to try another thought?",
+        "options": ["Yes", "No"],
+        "dialogue": ["manage-symptoms/thought-shifting/2.json", "manage-symptoms/end.json"]
     }
 ]

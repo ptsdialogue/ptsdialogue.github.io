@@ -1,0 +1,7 @@
+[
+    {
+        "message": "Which of the following phrases best describes your current feelings?",
+        "options": ["I am sad", "I am worried", "I am angry", "I am unable to sleep"],
+        "dialogue": ["manage-symptoms/perspective-change/init.json", "manage-symptoms/positive-images/init.json", "manage-symptoms/thought-shifting/init.json", "manage-symptoms/ambient-sounds/init.json"]
+    }
+]

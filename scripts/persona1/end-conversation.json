@@ -1,10 +1,10 @@
 [
     {
-        "message": "It was nice meeting you!"
+        "message": "Okay. Thank you for a great session!"
     },
     {
         "message": "Looking forward to talking to you soon.",
-        "options": ["MENU"],
-        "dialogue": ["menu.json"]
+        "options": ["Welcome", "Daily Use", "Activities"],
+        "dialogue": ["welcome.json", "daily-check/init.json", "menu.json"]
     }
 ]

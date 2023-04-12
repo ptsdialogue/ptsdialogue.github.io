@@ -1,11 +1,23 @@
 [
     {
-        "message": "Changing the way you think can change the way you feel."
+        "message": "We all have a constant stream of thoughts running through our minds—this is called self-talk."
     },
     {
-        "message": "I can help you to concentrate on helpful thought. Are you ready to start?",
+        "message": "Negative self-talk, like believing that things are terrible or that the worst is about to happen, can stress your body and keep you on alert all the time."
+    },
+    {
+        "message": "Reminders of positive self-talk can give you something you can hold on to."
+    },
+    {
+        "message": "They can help you think more realistically, and may even help you manage situations more effectively."
+    },
+    {
+        "message": "I can provide some examples of positive self-talk reminders to help you get started."
+    },
+    {
+        "message": "Would you like to try?",
         "options": ["Yes", "No"],
-        "dialogue": ["manage-symptoms/perspective-change/1.json", "manage-symptoms/perspective-change/feel-bad2.json"]
+        "dialogue": ["manage-symptoms/perspective-change/1.json", "manage-symptoms/other-tools.json"]
     }
 ]
 
