@@ -14,6 +14,6 @@
     {
         "message": "Would you like to review this information again?",
         "options": ["Yes", "No"],
-        "dialogue": ["learn-more/symptoms/pick-symptom.json","next.json"]
+        "dialogue": ["learn-more/symptoms/pick-symptom.json","other-tools.json"]
     }
 ]

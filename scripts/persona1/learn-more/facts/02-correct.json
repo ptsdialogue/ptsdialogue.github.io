@@ -19,3 +19,4 @@
         "options": ["Yes", "No"],
         "dialogue": ["learn-more/facts/1-yes.json", "next.json"]
     }
+]
